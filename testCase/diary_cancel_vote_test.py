@@ -1,0 +1,42 @@
+import os, sys
+
+BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+sys.path.append(BASE_DIR)
+func = os.path.basename(__file__).split('_test.py')[0]
+from common.gmpackage import *
+
+
+@ddt
+class Diary_Cancel_Vote(unittest.TestCase):
+    '''
+    日记本详情页取消点赞
+    '''
+
+    @classmethod
+    def setUpClass(cls):
+        cls.host = g.host
+        cls.api_name = g.api_name(func)
+        cls.url = cls.host + cls.api_name
+        cls.diary_id = diary_id_get()
+
+    @data(*(get_values(func, "test_diary_cancel_vote")))
+    @require_login
+    def test_diary_cancel_vote(self, value):
+        '''
+        日记本详情页取消点赞
+        '''
+        post_data = {'diary_id': self.diary_id}
+        try:
+            gmhttp.post(url=g.host + '/api/diary/vote', data=post_data)
+        except:
+            pass
+
+        r = gmhttp.post(url=self.url, data=post_data).json()
+        self.assertEqual(0, r['error'])
+
+    def tearDown(self):
+        pass
+
+
+if __name__ == "__main__":
+    Diary_Cancel_Vote.run()

@@ -1,0 +1,1528 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="0d5b39fe-9f7b-4086-9ee1-ed80c7874d55" name="Default Changelist" comment="2019-01-02">
+      <change afterPath="$PROJECT_DIR$/UIAuto/Android/DemoWsgi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UIAuto/Android/UIDemo.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UIAuto/Android/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UIAuto/Android/mitmproxy.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UIAuto/Android/proxy.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UIAuto/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UIAuto/speder.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/businessTest/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/businessTest/businessCommon.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/businessTest/test.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/businessTest/wang.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/common.py" beforeDir="false" afterPath="$PROJECT_DIR$/common/common.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testCase/customer_srv_send_message_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/testCase/customer_srv_send_message_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testCase/maidan_preview_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/testCase/maidan_preview_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testCase/user_my_answer_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/testCase/user_my_answer_test.py" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/gmeiApi$Unittests_for_diary_update_v2_diary_id_test_Diary_Update_V2_Diary_Id_test_diary_update_v2_diary_id.coverage" NAME="Unittests for diary_update_v2_diary_id_test.Diary_Update_V2_Diary_Id.test_diary_update_v2_diary_id Coverage Results" MODIFIED="1543199651392" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCase" />
+    <SUITE FILE_PATH="coverage/gmeiApi$Unittests_in_coupon_claim_test_py.coverage" NAME="Unittests in coupon_claim_test.py Coverage Results" MODIFIED="1547694952323" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCase" />
+    <SUITE FILE_PATH="coverage/gmeiApi$Unittests_for_answer_vote_test_Answer_Praise_test_answer_praise.coverage" NAME="Unittests for answer_vote_test.Answer_Praise.test_answer_praise Coverage Results" MODIFIED="1542961802879" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCase" />
+    <SUITE FILE_PATH="coverage/gmeiApi$Unittests_for_diary_cancel_vote_test_Diary_Cancel_Vote_test_diary_cancel_vote.coverage" NAME="Unittests for diary_cancel_vote_test.Diary_Cancel_Vote.test_diary_cancel_vote Coverage Results" MODIFIED="1545638436502" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCase" />
+    <SUITE FILE_PATH="coverage/gmeiApi$Unittests_for_testCase_maidan_cancel_test_Maidan_Cancel_test_maidan_cancel.coverage" NAME="Unittests for testCase.maidan_cancel_test.Maidan_Cancel.test_maidan_cancel Coverage Results" MODIFIED="1542184820493" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/gmeiApi$Unittests_in_verification_code_test_py.coverage" NAME="Unittests in verification_code_test.py Coverage Results" MODIFIED="1547714790258" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCase" />
+    <SUITE FILE_PATH="coverage/gmeiApi$businessCommon.coverage" NAME="businessCommon Coverage Results" MODIFIED="1546410248779" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/businessTest" />
+    <SUITE FILE_PATH="coverage/gmeiApi$test.coverage" NAME="test Coverage Results" MODIFIED="1546507657103" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/UIAuto/Android" />
+    <SUITE FILE_PATH="coverage/gmeiApi$Unittests_for_service_listing_notify_test_Service_Listing_Notify_test_service_listing_notify.coverage" NAME="Unittests for service_listing_notify_test.Service_Listing_Notify.test_service_listing_notify Coverage Results" MODIFIED="1543825353215" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCase" />
+    <SUITE FILE_PATH="coverage/gmeiApi$Unittests_in_customer_srv_init_status_test_py.coverage" NAME="Unittests in customer_srv_init_status_test.py Coverage Results" MODIFIED="1547695477426" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCase" />
+    <SUITE FILE_PATH="coverage/gmeiApi$Unittests_for_user_following_or_fans_test_Follow_Fans.coverage" NAME="Unittests for user_following_or_fans_test.Follow_Fans Coverage Results" MODIFIED="1543827665222" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCase" />
+    <SUITE FILE_PATH="coverage/gmeiApi$Unittests_for_answer_vote_test_Answer_Vote_test_answer_vote.coverage" NAME="Unittests for answer_vote_test.Answer_Vote.test_answer_vote Coverage Results" MODIFIED="1544519390336" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCase" />
+    <SUITE FILE_PATH="coverage/gmeiApi$Unittests_for_question_create_answer_test_Question_Create_Answer_test_question_create_answer.coverage" NAME="Unittests for question_create_answer_test.Question_Create_Answer.test_question_create_answer Coverage Results" MODIFIED="1544005170921" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCase" />
+    <SUITE FILE_PATH="coverage/gmeiApi$Unittests_for_service_home_activities_test_Service_Home_Activities_test_service_home_activities.coverage" NAME="Unittests for service_home_activities_test.Service_Home_Activities.test_service_home_activities Coverage Results" MODIFIED="1542853944012" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCase" />
+    <SUITE FILE_PATH="coverage/gmeiApi$Unittests_for_hybrid_activity_varietyvote_status_test_Hybrid_Activity_Varietyvote_Status_test_hybrid_activity_varietyvote_status.coverage" NAME="Unittests for hybrid_activity_varietyvote_status_test.Hybrid_Activity_Varietyvote_Status.test_hybrid_activity_varietyvote_status Coverage Results" MODIFIED="1543832988528" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCase" />
+    <SUITE FILE_PATH="coverage/gmeiApi$Unittests_for_testCase_personal_photo_Person_Photo.coverage" NAME="Unittests for testCase.personal_photo.Person_Photo Coverage Results" MODIFIED="1541731928947" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/gmeiApi$Unittests_for_settlement_create_v1_test_Settlement_Create_V1_test_settlement_create_v1.coverage" NAME="Unittests for settlement_create_v1_test.Settlement_Create_V1.test_settlement_create_v1 Coverage Results" MODIFIED="1545189579163" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCase" />
+    <SUITE FILE_PATH="coverage/gmeiApi$Unittests_in_consult_free_custom_select_tags_test_py.coverage" NAME="Unittests in consult_free_custom_select_tags_test.py Coverage Results" MODIFIED="1547694754070" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCase" />
+    <SUITE FILE_PATH="coverage/gmeiApi$Unittests_in_diary_test_py.coverage" NAME="Unittests in diary_test.py Coverage Results" MODIFIED="1547695940739" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCase" />
+    <SUITE FILE_PATH="coverage/gmeiApi$Unittests_in_maidan_detail_test_py.coverage" NAME="Unittests in maidan_detail_test.py Coverage Results" MODIFIED="1547696329935" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCase" />
+    <SUITE FILE_PATH="coverage/gmeiApi$Unittests_in_maidan_preview_test_py.coverage" NAME="Unittests in maidan_preview_test.py Coverage Results" MODIFIED="1547696472630" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCase" />
+    <SUITE FILE_PATH="coverage/gmeiApi$Unittests_for_testCase_settlement_buy_again_test_Settlement_Buy_Again_test_settlement_buy_again.coverage" NAME="Unittests for testCase.settlement_buy_again_test.Settlement_Buy_Again.test_settlement_buy_again Coverage Results" MODIFIED="1542162256308" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/gmeiApi$Unittests_for_testCase_user_personal_center_test_Personal_Center_test_peruser_my_topic_testsonal_center.coverage" NAME="Unittests for testCase.user_personal_center_test.Personal_Center.test_peruser_my_topic_testsonal_center Coverage Results" MODIFIED="1541759445795" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/gmeiApi$Unittests_for_polymer_group_info_delivery_test_Polymer_Group_Info_Delivery_test_polymer_group_info_delivery.coverage" NAME="Unittests for polymer_group_info_delivery_test.Polymer_Group_Info_Delivery.test_polymer_group_info_delivery Coverage Results" MODIFIED="1543217913545" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCase" />
+    <SUITE FILE_PATH="coverage/gmeiApi$Unittests_for_reservation_detail_test_Reservation_Detail_test_reservation_detail.coverage" NAME="Unittests for reservation_detail_test.Reservation_Detail.test_reservation_detail Coverage Results" MODIFIED="1544064550243" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCase" />
+    <SUITE FILE_PATH="coverage/gmeiApi$Unittests_for_shopcart_add_v1_test_Shopcart_Add_V1_test_shopcart_add_v1.coverage" NAME="Unittests for shopcart_add_v1_test.Shopcart_Add_V1.test_shopcart_add_v1 Coverage Results" MODIFIED="1544411068884" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCase" />
+    <SUITE FILE_PATH="coverage/gmeiApi$Unittests_in_services_v1_test_py.coverage" NAME="Unittests in services_v1_test.py Coverage Results" MODIFIED="1547698730276" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCase" />
+    <SUITE FILE_PATH="coverage/gmeiApi$Unittests_for_customer_srv_is_direct_talk_test_Customer_Srv_Is_Direct_Talk_test_customer_srv_is_direct_talk.coverage" NAME="Unittests for customer_srv_is_direct_talk_test.Customer_Srv_Is_Direct_Talk.test_customer_srv_is_direct_talk Coverage Results" MODIFIED="1543808262975" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCase" />
+    <SUITE FILE_PATH="coverage/gmeiApi$Unittests_for_testCase_maidan_create_test_Maidan_Create_test_maidan_create.coverage" NAME="Unittests for testCase.maidan_create_test.Maidan_Create.test_maidan_create Coverage Results" MODIFIED="1542182551251" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/gmeiApi$Unittests_for_settlement_pay_test_Settlement_Pay_test_settlement_pay.coverage" NAME="Unittests for settlement_pay_test.Settlement_Pay.test_settlement_pay Coverage Results" MODIFIED="1545379337080" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCase" />
+    <SUITE FILE_PATH="coverage/gmeiApi$Unittests_for_hybrid_question_answer_list__data_test_Hybrid_Question_Answer_List__Data_test_hybrid_question_answer_list__data.coverage" NAME="Unittests for hybrid_question_answer_list__data_test.Hybrid_Question_Answer_List__Data.test_hybrid_question_answer_list__data Coverage Results" MODIFIED="1543833137782" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCase" />
+    <SUITE FILE_PATH="coverage/gmeiApi$Unittests_for_testCase_personal_attention_Personal_Attention_test_personal_attention.coverage" NAME="Unittests for testCase.personal_attention.Personal_Attention.test_personal_attention Coverage Results" MODIFIED="1541732884902" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/gmeiApi$Unittests_in_user_my_answer_test_py.coverage" NAME="Unittests in user_my_answer_test.py Coverage Results" MODIFIED="1547693454784" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCase" />
+    <SUITE FILE_PATH="coverage/gmeiApi$Unittests_for_personal_center_Personal_Center_test_personal_center.coverage" NAME="Unittests for personal_center.Personal_Center.test_personal_center Coverage Results" MODIFIED="1542019532061" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCase" />
+    <SUITE FILE_PATH="coverage/gmeiApi$Unittests_in_zone_detail_v2_test_py.coverage" NAME="Unittests in zone_detail_v2_test.py Coverage Results" MODIFIED="1547714881306" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCase" />
+    <SUITE FILE_PATH="coverage/gmeiApi$Unittests_in_settlement_pay_test_py.coverage" NAME="Unittests in settlement_pay_test.py Coverage Results" MODIFIED="1547698797469" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCase" />
+    <SUITE FILE_PATH="coverage/gmeiApi$Unittests_for_testCase_shopcart_list_v2_test_Shopcart_List_V2_test_shopcart_list_v2.coverage" NAME="Unittests for testCase.shopcart_list_v2_test.Shopcart_List_V2.test_shopcart_list_v2 Coverage Results" MODIFIED="1542010190533" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/gmeiApi$Unittests_in_customer_srv_send_message_test_py.coverage" NAME="Unittests in customer_srv_send_message_test.py Coverage Results" MODIFIED="1547695672855" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCase" />
+    <SUITE FILE_PATH="coverage/gmeiApi$Unittests_for_diary_image_getall_v2_test_Diary_Image_Getall_V2_test_diary_image_getall_v2.coverage" NAME="Unittests for diary_image_getall_v2_test.Diary_Image_Getall_V2.test_diary_image_getall_v2 Coverage Results" MODIFIED="1545188915495" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCase" />
+    <SUITE FILE_PATH="coverage/gmeiApi$Unittests_in_order_order_id_is_used_test_py.coverage" NAME="Unittests in order_order_id_is_used_test.py Coverage Results" MODIFIED="1547697716173" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCase" />
+    <SUITE FILE_PATH="coverage/gmeiApi$Unittests_for_diary_vote_test_Diary_Vote.coverage" NAME="Unittests for diary_vote_test.Diary_Vote Coverage Results" MODIFIED="1542191174268" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCase" />
+    <SUITE FILE_PATH="coverage/gmeiApi$Unittests_for_testCase_customer_srv_init_status_test_Customer_Srv_Init_Status_test_customer_srv_init_status.coverage" NAME="Unittests for testCase.customer_srv_init_status_test.Customer_Srv_Init_Status.test_customer_srv_init_status Coverage Results" MODIFIED="1542007126805" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/gmeiApi$Unittests_for_topic_has_draft_test_Topic_Has_Draft_test_topic_has_draft.coverage" NAME="Unittests for topic_has_draft_test.Topic_Has_Draft.test_topic_has_draft Coverage Results" MODIFIED="1543203885890" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCase" />
+    <SUITE FILE_PATH="coverage/gmeiApi$Unittests_for_testCase_shopcart_add_v1_test_Shopcart_Add_V1_test_shopcart_add_v1.coverage" NAME="Unittests for testCase.shopcart_add_v1_test.Shopcart_Add_V1.test_shopcart_add_v1 Coverage Results" MODIFIED="1542186590685" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/gmeiApi$Unittests_for_hybrid_doctors_organization_id__data_test_Hybrid_Doctors_Organization_Id__Data_test_hybrid_doctors_organization_id__data.coverage" NAME="Unittests for hybrid_doctors_organization_id__data_test.Hybrid_Doctors_Organization_Id__Data.test_hybrid_doctors_organization_id__data Coverage Results" MODIFIED="1543834337686" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCase" />
+    <SUITE FILE_PATH="coverage/gmeiApi$Unittests_for_user_my_diary_v2_test_My_Diary_test_my_diary.coverage" NAME="Unittests for user_my_diary_v2_test.My_Diary.test_my_diary Coverage Results" MODIFIED="1545188701714" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCase" />
+    <SUITE FILE_PATH="coverage/gmeiApi$Unittests_for_coupon_list_my_test_Coupon_List_My_test_coupon_list_my.coverage" NAME="Unittests for coupon_list_my_test.Coupon_List_My.test_coupon_list_my Coverage Results" MODIFIED="1543806822091" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCase" />
+    <SUITE FILE_PATH="coverage/gmeiApi$Unittests_in_maidan_list_test_py.coverage" NAME="Unittests in maidan_list_test.py Coverage Results" MODIFIED="1547696378122" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCase" />
+    <SUITE FILE_PATH="coverage/gmeiApi$Unittests_for_testCase_shopcart_set_number_test_Shopcart_Set_Number_test_shopcart_set_number.coverage" NAME="Unittests for testCase.shopcart_set_number_test.Shopcart_Set_Number.test_shopcart_set_number Coverage Results" MODIFIED="1542186774230" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/gmeiApi$Unittests_for_service_detail_v1_test_Service_Detail_V1_test_service_detail_v1.coverage" NAME="Unittests for service_detail_v1_test.Service_Detail_V1.test_service_detail_v1 Coverage Results" MODIFIED="1544078482324" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCase" />
+    <SUITE FILE_PATH="coverage/gmeiApi$Unittests_for_testCase_zone_my_test_Zone_My_test_zone_my.coverage" NAME="Unittests for testCase.zone_my_test.Zone_My.test_zone_my Coverage Results" MODIFIED="1541992423585" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/gmeiApi$Unittests_in_order_list_for_diary_create_test_py.coverage" NAME="Unittests in order_list_for_diary_create_test.py Coverage Results" MODIFIED="1547696700110" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCase" />
+    <SUITE FILE_PATH="coverage/gmeiApi$Unittests_for_testCase_personal_consultancy_Personal_Consultancy.coverage" NAME="Unittests for testCase.personal_consultancy.Personal_Consultancy Coverage Results" MODIFIED="1541732560170" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/gmeiApi$Unittests_for_sensitivity_check_test_Check_Centent_test_check_centent.coverage" NAME="Unittests for sensitivity_check_test.Check_Centent.test_check_centent Coverage Results" MODIFIED="1544067237496" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCase" />
+    <SUITE FILE_PATH="coverage/gmeiApi$Unittests_in_order_order_id_test_py.coverage" NAME="Unittests in order_order_id_test.py Coverage Results" MODIFIED="1547697693459" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCase" />
+    <SUITE FILE_PATH="coverage/gmeiApi$Unittests_for_testCase_personal_diary_pro_create_Pro_Create_test_pro_create.coverage" NAME="Unittests for testCase.personal_diary_pro_create.Pro_Create.test_pro_create Coverage Results" MODIFIED="1541734111570" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/gmeiApi$Unittests_in_app_config_v2_test_py.coverage" NAME="Unittests in app_config_v2_test.py Coverage Results" MODIFIED="1542886944017" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCase" />
+    <SUITE FILE_PATH="coverage/gmeiApi$Unittests_for_testCase_personal_fans_Personal_Fans_test_personal_fans.coverage" NAME="Unittests for testCase.personal_fans.Personal_Fans.test_personal_fans Coverage Results" MODIFIED="1541733476136" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/gmeiApi$Unittests_for_service_favor_service_id_test_Service_Favor_Service_Id_test_service_favor_service_id.coverage" NAME="Unittests for service_favor_service_id_test.Service_Favor_Service_Id.test_service_favor_service_id Coverage Results" MODIFIED="1543558862930" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCase" />
+    <SUITE FILE_PATH="coverage/gmeiApi$Unittests_in_zone_follow_test_py.coverage" NAME="Unittests in zone_follow_test.py Coverage Results" MODIFIED="1544433873508" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCase" />
+    <SUITE FILE_PATH="coverage/gmeiApi$Unittests_in_user_favors_topics_test_py.coverage" NAME="Unittests in user_favors_topics_test.py Coverage Results" MODIFIED="1547709062464" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCase" />
+    <SUITE FILE_PATH="coverage/gmeiApi$Unittests_for_testCase_zone_detail_v3_test_Zone_Detail_V3_test_zone_detail_v3.coverage" NAME="Unittests for testCase.zone_detail_v3_test.Zone_Detail_V3.test_zone_detail_v3 Coverage Results" MODIFIED="1542107074764" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/gmeiApi$Unittests_for_testCase_personal_answer_praise_Answer_Praise_test_answer_praise.coverage" NAME="Unittests for testCase.personal_answer_praise.Answer_Praise.test_answer_praise Coverage Results" MODIFIED="1541753073659" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/gmeiApi$Unittests_for_testCase_personal_recommends_test_Personal_Recommends_test_personal_recommends.coverage" NAME="Unittests for testCase.personal_recommends_test.Personal_Recommends.test_personal_recommends Coverage Results" MODIFIED="1542103278061" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/gmeiApi$Unittests_for_testCase_settlement_preview_v1_test_Settlement_Preview_V1_test_settlement_preview_v1.coverage" NAME="Unittests for testCase.settlement_preview_v1_test.Settlement_Preview_V1.test_settlement_preview_v1 Coverage Results" MODIFIED="1542187326918" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/gmeiApi$Unittests_for_orders_my_v2_test_Orders_My_V2_test_orders_my_v2.coverage" NAME="Unittests for orders_my_v2_test.Orders_My_V2.test_orders_my_v2 Coverage Results" MODIFIED="1544003357725" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCase" />
+    <SUITE FILE_PATH="coverage/gmeiApi$Unittests_for_testCase_conversation_delta_message_detail_test_Conversation_Delta_Message_Detail_test_conversation_delta_message_detail.coverage" NAME="Unittests for testCase.conversation_delta_message_detail_test.Conversation_Delta_Message_Detail.test_conversation_delta_message_detail Coverage Results" MODIFIED="1544519843309" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/gmeiApi$Unittests_for_shopcart_list_v2_test_Shopcart_List_V2_test_shopcart_list_v2.coverage" NAME="Unittests for shopcart_list_v2_test.Shopcart_List_V2.test_shopcart_list_v2 Coverage Results" MODIFIED="1543826424832" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCase" />
+    <SUITE FILE_PATH="coverage/gmeiApi$Unittests_in_tag_list_test_py.coverage" NAME="Unittests in tag_list_test.py Coverage Results" MODIFIED="1547699039523" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCase" />
+    <SUITE FILE_PATH="coverage/gmeiApi$Unittests_for_diary_image_getall_test_Diary_Image_Getall_test_diary_image_getall.coverage" NAME="Unittests for diary_image_getall_test.Diary_Image_Getall.test_diary_image_getall Coverage Results" MODIFIED="1543997126279" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCase" />
+    <SUITE FILE_PATH="coverage/gmeiApi$Unittests_in_order_refund_order_id_test_py.coverage" NAME="Unittests in order_refund_order_id_test.py Coverage Results" MODIFIED="1547697037456" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCase" />
+    <SUITE FILE_PATH="coverage/gmeiApi$Unittests_in_maidan_pay_test_py.coverage" NAME="Unittests in maidan_pay_test.py Coverage Results" MODIFIED="1547696421228" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCase" />
+    <SUITE FILE_PATH="coverage/gmeiApi$Unittests_in_settlement_preview_v1_test_py.coverage" NAME="Unittests in settlement_preview_v1_test.py Coverage Results" MODIFIED="1547698886876" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCase" />
+    <SUITE FILE_PATH="coverage/gmeiApi$Unittests_for_my_conversation_test_My_Conversation_test_my_conversation.coverage" NAME="Unittests for my_conversation_test.My_Conversation.test_my_conversation Coverage Results" MODIFIED="1543820871224" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCase" />
+    <SUITE FILE_PATH="coverage/gmeiApi$Unittests_in_businessCommon_py.coverage" NAME="Unittests in businessCommon.py Coverage Results" MODIFIED="1544513387760" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/businessTest" />
+    <SUITE FILE_PATH="coverage/gmeiApi$Unittests_for_hybrid_diary_book_diary_id__data_test_Hybrid_Diary_Book_Diary_Id__Data_test_hybrid_diary_book_diary_id__data.coverage" NAME="Unittests for hybrid_diary_book_diary_id__data_test.Hybrid_Diary_Book_Diary_Id__Data.test_hybrid_diary_book_diary_id__data Coverage Results" MODIFIED="1543215482039" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCase" />
+    <SUITE FILE_PATH="coverage/gmeiApi$Unittests_for_testCase_user_my_question_test_My_Question_test_my_question.coverage" NAME="Unittests for testCase.user_my_question_test.My_Question.test_my_question Coverage Results" MODIFIED="1541759323653" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/gmeiApi$service_comment_create_test.coverage" NAME="service_comment_create_test Coverage Results" MODIFIED="1542879096564" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCase" />
+    <SUITE FILE_PATH="coverage/gmeiApi$Unittests_for_reservation_create_test_Reservation_Create_test_reservation_create.coverage" NAME="Unittests for reservation_create_test.Reservation_Create.test_reservation_create Coverage Results" MODIFIED="1543917722314" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCase" />
+    <SUITE FILE_PATH="coverage/gmeiApi$Unittests_in_conversation_detail_test_py.coverage" NAME="Unittests in conversation_detail_test.py Coverage Results" MODIFIED="1547694869529" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/gmeiApi$Unittests_for_testCase_question_create_question_test_Post_Question_test_post_question.coverage" NAME="Unittests for testCase.question_create_question_test.Post_Question.test_post_question Coverage Results" MODIFIED="1542105034522" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/gmeiApi$Unittests_for_testCase_zone_follow_test_Zone_Follow_test_zone_follow.coverage" NAME="Unittests for testCase.zone_follow_test.Zone_Follow.test_zone_follow Coverage Results" MODIFIED="1542106911756" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/gmeiApi$Unittests_in_question_create_question_test_py.coverage" NAME="Unittests in question_create_question_test.py Coverage Results" MODIFIED="1547698269175" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCase" />
+    <SUITE FILE_PATH="coverage/gmeiApi$Unittests_for_testCase_user_follow_add_test_User_Follow_Add_test_user_follow_add.coverage" NAME="Unittests for testCase.user_follow_add_test.User_Follow_Add.test_user_follow_add Coverage Results" MODIFIED="1541991733247" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/gmeiApi$Unittests_in_diary_image_getall_test_py.coverage" NAME="Unittests in diary_image_getall_test.py Coverage Results" MODIFIED="1547696066701" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCase" />
+    <SUITE FILE_PATH="coverage/gmeiApi$Unittests_for_consult_free_custom_select_tags_test_Consult_Free_Custom_Select_Tags_test_consult_free_custom_select_tags.coverage" NAME="Unittests for consult_free_custom_select_tags_test.Consult_Free_Custom_Select_Tags.test_consult_free_custom_select_tags Coverage Results" MODIFIED="1543979217762" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCase" />
+    <SUITE FILE_PATH="coverage/gmeiApi$Unittests_for_testCase_user_my_topic_test_My_Topic_test_my_topic.coverage" NAME="Unittests for testCase.user_my_topic_test.My_Topic.test_my_topic Coverage Results" MODIFIED="1541759388840" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/gmeiApi$Unittests_in_question_create_answer_test_py.coverage" NAME="Unittests in question_create_answer_test.py Coverage Results" MODIFIED="1547698190686" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCase" />
+    <SUITE FILE_PATH="coverage/gmeiApi$Unittests_for_testCase_question_create_answer_test_Question_Create_Answer_test_question_create_answer.coverage" NAME="Unittests for testCase.question_create_answer_test.Question_Create_Answer.test_question_create_answer Coverage Results" MODIFIED="1542103684898" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/gmeiApi$Unittests_in_user_my_question_test_py.coverage" NAME="Unittests in user_my_question_test.py Coverage Results" MODIFIED="1548063532221" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCase" />
+    <SUITE FILE_PATH="coverage/gmeiApi$Unittests_for_testCase_personal_my_diary_v2_My_Diary_test_my_diary.coverage" NAME="Unittests for testCase.personal_my_diary_v2.My_Diary.test_my_diary Coverage Results" MODIFIED="1541747639882" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/gmeiApi$Unittests_in_community_dig_privacy_test_py.coverage" NAME="Unittests in community_dig_privacy_test.py Coverage Results" MODIFIED="1542886979688" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCase" />
+    <SUITE FILE_PATH="coverage/gmeiApi$myparamiko.coverage" NAME="myparamiko Coverage Results" MODIFIED="1545653084995" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/businessTest" />
+    <SUITE FILE_PATH="coverage/gmeiApi$Unittests_for_tool_qr_legal_url_test_Tool_Qr_Legal_Url_test_tool_qr_legal_url.coverage" NAME="Unittests for tool_qr_legal_url_test.Tool_Qr_Legal_Url.test_tool_qr_legal_url Coverage Results" MODIFIED="1543826651665" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCase" />
+    <SUITE FILE_PATH="coverage/gmeiApi$Unittests_for_user_favors_diaries_test_User_Favors_Diaries_test_user_favors_diaries.coverage" NAME="Unittests for user_favors_diaries_test.User_Favors_Diaries.test_user_favors_diaries Coverage Results" MODIFIED="1543827114885" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCase" />
+    <SUITE FILE_PATH="coverage/gmeiApi$Unittests_for_testCase_zone_unfollow_test_Zone_Unfollow_test_zone_unfollow.coverage" NAME="Unittests for testCase.zone_unfollow_test.Zone_Unfollow.test_zone_unfollow Coverage Results" MODIFIED="1542106850604" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/gmeiApi$Unittests_in_customer_srv_is_direct_talk_test_py.coverage" NAME="Unittests in customer_srv_is_direct_talk_test.py Coverage Results" MODIFIED="1547695618515" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCase" />
+    <SUITE FILE_PATH="coverage/gmeiApi$Unittests_in_maidan_cancel_test_py.coverage" NAME="Unittests in maidan_cancel_test.py Coverage Results" MODIFIED="1547696268347" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCase" />
+    <SUITE FILE_PATH="coverage/gmeiApi$Unittests_for_testCase_personal_diary_check_content_Check_Centent.coverage" NAME="Unittests for testCase.personal_diary_check_content.Check_Centent Coverage Results" MODIFIED="1541735228183" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/gmeiApi$Unittests_for_zone_follow_test_Zone_Follow_test_zone_follow.coverage" NAME="Unittests for zone_follow_test.Zone_Follow.test_zone_follow Coverage Results" MODIFIED="1543923126758" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCase" />
+    <SUITE FILE_PATH="coverage/gmeiApi$Unittests_for_answer_vote_test_Answer_Praise.coverage" NAME="Unittests for answer_vote_test.Answer_Praise Coverage Results" MODIFIED="1542962118406" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCase" />
+    <SUITE FILE_PATH="coverage/gmeiApi$Unittests_for_businessCommon_BusinessCommon_test_openapp.coverage" NAME="Unittests for businessCommon.BusinessCommon.test_openapp Coverage Results" MODIFIED="1544513030725" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/businessTest" />
+    <SUITE FILE_PATH="coverage/gmeiApi$Unittests_for_answer_cancel_vote_test_Answer_Cancel_Vote_test_answer_cancel_vote.coverage" NAME="Unittests for answer_cancel_vote_test.Answer_Cancel_Vote.test_answer_cancel_vote Coverage Results" MODIFIED="1544519715938" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCase" />
+    <SUITE FILE_PATH="coverage/gmeiApi$Unittests_for_service_favor_test_Service_Favor.coverage" NAME="Unittests for service_favor_test.Service_Favor Coverage Results" MODIFIED="1542340630078" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCase" />
+    <SUITE FILE_PATH="coverage/gmeiApi$Unittests_for_conversation_delta_message_detail_user_key_test_Conversation_Delta_Message_Detail_User_Key_test_conversation_delta_message_detail_user_key.coverage" NAME="Unittests for conversation_delta_message_detail_user_key_test.Conversation_Delta_Message_Detail_User_Key.test_conversation_delta_message_detail_user_key Coverage Results" MODIFIED="1544518932036" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCase" />
+    <SUITE FILE_PATH="coverage/gmeiApi$Unittests_in_answer_received_test_py.coverage" NAME="Unittests in answer_received_test.py Coverage Results" MODIFIED="1547694220835" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCase" />
+    <SUITE FILE_PATH="coverage/gmeiApi$Unittests_for_personal_answer_praise_Answer_Praise.coverage" NAME="Unittests for personal_answer_praise.Answer_Praise Coverage Results" MODIFIED="1542265816221" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCase" />
+    <SUITE FILE_PATH="coverage/gmeiApi$Unittests_for_order_order_id_is_used_test_Order_Order_Id_Is_Used_test_order_order_id_is_used.coverage" NAME="Unittests for order_order_id_is_used_test.Order_Order_Id_Is_Used.test_order_order_id_is_used Coverage Results" MODIFIED="1543832081813" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCase" />
+    <SUITE FILE_PATH="coverage/gmeiApi$Unittests_for_testCase_sensitivity_check_test_Check_Centent_test_check_centent.coverage" NAME="Unittests for testCase.sensitivity_check_test.Check_Centent.test_check_centent Coverage Results" MODIFIED="1541759077193" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/gmeiApi$Unittests_in_hybrid_activity_varietyvote_feed_test_py.coverage" NAME="Unittests in hybrid_activity_varietyvote_feed_test.py Coverage Results" MODIFIED="1547715030280" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCase" />
+    <SUITE FILE_PATH="coverage/gmeiApi$Unittests_for_tag_list_test_Tag_List_test_tag_list.coverage" NAME="Unittests for tag_list_test.Tag_List.test_tag_list Coverage Results" MODIFIED="1543826615906" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCase" />
+    <SUITE FILE_PATH="coverage/gmeiApi$Unittests_for_notification_index_v1_test_Notification_Index_V1_test_notification_index_v1.coverage" NAME="Unittests for notification_index_v1_test.Notification_Index_V1.test_notification_index_v1 Coverage Results" MODIFIED="1543821106863" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCase" />
+    <SUITE FILE_PATH="coverage/gmeiApi$Unittests_for_consult_free_custom_made_test_Consult_Free_Custom_Made_test_consult_free_custom_made.coverage" NAME="Unittests for consult_free_custom_made_test.Consult_Free_Custom_Made.test_consult_free_custom_made Coverage Results" MODIFIED="1544519832296" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCase" />
+    <SUITE FILE_PATH="coverage/gmeiApi$Unittests_in_user_my_diary_v2_test_py.coverage" NAME="Unittests in user_my_diary_v2_test.py Coverage Results" MODIFIED="1547714448850" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCase" />
+    <SUITE FILE_PATH="coverage/gmeiApi$Unittests_for_multi_topic_index_test_Multi_Topic_Index_test_multi_topic_index.coverage" NAME="Unittests for multi_topic_index_test.Multi_Topic_Index.test_multi_topic_index Coverage Results" MODIFIED="1544000946756" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCase" />
+    <SUITE FILE_PATH="coverage/gmeiApi$Unittests_for_testCase_shopcart_delete_test_Shopcart_Delete_test_shopcart_delete.coverage" NAME="Unittests for testCase.shopcart_delete_test.Shopcart_Delete.test_shopcart_delete Coverage Results" MODIFIED="1542186738140" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/gmeiApi$Unittests_for_testCase_customer_srv_send_message_test_Customer_Srv_Send_Message_test_customer_srv_send_message.coverage" NAME="Unittests for testCase.customer_srv_send_message_test.Customer_Srv_Send_Message.test_customer_srv_send_message Coverage Results" MODIFIED="1542008739126" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/gmeiApi$Unittests_for_user_following_or_fans_test_Follow_Fans_test_follow_fans.coverage" NAME="Unittests for user_following_or_fans_test.Follow_Fans.test_follow_fans Coverage Results" MODIFIED="1542090707072" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCase" />
+    <SUITE FILE_PATH="coverage/gmeiApi$Unittests_for_testCase_personal_diary_issue_Diary_Issue.coverage" NAME="Unittests for testCase.personal_diary_issue.Diary_Issue Coverage Results" MODIFIED="1541734619950" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/gmeiApi$Unittests_in_msg_reply_msg_test_py.coverage" NAME="Unittests in msg_reply_msg_test.py Coverage Results" MODIFIED="1547696561320" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCase" />
+    <SUITE FILE_PATH="coverage/gmeiApi$Unittests_for_service_detail_test_Service_Detail_test_service_detail.coverage" NAME="Unittests for service_detail_test.Service_Detail.test_service_detail Coverage Results" MODIFIED="1543218685222" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCase" />
+    <SUITE FILE_PATH="coverage/gmeiApi$Unittests_in_report_info_test_py.coverage" NAME="Unittests in report_info_test.py Coverage Results" MODIFIED="1547698410961" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCase" />
+    <SUITE FILE_PATH="coverage/gmeiApi$Unittests_for_hospital_album_test_Hospital_Album_test_hospital_album.coverage" NAME="Unittests for hospital_album_test.Hospital_Album.test_hospital_album Coverage Results" MODIFIED="1543914073072" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCase" />
+    <SUITE FILE_PATH="coverage/gmeiApi$Unittests_for_maidan_preview_test_Maidan_Preview.coverage" NAME="Unittests for maidan_preview_test.Maidan_Preview Coverage Results" MODIFIED="1542181057491" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCase" />
+    <SUITE FILE_PATH="coverage/gmeiApi$Unittests_for_report_info_test_Report_Info_test_report_info.coverage" NAME="Unittests for report_info_test.Report_Info.test_report_info Coverage Results" MODIFIED="1544008426939" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCase" />
+    <SUITE FILE_PATH="coverage/gmeiApi$Unittests_in_user_problem_favor_problem_id_test_py.coverage" NAME="Unittests in user_problem_favor_problem_id_test.py Coverage Results" MODIFIED="1547714726045" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCase" />
+    <SUITE FILE_PATH="coverage/gmeiApi$Unittests_in_user_favors_services_test_py.coverage" NAME="Unittests in user_favors_services_test.py Coverage Results" MODIFIED="1547709041326" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCase" />
+    <SUITE FILE_PATH="coverage/gmeiApi$Unittests_for_question_index_test_Question_Index_test_question_index.coverage" NAME="Unittests for question_index_test.Question_Index.test_question_index Coverage Results" MODIFIED="1544007298792" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCase" />
+    <SUITE FILE_PATH="coverage/gmeiApi$Unittests_for_testCase_personcal_project_Personal_Project_test_personal_project.coverage" NAME="Unittests for testCase.personcal_project.Personal_Project.test_personal_project Coverage Results" MODIFIED="1541733253724" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/gmeiApi$Unittests_for_answer_received_test_Answer_Received_test_answer_received.coverage" NAME="Unittests for answer_received_test.Answer_Received.test_answer_received Coverage Results" MODIFIED="1544149187660" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCase" />
+    <SUITE FILE_PATH="coverage/gmeiApi$Unittests_for_testCase_maidan_pay_test_Maidan_Pay_test_maidan_pay.coverage" NAME="Unittests for testCase.maidan_pay_test.Maidan_Pay.test_maidan_pay Coverage Results" MODIFIED="1542182999358" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/gmeiApi$Unittests_for_user_my_question_test_My_Question_test_my_question.coverage" NAME="Unittests for user_my_question_test.My_Question.test_my_question Coverage Results" MODIFIED="1544433835563" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCase" />
+    <SUITE FILE_PATH="coverage/gmeiApi$Unittests_for_topic_topic_id_update_test_Topic_Topic_Id_Update_test_topic_topic_id_update.coverage" NAME="Unittests for topic_topic_id_update_test.Topic_Topic_Id_Update.test_topic_topic_id_update Coverage Results" MODIFIED="1543203574474" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCase" />
+    <SUITE FILE_PATH="coverage/gmeiApi$Unittests_in_experts_test_py.coverage" NAME="Unittests in experts_test.py Coverage Results" MODIFIED="1542878299434" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCase" />
+    <SUITE FILE_PATH="coverage/gmeiApi$Unittests_for_service_reserve_test_Service_Reserve_test_service_reserve.coverage" NAME="Unittests for service_reserve_test.Service_Reserve.test_service_reserve Coverage Results" MODIFIED="1543825656552" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCase" />
+    <SUITE FILE_PATH="coverage/gmeiApi$Unittests_for_shopcart_set_number_test_Shopcart_Set_Number_test_shopcart_set_number.coverage" NAME="Unittests for shopcart_set_number_test.Shopcart_Set_Number.test_shopcart_set_number Coverage Results" MODIFIED="1543826513523" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCase" />
+    <SUITE FILE_PATH="coverage/gmeiApi$Unittests_in_user_check_in_test_py.coverage" NAME="Unittests in user_check_in_test.py Coverage Results" MODIFIED="1547708984105" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCase" />
+    <SUITE FILE_PATH="coverage/gmeiApi$Unittests_for_tag_list_test_Diary_Issue_test_diary_issue.coverage" NAME="Unittests for tag_list_test.Diary_Issue.test_diary_issue Coverage Results" MODIFIED="1542104370598" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCase" />
+    <SUITE FILE_PATH="coverage/gmeiApi$Unittests_in_consult_free_custom_made_test_py.coverage" NAME="Unittests in consult_free_custom_made_test.py Coverage Results" MODIFIED="1547694340154" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCase" />
+    <SUITE FILE_PATH="coverage/gmeiApi$Unittests_in_diary_cancel_vote_test_py.coverage" NAME="Unittests in diary_cancel_vote_test.py Coverage Results" MODIFIED="1542961432176" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCase" />
+    <SUITE FILE_PATH="coverage/gmeiApi$Unittests_in_my_conversation_test_py.coverage" NAME="Unittests in my_conversation_test.py Coverage Results" MODIFIED="1547696593003" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCase" />
+    <SUITE FILE_PATH="coverage/gmeiApi$Unittests_for_diary_favor_diary_id_test_Diary_Favor_Diary_Id_test_diary_favor_diary_id.coverage" NAME="Unittests for diary_favor_diary_id_test.Diary_Favor_Diary_Id.test_diary_favor_diary_id Coverage Results" MODIFIED="1543818142076" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCase" />
+    <SUITE FILE_PATH="coverage/gmeiApi$Unittests_in_shopcart_delete_test_py.coverage" NAME="Unittests in shopcart_delete_test.py Coverage Results" MODIFIED="1547698925510" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCase" />
+    <SUITE FILE_PATH="coverage/gmeiApi$Unittests_for_testCase_personal_post_question_Post_Question_test_post_question.coverage" NAME="Unittests for testCase.personal_post_question.Post_Question.test_post_question Coverage Results" MODIFIED="1541750777620" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/gmeiApi$Unittests_in_votes_received_test_py.coverage" NAME="Unittests in votes_received_test.py Coverage Results" MODIFIED="1547714828736" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCase" />
+    <SUITE FILE_PATH="coverage/gmeiApi$Unittests_for_diary_pre_create_topic_v2_test_Pro_Create_test_pro_create.coverage" NAME="Unittests for diary_pre_create_topic_v2_test.Pro_Create.test_pro_create Coverage Results" MODIFIED="1543997400137" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCase" />
+    <SUITE FILE_PATH="coverage/gmeiApi$Unittests_for_testCase_personal_diary_list_diary_List_Diary_test_list_diary.coverage" NAME="Unittests for testCase.personal_diary_list_diary.List_Diary.test_list_diary Coverage Results" MODIFIED="1541735001203" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/gmeiApi$Unittests_in_personal_recommends_test_py.coverage" NAME="Unittests in personal_recommends_test.py Coverage Results" MODIFIED="1547698155887" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCase" />
+    <SUITE FILE_PATH="coverage/gmeiApi$Unittests_for_testCase_customer_srv_is_direct_talk_test_Customer_Srv_Is_Direct_Talk_test_customer_srv_is_direct_talk.coverage" NAME="Unittests for testCase.customer_srv_is_direct_talk_test.Customer_Srv_Is_Direct_Talk.test_customer_srv_is_direct_talk Coverage Results" MODIFIED="1542004994349" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/gmeiApi$Unittests_for_maidan_list_test_Maidan_List_test_maidan_list.coverage" NAME="Unittests for maidan_list_test.Maidan_List.test_maidan_list Coverage Results" MODIFIED="1544000956314" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCase" />
+    <SUITE FILE_PATH="coverage/gmeiApi$Unittests_in_answer_vote_test_py.coverage" NAME="Unittests in answer_vote_test.py Coverage Results" MODIFIED="1547694251983" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCase" />
+    <SUITE FILE_PATH="coverage/gmeiApi$Unittests_for_testCase_personal_diary_update_Personal_Diary_Update.coverage" NAME="Unittests for testCase.personal_diary_update.Personal_Diary_Update Coverage Results" MODIFIED="1541747744349" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/gmeiApi$Unittests_for_reservation_list_test_Reservation_List_test_reservation_list.coverage" NAME="Unittests for reservation_list_test.Reservation_List.test_reservation_list Coverage Results" MODIFIED="1544065537475" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCase" />
+    <SUITE FILE_PATH="coverage/gmeiApi$Unittests_for_user_favors_services_test_User_Favors_Services_test_user_favors_services.coverage" NAME="Unittests for user_favors_services_test.User_Favors_Services.test_user_favors_services Coverage Results" MODIFIED="1543827247078" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCase" />
+    <SUITE FILE_PATH="coverage/gmeiApi$Unittests_for_order_refund_order_id_test_Order_Refund_Order_Id_test_order_refund_order_id.coverage" NAME="Unittests for order_refund_order_id_test.Order_Refund_Order_Id.test_order_refund_order_id Coverage Results" MODIFIED="1543832178064" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCase" />
+    <SUITE FILE_PATH="coverage/gmeiApi$Unittests_for_personal_recommends_test_Personal_Recommends_test_personal_recommends.coverage" NAME="Unittests for personal_recommends_test.Personal_Recommends.test_personal_recommends Coverage Results" MODIFIED="1544004362454" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCase" />
+    <SUITE FILE_PATH="coverage/gmeiApi$Unittests_in_tool_qr_legal_url_test_py.coverage" NAME="Unittests in tool_qr_legal_url_test.py Coverage Results" MODIFIED="1547699078953" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCase" />
+    <SUITE FILE_PATH="coverage/gmeiApi$Unittests_for_multi_topic_index_test_Multi_Topic_Index.coverage" NAME="Unittests for multi_topic_index_test.Multi_Topic_Index Coverage Results" MODIFIED="1543217612419" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCase" />
+    <SUITE FILE_PATH="coverage/gmeiApi$Unittests_for_diary_additional_info_v2_test_Diary_Additional_Info_V2_test_diary_additional_info_v2.coverage" NAME="Unittests for diary_additional_info_v2_test.Diary_Additional_Info_V2.test_diary_additional_info_v2 Coverage Results" MODIFIED="1545188550821" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCase" />
+    <SUITE FILE_PATH="coverage/gmeiApi$Unittests_for_coupon_list_test_Coupon_List_test_coupon_list.coverage" NAME="Unittests for coupon_list_test.Coupon_List.test_coupon_list Coverage Results" MODIFIED="1543806862123" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCase" />
+    <SUITE FILE_PATH="coverage/gmeiApi$Unittests_for_report_upload_test_Report_Upload_test_report_upload.coverage" NAME="Unittests for report_upload_test.Report_Upload.test_report_upload Coverage Results" MODIFIED="1544063510366" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCase" />
+    <SUITE FILE_PATH="coverage/gmeiApi$Unittests_in_zone_test_py.coverage" NAME="Unittests in zone_test.py Coverage Results" MODIFIED="1547714961499" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCase" />
+    <SUITE FILE_PATH="coverage/gmeiApi$Unittests_for_user_my_answer_test_My_Answer_test_my_answer.coverage" NAME="Unittests for user_my_answer_test.My_Answer.test_my_answer Coverage Results" MODIFIED="1544433808821" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCase" />
+    <SUITE FILE_PATH="coverage/gmeiApi$Unittests_for_msg_reply_msg_test_Msg_Reply_Msg_test_msg_reply_msg.coverage" NAME="Unittests for msg_reply_msg_test.Msg_Reply_Msg.test_msg_reply_msg Coverage Results" MODIFIED="1544000202597" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCase" />
+    <SUITE FILE_PATH="coverage/gmeiApi$Unittests_for_testCase_personal_tag_list_Tag_List.coverage" NAME="Unittests for testCase.personal_tag_list.Tag_List Coverage Results" MODIFIED="1541749579755" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/gmeiApi$Unittests_for_diary_create_reply_test_Diary_Create_Reply_test_diary_create_reply.coverage" NAME="Unittests for diary_create_reply_test.Diary_Create_Reply.test_diary_create_reply Coverage Results" MODIFIED="1543995111858" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCase" />
+    <SUITE FILE_PATH="coverage/gmeiApi$Unittests_in_user_my_topic_test_py.coverage" NAME="Unittests in user_my_topic_test.py Coverage Results" MODIFIED="1547714583202" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCase" />
+    <SUITE FILE_PATH="coverage/gmeiApi$proxy.coverage" NAME="proxy Coverage Results" MODIFIED="1546489717706" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/UIAuto/Android" />
+    <SUITE FILE_PATH="coverage/gmeiApi$Unittests_in_zone_unfollow_test_py.coverage" NAME="Unittests in zone_unfollow_test.py Coverage Results" MODIFIED="1544433366274" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCase" />
+    <SUITE FILE_PATH="coverage/gmeiApi$Unittests_for_testCase_tag_list_test_Diary_Issue_test_diary_issue.coverage" NAME="Unittests for testCase.tag_list_test.Diary_Issue.test_diary_issue Coverage Results" MODIFIED="1541759127147" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/gmeiApi$Unittests_for_hospital_publish_test_Hospital_Publish_test_hospital_publish.coverage" NAME="Unittests for hospital_publish_test.Hospital_Publish.test_hospital_publish Coverage Results" MODIFIED="1543230871684" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCase" />
+    <SUITE FILE_PATH="coverage/gmeiApi$Unittests_for_draft_create_test_Draft_Create_test_draft_create.coverage" NAME="Unittests for draft_create_test.Draft_Create.test_draft_create Coverage Results" MODIFIED="1543913862119" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCase" />
+    <SUITE FILE_PATH="coverage/gmeiApi$Unittests_for_diary_recent_test_Diary_Recent_test_diary_recent.coverage" NAME="Unittests for diary_recent_test.Diary_Recent.test_diary_recent Coverage Results" MODIFIED="1543819270440" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCase" />
+    <SUITE FILE_PATH="coverage/gmeiApi$Unittests_for_zone_test_Zone_test_zone.coverage" NAME="Unittests for zone_test.Zone.test_zone Coverage Results" MODIFIED="1543923116478" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCase" />
+    <SUITE FILE_PATH="coverage/gmeiApi$Unittests_for_testCase_personal_tag_list_Tag_List_test_tag_list.coverage" NAME="Unittests for testCase.personal_tag_list.Tag_List.test_tag_list Coverage Results" MODIFIED="1541749640566" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/gmeiApi$Unittests_for_testCase_maidan_detail_test_Maidan_Detail_test_maidan_detail.coverage" NAME="Unittests for testCase.maidan_detail_test.Maidan_Detail.test_maidan_detail Coverage Results" MODIFIED="1542184518110" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/gmeiApi$Unittests_for_user_problem_favor_problem_id_test_User_Problem_Favor_Problem_Id_test_user_problem_favor_problem_id.coverage" NAME="Unittests for user_problem_favor_problem_id_test.User_Problem_Favor_Problem_Id.test_user_problem_favor_problem_id Coverage Results" MODIFIED="1543832781242" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCase" />
+    <SUITE FILE_PATH="coverage/gmeiApi$Unittests_in_coupon_list_available_test_py.coverage" NAME="Unittests in coupon_list_available_test.py Coverage Results" MODIFIED="1547695045959" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCase" />
+    <SUITE FILE_PATH="coverage/gmeiApi$Unittests_for_user_personal_center_test_Personal_Center_test_peruser_my_topic_testsonal_center.coverage" NAME="Unittests for user_personal_center_test.Personal_Center.test_peruser_my_topic_testsonal_center Coverage Results" MODIFIED="1543828951887" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCase" />
+    <SUITE FILE_PATH="coverage/gmeiApi$Unittests_in_maidan_create_test_py.coverage" NAME="Unittests in maidan_create_test.py Coverage Results" MODIFIED="1547696306477" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCase" />
+    <SUITE FILE_PATH="coverage/gmeiApi$Unittests_for_user_check_pwd_test_User_Check_Pwd_test_user_check_pwd.coverage" NAME="Unittests for user_check_pwd_test.User_Check_Pwd.test_user_check_pwd Coverage Results" MODIFIED="1542610906975" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCase" />
+    <SUITE FILE_PATH="coverage/gmeiApi$Unittests_for_testCase_consult_free_custom_select_tags_test_Consult_Free_Custom_Select_Tags_test_consult_free_custom_select_tags.coverage" NAME="Unittests for testCase.consult_free_custom_select_tags_test.Consult_Free_Custom_Select_Tags.test_consult_free_custom_select_tags Coverage Results" MODIFIED="1542006106976" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/gmeiApi$Unittests_for_testCase_personal_my_answer_My_Answer_test_my_answer.coverage" NAME="Unittests for testCase.personal_my_answer.My_Answer.test_my_answer Coverage Results" MODIFIED="1541752137575" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/gmeiApi$Unittests_for_testCase_personal_question_disc_Question_Disc_test_question_disc.coverage" NAME="Unittests for testCase.personal_question_disc.Question_Disc.test_question_disc Coverage Results" MODIFIED="1541751583204" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/gmeiApi$Unittests_for_testCase_shopcart_list_v1_test_Shopcart_List_V1_test_shopcart_list_v1.coverage" NAME="Unittests for testCase.shopcart_list_v1_test.Shopcart_List_V1.test_shopcart_list_v1 Coverage Results" MODIFIED="1542111582171" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/gmeiApi$Unittests_in_service_favor_test_py.coverage" NAME="Unittests in service_favor_test.py Coverage Results" MODIFIED="1547698669502" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCase" />
+    <SUITE FILE_PATH="coverage/gmeiApi$Unittests_for_user_answer_test_User_Answer_test_user_answer.coverage" NAME="Unittests for user_answer_test.User_Answer.test_user_answer Coverage Results" MODIFIED="1543826907015" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCase" />
+    <SUITE FILE_PATH="coverage/gmeiApi$Unittests_for_user_info_test_User_Info_test_user_info.coverage" NAME="Unittests for user_info_test.User_Info.test_user_info Coverage Results" MODIFIED="1542107860014" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCase" />
+    <SUITE FILE_PATH="coverage/gmeiApi$Unittests_for_order_list_for_diary_create_test_List_Diary_test_list_diary.coverage" NAME="Unittests for order_list_for_diary_create_test.List_Diary.test_list_diary Coverage Results" MODIFIED="1544003296901" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCase" />
+    <SUITE FILE_PATH="coverage/gmeiApi$Unittests_for_maidan_create_test_Maidan_Create_test_maidan_create.coverage" NAME="Unittests for maidan_create_test.Maidan_Create.test_maidan_create Coverage Results" MODIFIED="1543999067666" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCase" />
+    <SUITE FILE_PATH="coverage/gmeiApi$Unittests_in_orders_my_v2_test_py.coverage" NAME="Unittests in orders_my_v2_test.py Coverage Results" MODIFIED="1547698131024" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCase" />
+    <SUITE FILE_PATH="coverage/gmeiApi$Unittests_in_user_personal_center_test_py.coverage" NAME="Unittests in user_personal_center_test.py Coverage Results" MODIFIED="1547714626706" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCase" />
+    <SUITE FILE_PATH="coverage/gmeiApi$Unittests_for_topic_vote_test_Topic_Vote_test_topic_vote.coverage" NAME="Unittests for topic_vote_test.Topic_Vote.test_topic_vote Coverage Results" MODIFIED="1543202395298" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCase" />
+    <SUITE FILE_PATH="coverage/gmeiApi$Unittests_for_zone_unfollow_test_Zone_Unfollow_test_zone_unfollow.coverage" NAME="Unittests for zone_unfollow_test.Zone_Unfollow.test_zone_unfollow Coverage Results" MODIFIED="1543923040557" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCase" />
+    <SUITE FILE_PATH="coverage/gmeiApi$Unittests_for_diary_update_diary_id_test_Diary_Update_Diary_Id_test_diary_update_diary_id.coverage" NAME="Unittests for diary_update_diary_id_test.Diary_Update_Diary_Id.test_diary_update_diary_id Coverage Results" MODIFIED="1543831424350" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCase" />
+    <SUITE FILE_PATH="coverage/gmeiApi$speder.coverage" NAME="speder Coverage Results" MODIFIED="1546916671163" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/UIAuto" />
+    <SUITE FILE_PATH="coverage/gmeiApi$Unittests_for_hybrid_promotion__data_test_Hybrid_Promotion__Data_test_hybrid_promotion__data.coverage" NAME="Unittests for hybrid_promotion__data_test.Hybrid_Promotion__Data.test_hybrid_promotion__data Coverage Results" MODIFIED="1542957032944" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCase" />
+    <SUITE FILE_PATH="coverage/gmeiApi$Unittests_for_service_comment_info_test_Service_Comment_Info_test_service_comment_info.coverage" NAME="Unittests for service_comment_info_test.Service_Comment_Info.test_service_comment_info Coverage Results" MODIFIED="1543824863521" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCase" />
+    <SUITE FILE_PATH="coverage/gmeiApi$Unittests_for_question_index_v2_test_Question_Index_V2_test_question_index_v2.coverage" NAME="Unittests for question_index_v2_test.Question_Index_V2.test_question_index_v2 Coverage Results" MODIFIED="1544007566913" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCase" />
+    <SUITE FILE_PATH="coverage/gmeiApi$Unittests_for_service_comment_detail_test_Service_Comment_Detail.coverage" NAME="Unittests for service_comment_detail_test.Service_Comment_Detail Coverage Results" MODIFIED="1542876758722" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCase" />
+    <SUITE FILE_PATH="coverage/gmeiApi$Unittests_for_maidan_cancel_test_Maidan_Cancel_test_maidan_cancel.coverage" NAME="Unittests for maidan_cancel_test.Maidan_Cancel.test_maidan_cancel Coverage Results" MODIFIED="1543914154330" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCase" />
+    <SUITE FILE_PATH="coverage/gmeiApi$Unittests_for_notification_v1_test_Notification_V1_test_notification_v1.coverage" NAME="Unittests for notification_v1_test.Notification_V1.test_notification_v1 Coverage Results" MODIFIED="1544003013410" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCase" />
+    <SUITE FILE_PATH="coverage/gmeiApi$Unittests_in_shopcart_list_v2_test_py.coverage" NAME="Unittests in shopcart_list_v2_test.py Coverage Results" MODIFIED="1547698988526" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCase" />
+    <SUITE FILE_PATH="coverage/gmeiApi$Unittests_for_zone_detail_v2_test_Zone_Detail_V2_test_zone_detail_v2.coverage" NAME="Unittests for zone_detail_v2_test.Zone_Detail_V2.test_zone_detail_v2 Coverage Results" MODIFIED="1543923229720" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCase" />
+    <SUITE FILE_PATH="coverage/gmeiApi$Unittests_in_reservation_cancel_test_py.coverage" NAME="Unittests in reservation_cancel_test.py Coverage Results" MODIFIED="1547698503080" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCase" />
+    <SUITE FILE_PATH="coverage/gmeiApi$Unittests_for_diary_create_test_Diary_Create_test_diary_create.coverage" NAME="Unittests for diary_create_test.Diary_Create.test_diary_create Coverage Results" MODIFIED="1544518802329" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCase" />
+    <SUITE FILE_PATH="coverage/gmeiApi$Unittests_for_services_v1_test_Services_V1_test_services_v1.coverage" NAME="Unittests for services_v1_test.Services_V1.test_services_v1 Coverage Results" MODIFIED="1544410308191" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCase" />
+    <SUITE FILE_PATH="coverage/gmeiApi$Unittests_in_question_index_test_py.coverage" NAME="Unittests in question_index_test.py Coverage Results" MODIFIED="1547698291640" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCase" />
+    <SUITE FILE_PATH="coverage/gmeiApi$Unittests_for_service_comment_create_test_Service_Comment_Create_test_service_comment_create.coverage" NAME="Unittests for service_comment_create_test.Service_Comment_Create.test_service_comment_create Coverage Results" MODIFIED="1544077039997" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCase" />
+    <SUITE FILE_PATH="coverage/gmeiApi$Unittests_for_service_favor_test_Service_Favor_test_service_favor.coverage" NAME="Unittests for service_favor_test.Service_Favor.test_service_favor Coverage Results" MODIFIED="1543825505577" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCase" />
+    <SUITE FILE_PATH="coverage/gmeiApi$Unittests_for_notification_test_Notification_test_notification.coverage" NAME="Unittests for notification_test.Notification.test_notification Coverage Results" MODIFIED="1543820970009" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCase" />
+    <SUITE FILE_PATH="coverage/gmeiApi$UIDemo.coverage" NAME="UIDemo Coverage Results" MODIFIED="1546515539184" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/UIAuto/Android" />
+    <SUITE FILE_PATH="coverage/gmeiApi$Unittests_for_hybrid_activity_varietyvote_feed_test_Hybrid_Activity_Varietyvote_Feed_test_hybrid_activity_varietyvote_feed.coverage" NAME="Unittests for hybrid_activity_varietyvote_feed_test.Hybrid_Activity_Varietyvote_Feed.test_hybrid_activity_varietyvote_feed Coverage Results" MODIFIED="1543832945024" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCase" />
+    <SUITE FILE_PATH="coverage/gmeiApi$Unittests_for_testCase_diary_create_v2_test_Diary_Create_test_diary_create.coverage" NAME="Unittests for testCase.diary_create_v2_test.Diary_Create.test_diary_create Coverage Results" MODIFIED="1541758804698" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/gmeiApi$Unittests_for_testCase_user_following_or_fans_test_Follow_Fans.coverage" NAME="Unittests for testCase.user_following_or_fans_test.Follow_Fans Coverage Results" MODIFIED="1542108009139" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/gmeiApi$Unittests_for_maidan_pay_test_Maidan_Pay_test_maidan_pay.coverage" NAME="Unittests for maidan_pay_test.Maidan_Pay.test_maidan_pay Coverage Results" MODIFIED="1543563519922" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCase" />
+    <SUITE FILE_PATH="coverage/gmeiApi$Unittests_for_user_follow_del_test_User_Follow_Del_test_user_follow_del.coverage" NAME="Unittests for user_follow_del_test.User_Follow_Del.test_user_follow_del Coverage Results" MODIFIED="1542090832180" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCase" />
+    <SUITE FILE_PATH="coverage/gmeiApi$Unittests_for_testCase_user_follow_del_test_User_Follow_Del_test_user_follow_del.coverage" NAME="Unittests for testCase.user_follow_del_test.User_Follow_Del.test_user_follow_del Coverage Results" MODIFIED="1541760230328" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/gmeiApi$Unittests_for_testCase_conversation_detail_test_Conversation_Detail_test_conversation_detail.coverage" NAME="Unittests for testCase.conversation_detail_test.Conversation_Detail.test_conversation_detail Coverage Results" MODIFIED="1543979151932" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/gmeiApi$Unittests_for_testCase_personal_following_or_fans_Follow_Fans_test_follow_fans.coverage" NAME="Unittests for testCase.personal_following_or_fans.Follow_Fans.test_follow_fans Coverage Results" MODIFIED="1541754366580" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/gmeiApi$Unittests_for_user_favors_topics_test_User_Favors_Topics_test_user_favors_topics.coverage" NAME="Unittests for user_favors_topics_test.User_Favors_Topics.test_user_favors_topics Coverage Results" MODIFIED="1543827383265" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCase" />
+    <SUITE FILE_PATH="coverage/gmeiApi$Unittests_for_testCase_order_list_for_diary_create_test_List_Diary_test_list_diary.coverage" NAME="Unittests for testCase.order_list_for_diary_create_test.List_Diary.test_list_diary Coverage Results" MODIFIED="1541758954335" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/gmeiApi$Unittests_for_service_favor__service_id__test_Service_Favor_test_service_favor.coverage" NAME="Unittests for service_favor_(service_id)_test.Service_Favor.test_service_favor Coverage Results" MODIFIED="1542339039604" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCase" />
+    <SUITE FILE_PATH="coverage/gmeiApi$Unittests_in_maidan_tags_test_py.coverage" NAME="Unittests in maidan_tags_test.py Coverage Results" MODIFIED="1547696507013" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCase" />
+    <SUITE FILE_PATH="coverage/gmeiApi$Unittests_in_user_info_test_py.coverage" NAME="Unittests in user_info_test.py Coverage Results" MODIFIED="1547709192303" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCase" />
+    <SUITE FILE_PATH="coverage/gmeiApi$Unittests_for_answer_cancel_vote_test_Answer_Cancel_Vote.coverage" NAME="Unittests for answer_cancel_vote_test.Answer_Cancel_Vote Coverage Results" MODIFIED="1547692867627" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCase" />
+    <SUITE FILE_PATH="coverage/gmeiApi$Unittests_in_diary_pre_create_topic_v2_test_py.coverage" NAME="Unittests in diary_pre_create_topic_v2_test.py Coverage Results" MODIFIED="1547696115608" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCase" />
+    <SUITE FILE_PATH="coverage/gmeiApi$Unittests_for_topic_reply_create_topic_id_test_Topic_Reply_Create_Topic_Id_test_topic_reply_create_topic_id.coverage" NAME="Unittests for topic_reply_create_topic_id_test.Topic_Reply_Create_Topic_Id.test_topic_reply_create_topic_id Coverage Results" MODIFIED="1543832486790" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCase" />
+    <SUITE FILE_PATH="coverage/gmeiApi$Unittests_for_reservation_cancel_test_Reservation_Cancel_test_reservation_cancel.coverage" NAME="Unittests for reservation_cancel_test.Reservation_Cancel.test_reservation_cancel Coverage Results" MODIFIED="1543918001752" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCase" />
+    <SUITE FILE_PATH="coverage/gmeiApi$Unittests_for_testCase_services_v1_test_Services_V1_test_services_v1.coverage" NAME="Unittests for testCase.services_v1_test.Services_V1.test_services_v1 Coverage Results" MODIFIED="1542163047458" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/gmeiApi$Unittests_in_shopcart_add_v1_test_py.coverage" NAME="Unittests in shopcart_add_v1_test.py Coverage Results" MODIFIED="1547698866357" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCase" />
+    <SUITE FILE_PATH="coverage/gmeiApi$Unittests_for_testCase_user_my_answer_test_My_Answer_test_my_answer.coverage" NAME="Unittests for testCase.user_my_answer_test.My_Answer.test_my_answer Coverage Results" MODIFIED="1541759281331" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/gmeiApi$Unittests_for_topic_addview_test_Topic_Addview_test_topic_addview.coverage" NAME="Unittests for topic_addview_test.Topic_Addview.test_topic_addview Coverage Results" MODIFIED="1543203829828" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCase" />
+    <SUITE FILE_PATH="coverage/gmeiApi$Unittests_for_service_comment_detail_test_Service_Comment_Detail_test_service_comment_detail.coverage" NAME="Unittests for service_comment_detail_test.Service_Comment_Detail.test_service_comment_detail Coverage Results" MODIFIED="1543824765887" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCase" />
+    <SUITE FILE_PATH="coverage/gmeiApi$Unittests_for_user_check_in_test_User_Check_In_test_user_check_in.coverage" NAME="Unittests for user_check_in_test.User_Check_In.test_user_check_in Coverage Results" MODIFIED="1543827023861" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCase" />
+    <SUITE FILE_PATH="coverage/gmeiApi$Unittests_for_user_follow_add_test_User_Follow_Add_test_user_follow_add.coverage" NAME="Unittests for user_follow_add_test.User_Follow_Add.test_user_follow_add Coverage Results" MODIFIED="1543827468075" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCase" />
+    <SUITE FILE_PATH="coverage/gmeiApi$Unittests_for_testCase_orders_my_v2_test_Orders_My_V2_test_orders_my_v2.coverage" NAME="Unittests for testCase.orders_my_v2_test.Orders_My_V2.test_orders_my_v2 Coverage Results" MODIFIED="1542004237599" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/gmeiApi$Unittests_for_question_reply_answer_test_Question_Reply_Answer_test_question_reply_answer.coverage" NAME="Unittests for question_reply_answer_test.Question_Reply_Answer.test_question_reply_answer Coverage Results" MODIFIED="1544007603773" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCase" />
+    <SUITE FILE_PATH="coverage/gmeiApi$Unittests_for_maidan_preview_test_Maidan_Preview_test_maidan_preview.coverage" NAME="Unittests for maidan_preview_test.Maidan_Preview.test_maidan_preview Coverage Results" MODIFIED="1543820325501" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCase" />
+    <SUITE FILE_PATH="coverage/gmeiApi$Unittests_for_testCase_answer_cancel_vote_test_Answer_Cancel_Vote_test_answer_cancel_vote.coverage" NAME="Unittests for testCase.answer_cancel_vote_test.Answer_Cancel_Vote.test_answer_cancel_vote Coverage Results" MODIFIED="1542102602852" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/gmeiApi$Unittests_for_zone_my_test_Zone_My_test_zone_my.coverage" NAME="Unittests for zone_my_test.Zone_My.test_zone_my Coverage Results" MODIFIED="1543830738584" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCase" />
+    <SUITE FILE_PATH="coverage/gmeiApi$Unittests_for_search_keywords_test_Search_Keywords_test_search_keywords.coverage" NAME="Unittests for search_keywords_test.Search_Keywords.test_search_keywords Coverage Results" MODIFIED="1542179670972" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCase" />
+    <SUITE FILE_PATH="coverage/gmeiApi$Unittests_in_personal_my_diary_v2_py.coverage" NAME="Unittests in personal_my_diary_v2.py Coverage Results" MODIFIED="1541747291717" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/gmeiApi$common.coverage" NAME="common Coverage Results" MODIFIED="1543905311599" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/common" />
+    <SUITE FILE_PATH="coverage/gmeiApi$Unittests_for_reservation_create_test_Reservation_Create_test_reservtypeation_create.coverage" NAME="Unittests for reservation_create_test.Reservation_Create.test_reservtypeation_create Coverage Results" MODIFIED="1544064254794" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCase" />
+    <SUITE FILE_PATH="coverage/gmeiApi$Unittests_in_service_detail_v1_test_py.coverage" NAME="Unittests in service_detail_v1_test.py Coverage Results" MODIFIED="1547698645811" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCase" />
+    <SUITE FILE_PATH="coverage/gmeiApi$Unittests_for_private_conversation_test_Private_Conversation_test_private_conversation.coverage" NAME="Unittests for private_conversation_test.Private_Conversation.test_private_conversation Coverage Results" MODIFIED="1542595330768" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCase" />
+    <SUITE FILE_PATH="coverage/gmeiApi$Unittests_for_diary_create_v2_test_Diary_Create_test_diary_create.coverage" NAME="Unittests for diary_create_v2_test.Diary_Create.test_diary_create Coverage Results" MODIFIED="1545188837418" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCase" />
+    <SUITE FILE_PATH="coverage/gmeiApi$Unittests_for_verification_code_test_Verification_Code_test_verification_code.coverage" NAME="Unittests for verification_code_test.Verification_Code.test_verification_code Coverage Results" MODIFIED="1542350286542" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCase" />
+    <SUITE FILE_PATH="coverage/gmeiApi$Unittests_in_user_favors_diaries_test_py.coverage" NAME="Unittests in user_favors_diaries_test.py Coverage Results" MODIFIED="1547709018011" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCase" />
+    <SUITE FILE_PATH="coverage/gmeiApi$Unittests_for_diary_vote_test_Diary_Vote_test_diary_vote.coverage" NAME="Unittests for diary_vote_test.Diary_Vote.test_diary_vote Coverage Results" MODIFIED="1545189129001" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCase" />
+    <SUITE FILE_PATH="coverage/gmeiApi$Unittests_for_testCase_personal_user_my_question_My_Question.coverage" NAME="Unittests for testCase.personal_user_my_question.My_Question Coverage Results" MODIFIED="1541748963146" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/gmeiApi$Unittests_for_diary_create_v2_test_Diary_Create.coverage" NAME="Unittests for diary_create_v2_test.Diary_Create Coverage Results" MODIFIED="1543913310313" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCase" />
+    <SUITE FILE_PATH="coverage/gmeiApi$Unittests_for_hybrid_topic_reply_reply_id_test_Hybrid_Topic_Reply_Reply_Id_test_hybrid_topic_reply_reply_id.coverage" NAME="Unittests for hybrid_topic_reply_reply_id_test.Hybrid_Topic_Reply_Reply_Id.test_hybrid_topic_reply_reply_id Coverage Results" MODIFIED="1543833587705" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCase" />
+    <SUITE FILE_PATH="coverage/gmeiApi$Unittests_for_answer_vote_test_Answer_Vote.coverage" NAME="Unittests for answer_vote_test.Answer_Vote Coverage Results" MODIFIED="1543894779647" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCase" />
+    <SUITE FILE_PATH="coverage/gmeiApi$Unittests_for_user_my_topic_test_My_Topic_test_my_topic.coverage" NAME="Unittests for user_my_topic_test.My_Topic.test_my_topic Coverage Results" MODIFIED="1544433842255" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCase" />
+    <SUITE FILE_PATH="coverage/gmeiApi$Unittests_in_coupon_list_my_test_py.coverage" NAME="Unittests in coupon_list_my_test.py Coverage Results" MODIFIED="1547695412667" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCase" />
+    <SUITE FILE_PATH="coverage/gmeiApi$Unittests_in_live_sendmsg_test_py.coverage" NAME="Unittests in live_sendmsg_test.py Coverage Results" MODIFIED="1542248359509" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCase" />
+    <SUITE FILE_PATH="coverage/gmeiApi$Unittests_for_customer_srv_init_status_test_Customer_Srv_Init_Status_test_customer_srv_init_status.coverage" NAME="Unittests for customer_srv_init_status_test.Customer_Srv_Init_Status.test_customer_srv_init_status Coverage Results" MODIFIED="1543807796622" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCase" />
+    <SUITE FILE_PATH="coverage/gmeiApi$Unittests_for_reservation_mine_test_Reservation_Mine_test_reservation_mine.coverage" NAME="Unittests for reservation_mine_test.Reservation_Mine.test_reservation_mine Coverage Results" MODIFIED="1544065990107" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCase" />
+    <SUITE FILE_PATH="coverage/gmeiApi$Unittests_for_customer_srv_send_message_test_Customer_Srv_Send_Message_test_customer_srv_send_message.coverage" NAME="Unittests for customer_srv_send_message_test.Customer_Srv_Send_Message.test_customer_srv_send_message Coverage Results" MODIFIED="1545188448103" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCase" />
+    <SUITE FILE_PATH="coverage/gmeiApi$Unittests_in_notification_v1_test_py.coverage" NAME="Unittests in notification_v1_test.py Coverage Results" MODIFIED="1547696656332" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCase" />
+    <SUITE FILE_PATH="coverage/gmeiApi$Unittests_in_answer_cancel_vote_test_py.coverage" NAME="Unittests in answer_cancel_vote_test.py Coverage Results" MODIFIED="1547715948140" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCase" />
+    <SUITE FILE_PATH="coverage/gmeiApi$Unittests_for_testCase_answer_vote_test_Answer_Praise_test_answer_praise.coverage" NAME="Unittests for testCase.answer_vote_test.Answer_Praise.test_answer_praise Coverage Results" MODIFIED="1542102669831" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/gmeiApi$Unittests_for_testCase_following_fans_del_focus_Del_Focus_test_del_focus.coverage" NAME="Unittests for testCase.following_fans_del_focus.Del_Focus.test_del_focus Coverage Results" MODIFIED="1541754949960" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/gmeiApi$Unittests_for_customer_srv_init_status_test_Customer_Srv_Init_Status.coverage" NAME="Unittests for customer_srv_init_status_test.Customer_Srv_Init_Status Coverage Results" MODIFIED="1543807692642" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCase" />
+    <SUITE FILE_PATH="coverage/gmeiApi$Unittests_for_votes_received_test_Votes_Received_test_votes_received.coverage" NAME="Unittests for votes_received_test.Votes_Received.test_votes_received Coverage Results" MODIFIED="1543829214894" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCase" />
+    <SUITE FILE_PATH="coverage/gmeiApi$Unittests_for_testCase_personal_my_topic_My_Topic_test_my_topic.coverage" NAME="Unittests for testCase.personal_my_topic.My_Topic.test_my_topic Coverage Results" MODIFIED="1541753458211" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/gmeiApi$Unittests_in_user_following_or_fans_test_py.coverage" NAME="Unittests in user_following_or_fans_test.py Coverage Results" MODIFIED="1547709158878" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCase" />
+    <SUITE FILE_PATH="coverage/gmeiApi$Unittests_for_maidan_tags_test_Maidan_Tags_test_maidan_tags.coverage" NAME="Unittests for maidan_tags_test.Maidan_Tags.test_maidan_tags Coverage Results" MODIFIED="1543820529634" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCase" />
+    <SUITE FILE_PATH="coverage/gmeiApi$Unittests_for_testCase_consult_free_custom_made_test_Consult_Free_Custom_Made_test_consult_free_custom_made.coverage" NAME="Unittests for testCase.consult_free_custom_made_test.Consult_Free_Custom_Made.test_consult_free_custom_made Coverage Results" MODIFIED="1542005680596" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/gmeiApi$Unittests_for_question_create_question_test_Post_Question_test_post_question.coverage" NAME="Unittests for question_create_question_test.Post_Question.test_post_question Coverage Results" MODIFIED="1544006866625" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCase" />
+    <SUITE FILE_PATH="coverage/gmeiApi$Unittests_in_zone_detail_v3_test_py.coverage" NAME="Unittests in zone_detail_v3_test.py Coverage Results" MODIFIED="1547714891940" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCase" />
+    <SUITE FILE_PATH="coverage/gmeiApi$Unittests_for_testCase_service_detail_v1_test_Service_Detail_V1_test_service_detail_v1.coverage" NAME="Unittests for testCase.service_detail_v1_test.Service_Detail_V1.test_service_detail_v1 Coverage Results" MODIFIED="1542112088592" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/gmeiApi$Unittests_for_order_order_id_is_used_test_Order_Order_Id_Is_Used.coverage" NAME="Unittests for order_order_id_is_used_test.Order_Order_Id_Is_Used Coverage Results" MODIFIED="1542971377623" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCase" />
+    <SUITE FILE_PATH="coverage/gmeiApi$Gengmei.coverage" NAME="Gengmei Coverage Results" MODIFIED="1545289920018" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/UIAuto/Android" />
+    <SUITE FILE_PATH="coverage/gmeiApi$Unittests_for_settlement_create_v1_test_Settlement_Create_V1.coverage" NAME="Unittests for settlement_create_v1_test.Settlement_Create_V1 Coverage Results" MODIFIED="1542277002504" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCase" />
+    <SUITE FILE_PATH="coverage/gmeiApi$Unittests_in_zone_my_test_py.coverage" NAME="Unittests in zone_my_test.py Coverage Results" MODIFIED="1547714950955" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCase" />
+    <SUITE FILE_PATH="coverage/gmeiApi$Unittests_in_conversation_delta_message_detail_test_py.coverage" NAME="Unittests in conversation_delta_message_detail_test.py Coverage Results" MODIFIED="1547694837372" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/gmeiApi$Unittests_in_notification_index_test_py.coverage" NAME="Unittests in notification_index_test.py Coverage Results" MODIFIED="1547696619340" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCase" />
+    <SUITE FILE_PATH="coverage/gmeiApi$Unittests_in_question_index_v2_test_py.coverage" NAME="Unittests in question_index_v2_test.py Coverage Results" MODIFIED="1547698336530" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCase" />
+    <SUITE FILE_PATH="coverage/gmeiApi$Unittests_in_question_reply_answer_test_py.coverage" NAME="Unittests in question_reply_answer_test.py Coverage Results" MODIFIED="1547698369200" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCase" />
+    <SUITE FILE_PATH="coverage/gmeiApi$Unittests_for_settlement_preview_v1_test_Settlement_Preview_V1_test_settlement_preview_v1.coverage" NAME="Unittests for settlement_preview_v1_test.Settlement_Preview_V1.test_settlement_preview_v1 Coverage Results" MODIFIED="1543826036406" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCase" />
+    <SUITE FILE_PATH="coverage/gmeiApi$Unittests_for_hybrid_topic_topic_id_test_Hybrid_Topic_Topic_Id_test_hybrid_topic_topic_id.coverage" NAME="Unittests for hybrid_topic_topic_id_test.Hybrid_Topic_Topic_Id.test_hybrid_topic_topic_id Coverage Results" MODIFIED="1543833361377" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCase" />
+    <SUITE FILE_PATH="coverage/gmeiApi$Unittests_for_diary_additional_info_v1_test_Diary_Additional_Info_V1_test_diary_additional_info_v1.coverage" NAME="Unittests for diary_additional_info_v1_test.Diary_Additional_Info_V1.test_diary_additional_info_v1 Coverage Results" MODIFIED="1543991028178" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCase" />
+    <SUITE FILE_PATH="coverage/gmeiApi$Unittests_for_coupon_claim_test_Coupon_Claim_test_coupon_claim.coverage" NAME="Unittests for coupon_claim_test.Coupon_Claim.test_coupon_claim Coverage Results" MODIFIED="1544519459809" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCase" />
+    <SUITE FILE_PATH="coverage/gmeiApi$Unittests_for_testCase_personal_photo_Person_Photo_test_person_photo.coverage" NAME="Unittests for testCase.personal_photo.Person_Photo.test_person_photo Coverage Results" MODIFIED="1541750337153" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/gmeiApi$Unittests_for_hybrid_wiki_test_Hybrid_Wiki_test_hybrid_wiki.coverage" NAME="Unittests for hybrid_wiki_test.Hybrid_Wiki.test_hybrid_wiki Coverage Results" MODIFIED="1543833688014" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCase" />
+    <SUITE FILE_PATH="coverage/gmeiApi$Unittests_for_zone_detail_v3_test_Zone_Detail_V3_test_zone_detail_v3.coverage" NAME="Unittests for zone_detail_v3_test.Zone_Detail_V3.test_zone_detail_v3 Coverage Results" MODIFIED="1543923177845" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCase" />
+    <SUITE FILE_PATH="coverage/gmeiApi$Unittests_for_coupon_list_available_test_Coupon_List_Available.coverage" NAME="Unittests for coupon_list_available_test.Coupon_List_Available Coverage Results" MODIFIED="1544149651738" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCase" />
+    <SUITE FILE_PATH="coverage/gmeiApi$myparamiko__1_.coverage" NAME="myparamiko (1) Coverage Results" MODIFIED="1545879297632" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/UIAuto/Android" />
+    <SUITE FILE_PATH="coverage/gmeiApi$Unittests_for_diary_test_Diary_test_diary.coverage" NAME="Unittests for diary_test.Diary.test_diary Coverage Results" MODIFIED="1543990897975" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCase" />
+    <SUITE FILE_PATH="coverage/gmeiApi$Unittests_for_testCase_user_following_or_fans_test_Follow_Fans_test_follow_fans.coverage" NAME="Unittests for testCase.user_following_or_fans_test.Follow_Fans.test_follow_fans Coverage Results" MODIFIED="1541759181646" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/gmeiApi$Unittests_for_shopcart_delete_test_Shopcart_Delete_test_shopcart_delete.coverage" NAME="Unittests for shopcart_delete_test.Shopcart_Delete.test_shopcart_delete Coverage Results" MODIFIED="1543826314830" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCase" />
+    <SUITE FILE_PATH="coverage/gmeiApi$Unittests_for_order_order_id_test_Order_Order_Id_test_order_order_id.coverage" NAME="Unittests for order_order_id_test.Order_Order_Id.test_order_order_id Coverage Results" MODIFIED="1543831924385" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCase" />
+    <SUITE FILE_PATH="coverage/gmeiApi$Unittests_for_coupon_list_available_test_Coupon_List_Available_test_coupon_list_available.coverage" NAME="Unittests for coupon_list_available_test.Coupon_List_Available.test_coupon_list_available Coverage Results" MODIFIED="1544518979430" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCase" />
+    <SUITE FILE_PATH="coverage/gmeiApi$DemoWsgi.coverage" NAME="DemoWsgi Coverage Results" MODIFIED="1546509097975" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/UIAuto/Android" />
+    <SUITE FILE_PATH="coverage/gmeiApi$Unittests_for_testCase_personal_diary_create_v2_Diary_Create.coverage" NAME="Unittests for testCase.personal_diary_create_v2.Diary_Create Coverage Results" MODIFIED="1541735582643" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="2031469597">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="53" />
+          <entry key="project.open.time.0" value="1" />
+          <entry key="project.open.time.1" value="2" />
+          <entry key="project.open.time.110" value="1" />
+          <entry key="project.open.time.12" value="2" />
+          <entry key="project.open.time.13" value="2" />
+          <entry key="project.open.time.14" value="9" />
+          <entry key="project.open.time.15" value="20" />
+          <entry key="project.open.time.16" value="11" />
+          <entry key="project.open.time.17" value="2" />
+          <entry key="project.open.time.2" value="1" />
+          <entry key="project.open.time.8" value="2" />
+          <entry key="project.opened" value="54" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="data" value="2" />
+          <entry key="jpeg" value="1" />
+          <entry key="jpg" value="2" />
+          <entry key="json" value="8" />
+          <entry key="modle" value="1" />
+          <entry key="pstat" value="1" />
+          <entry key="pub" value="1" />
+          <entry key="py" value="1031" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="Image" value="3" />
+          <entry key="JSON" value="8" />
+          <entry key="PLAIN_TEXT" value="4" />
+          <entry key="Profiler Session" value="1" />
+          <entry key="Python" value="1031" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="dummy" value="71" />
+          <entry key="json" value="8" />
+          <entry key="py" value="44179" />
+          <entry key="txt" value="150" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JSON" value="8" />
+          <entry key="PLAIN_TEXT" value="221" />
+          <entry key="Python" value="44179" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/testCase/votes_received_test.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <element signature="e#0#30#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/testCase/zone_detail_v2_test.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <element signature="e#0#30#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/testCase/zone_detail_v3_test.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <element signature="e#0#30#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/testCase/zone_follow_test.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <element signature="e#0#15#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/testCase/zone_unfollow_test.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <element signature="e#0#30#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/testCase/zone_my_test.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <element signature="e#0#9#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/testCase/zone_test.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <element signature="e#0#15#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/testCase/hybrid_activity_varietyvote_feed_test.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="682">
+              <caret line="34" selection-start-line="34" selection-end-line="34" />
+              <folding>
+                <element signature="e#0#15#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/testCase/answer_cancel_vote_test.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="22">
+              <caret line="17" column="42" selection-start-line="17" selection-start-column="42" selection-end-line="17" selection-end-column="42" />
+              <folding>
+                <element signature="e#0#30#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/testCase/user_my_question_test.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="218">
+              <caret line="23" column="34" selection-start-line="23" selection-start-column="34" selection-end-line="23" selection-end-column="34" />
+              <folding>
+                <element signature="e#0#30#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>order_id</find>
+      <find>latest_topic_id</find>
+      <find>question_id</find>
+      <find>topic_id</find>
+      <find>diary_id</find>
+      <find>/api/index/v6</find>
+      <find>/api/index/float_activity</find>
+      <find>20893135&amp;</find>
+      <find>/api/user/personal_center</find>
+      <find>20893135</find>
+      <find>***</find>
+      <find>/api/user/info</find>
+      <find>9464586</find>
+      <find>12270992</find>
+      <find>/hybrid/diary_my/_data</find>
+      <find>/hybrid/user_qa/_data</find>
+      <find>3486118</find>
+      <find>/hybrid/user_following_items/_data</find>
+      <find>device</find>
+      <find>/hybrid/question/</find>
+    </findStrings>
+    <replaceStrings>
+      <replace />
+    </replaceStrings>
+    <dirStrings>
+      <dir>$PROJECT_DIR$/testCase</dir>
+    </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/testCase/diary_create_reply_test.py" />
+        <option value="$PROJECT_DIR$/testCase/diary_favor_diary_id_test.py" />
+        <option value="$PROJECT_DIR$/testCase/diary_image_getall_v2_test.py" />
+        <option value="$PROJECT_DIR$/testCase/diary_image_getall_test.py" />
+        <option value="$PROJECT_DIR$/testCase/diary_pre_create_topic_v2_test.py" />
+        <option value="$PROJECT_DIR$/testCase/diary_vote_test.py" />
+        <option value="$PROJECT_DIR$/testCase/maidan_create_test.py" />
+        <option value="$PROJECT_DIR$/testCase/maidan_list_test.py" />
+        <option value="$PROJECT_DIR$/testCase/multi_topic_index_test.py" />
+        <option value="$PROJECT_DIR$/testCase/order_list_for_diary_create_test.py" />
+        <option value="$PROJECT_DIR$/testCase/personal_recommends_test.py" />
+        <option value="$PROJECT_DIR$/testCase/question_create_answer_test.py" />
+        <option value="$PROJECT_DIR$/testCase/question_create_question_test.py" />
+        <option value="$PROJECT_DIR$/testCase/question_index_test.py" />
+        <option value="$PROJECT_DIR$/testCase/report_info_test.py" />
+        <option value="$PROJECT_DIR$/testCase/report_upload_test.py" />
+        <option value="$PROJECT_DIR$/testCase/reservation_cancel_test.py" />
+        <option value="$PROJECT_DIR$/testCase/reservation_create_test.py" />
+        <option value="$PROJECT_DIR$/testCase/reservation_detail_test.py" />
+        <option value="$PROJECT_DIR$/testCase/reservation_list_test.py" />
+        <option value="$PROJECT_DIR$/testCase/sensitivity_check_test.py" />
+        <option value="$PROJECT_DIR$/testCase/service_comment_create_test.py" />
+        <option value="$PROJECT_DIR$/testCase/service_comment_info_test.py" />
+        <option value="$PROJECT_DIR$/testCase/service_detail_v1_test.py" />
+        <option value="$PROJECT_DIR$/testCase/service_favor_test.py" />
+        <option value="$PROJECT_DIR$/testCase/coupon_list_available_test.py" />
+        <option value="$PROJECT_DIR$/testCase/services_v1_test.py" />
+        <option value="$PROJECT_DIR$/testCase/settlement_create_v1_test.py" />
+        <option value="$PROJECT_DIR$/UIAuto/Android/Gengmei.py" />
+        <option value="$PROJECT_DIR$/common/test.py" />
+        <option value="$PROJECT_DIR$/common/param.py" />
+        <option value="$PROJECT_DIR$/businessTest/myparamiko.py" />
+        <option value="$PROJECT_DIR$/UIAuto/Android/dictionary.py" />
+        <option value="$PROJECT_DIR$/UIAuto/Android/dataconn.py" />
+        <option value="$PROJECT_DIR$/UIAuto/Android/myparamiko.py" />
+        <option value="$PROJECT_DIR$/businessTest/test.json" />
+        <option value="$PROJECT_DIR$/businessTest/businessCommon.py" />
+        <option value="$PROJECT_DIR$/UIAuto/Android/UIDemo.py" />
+        <option value="$PROJECT_DIR$/UIAuto/Android/DemoWgsi.py" />
+        <option value="$PROJECT_DIR$/UIAuto/Android/DemoWsgi.py" />
+        <option value="$PROJECT_DIR$/UIAuto/Android/test.py" />
+        <option value="$PROJECT_DIR$/UIAuto/Android/proxy.py" />
+        <option value="$PROJECT_DIR$/UIAuto/Android/mitmproxy.py" />
+        <option value="$PROJECT_DIR$/UIAuto/speder.py" />
+        <option value="$PROJECT_DIR$/testCase/answer_cancel_vote_test.py" />
+        <option value="$PROJECT_DIR$/testCase/user_my_answer_test.py" />
+        <option value="$PROJECT_DIR$/common/common.py" />
+        <option value="$PROJECT_DIR$/testCase/customer_srv_send_message_test.py" />
+        <option value="$PROJECT_DIR$/testCase/maidan_preview_test.py" />
+        <option value="$PROJECT_DIR$/testCase/user_my_diary_v2_test.py" />
+        <option value="$PROJECT_DIR$/testCase/user_my_question_test.py" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="y" value="23" />
+    <option name="width" value="1440" />
+    <option name="height" value="824" />
+  </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="gmeiApi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gmeiApi" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gmeiApi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gmeiApi" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gmeiApi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gmeiApi" type="462c0819:PsiDirectoryNode" />
+              <item name="testCase" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/common" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/UIAuto/Android" />
+      <recent name="$PROJECT_DIR$/common" />
+      <recent name="$PROJECT_DIR$/businessTest" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python tests.Unittests in user_my_question_test.py">
+    <configuration name="Unittests in answer_cancel_vote_test.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="gmeiApi" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/testCase" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/testCase/answer_cancel_vote_test.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests in hybrid_activity_varietyvote_feed_test.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="gmeiApi" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/testCase" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/testCase/hybrid_activity_varietyvote_feed_test.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests in user_my_question_test.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="gmeiApi" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/testCase" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/testCase/user_my_question_test.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests in zone_my_test.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="gmeiApi" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/testCase" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/testCase/zone_my_test.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests in zone_test.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="gmeiApi" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/testCase" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/testCase/zone_test.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python tests.Unittests in zone_my_test.py" />
+      <item itemvalue="Python tests.Unittests in zone_test.py" />
+      <item itemvalue="Python tests.Unittests in hybrid_activity_varietyvote_feed_test.py" />
+      <item itemvalue="Python tests.Unittests in answer_cancel_vote_test.py" />
+      <item itemvalue="Python tests.Unittests in user_my_question_test.py" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python tests.Unittests in user_my_question_test.py" />
+        <item itemvalue="Python tests.Unittests in answer_cancel_vote_test.py" />
+        <item itemvalue="Python tests.Unittests in hybrid_activity_varietyvote_feed_test.py" />
+        <item itemvalue="Python tests.Unittests in zone_test.py" />
+        <item itemvalue="Python tests.Unittests in zone_my_test.py" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0d5b39fe-9f7b-4086-9ee1-ed80c7874d55" name="Default Changelist" comment="" />
+      <created>1541730082988</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1541730082988</updated>
+    </task>
+    <task id="LOCAL-00027" summary="2018_11_16">
+      <created>1542363343534</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1542363343534</updated>
+    </task>
+    <task id="LOCAL-00028" summary="2018_11_16">
+      <created>1542364932029</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1542364932029</updated>
+    </task>
+    <task id="LOCAL-00029" summary="2018_11_19">
+      <created>1542608857166</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1542608857166</updated>
+    </task>
+    <task id="LOCAL-00030" summary="2018_11_19">
+      <created>1542617387123</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1542617387123</updated>
+    </task>
+    <task id="LOCAL-00031" summary="2018_11_19">
+      <created>1542793400559</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1542793400559</updated>
+    </task>
+    <task id="LOCAL-00032" summary="2018_11_22">
+      <created>1542876489757</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1542876489757</updated>
+    </task>
+    <task id="LOCAL-00033" summary="2018-11-22">
+      <created>1542879819534</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1542879819535</updated>
+    </task>
+    <task id="LOCAL-00034" summary="2018-11-23">
+      <created>1542960982588</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1542960982588</updated>
+    </task>
+    <task id="LOCAL-00035" summary="2018-11-23">
+      <created>1542962662612</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1542962662612</updated>
+    </task>
+    <task id="LOCAL-00036" summary="2018-11-23">
+      <created>1542966845563</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1542966845563</updated>
+    </task>
+    <task id="LOCAL-00037" summary="2018-11-23">
+      <created>1542971346854</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1542971346854</updated>
+    </task>
+    <task id="LOCAL-00038" summary="2018-11-26">
+      <created>1543212920589</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1543212920589</updated>
+    </task>
+    <task id="LOCAL-00039" summary="2018-11-26">
+      <created>1543219753575</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1543219753576</updated>
+    </task>
+    <task id="LOCAL-00040" summary="2018-11-26">
+      <created>1543225323964</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1543225323964</updated>
+    </task>
+    <task id="LOCAL-00041" summary="2018-11-26">
+      <created>1543230774044</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1543230774044</updated>
+    </task>
+    <task id="LOCAL-00042" summary="2018-11-26">
+      <created>1543233485197</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1543233485197</updated>
+    </task>
+    <task id="LOCAL-00043" summary="2018-11-27">
+      <created>1543299600163</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1543299600163</updated>
+    </task>
+    <task id="LOCAL-00044" summary="2018-11-27">
+      <created>1543309654679</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1543309654679</updated>
+    </task>
+    <task id="LOCAL-00045" summary="2018-11-27">
+      <created>1543312593514</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1543312593514</updated>
+    </task>
+    <task id="LOCAL-00046" summary="2018-11-27">
+      <created>1543314869304</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1543314869304</updated>
+    </task>
+    <task id="LOCAL-00047" summary="2018-11-27">
+      <created>1543316303273</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1543316303273</updated>
+    </task>
+    <task id="LOCAL-00048" summary="2018-11-27">
+      <created>1543316539879</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1543316539879</updated>
+    </task>
+    <task id="LOCAL-00049" summary="2018-11-27">
+      <created>1543318095767</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1543318095768</updated>
+    </task>
+    <task id="LOCAL-00050" summary="2018-11-27">
+      <created>1543318205845</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1543318205846</updated>
+    </task>
+    <task id="LOCAL-00051" summary="2018-11-27">
+      <created>1543318391501</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1543318391502</updated>
+    </task>
+    <task id="LOCAL-00052" summary="2018-11-30">
+      <created>1543563099697</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1543563099698</updated>
+    </task>
+    <task id="LOCAL-00053" summary="2018-11-30">
+      <created>1543563933707</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1543563933707</updated>
+    </task>
+    <task id="LOCAL-00054" summary="2018-11-30">
+      <created>1543820062338</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1543820062340</updated>
+    </task>
+    <task id="LOCAL-00055" summary="2018-12-03">
+      <created>1543826199130</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1543826199130</updated>
+    </task>
+    <task id="LOCAL-00056" summary="2018-12-03">
+      <created>1543829234751</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1543829234751</updated>
+    </task>
+    <task id="LOCAL-00057" summary="2018-12-03">
+      <created>1543830826778</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1543830826778</updated>
+    </task>
+    <task id="LOCAL-00058" summary="2018-12-03">
+      <created>1543834109718</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1543834109718</updated>
+    </task>
+    <task id="LOCAL-00059" summary="2018-12-03">
+      <created>1543838952093</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1543838952093</updated>
+    </task>
+    <task id="LOCAL-00060" summary="2018-12-03">
+      <created>1543911466895</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1543911466896</updated>
+    </task>
+    <task id="LOCAL-00061" summary="2018-12-05">
+      <created>1543991079371</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1543991079372</updated>
+    </task>
+    <task id="LOCAL-00062" summary="2018-12-03">
+      <created>1543997377559</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1543997377560</updated>
+    </task>
+    <task id="LOCAL-00063" summary="2018-12-05">
+      <created>1544007395183</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1544007395183</updated>
+    </task>
+    <task id="LOCAL-00064" summary="2018-12-06">
+      <created>1544065556668</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1544065556669</updated>
+    </task>
+    <task id="LOCAL-00065" summary="2018-12-07">
+      <created>1544148986057</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1544148986058</updated>
+    </task>
+    <task id="LOCAL-00066" summary="2018-12-07">
+      <created>1544152554013</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1544152554013</updated>
+    </task>
+    <task id="LOCAL-00067" summary="2018-12-10">
+      <created>1544434224249</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1544434224250</updated>
+    </task>
+    <task id="LOCAL-00068" summary="2018-12-03">
+      <created>1544519753039</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1544519753040</updated>
+    </task>
+    <task id="LOCAL-00069" summary="2018-12-12">
+      <created>1544612948109</created>
+      <option name="number" value="00069" />
+      <option name="presentableId" value="LOCAL-00069" />
+      <option name="project" value="LOCAL" />
+      <updated>1544612948109</updated>
+    </task>
+    <task id="LOCAL-00070" summary="2018-12-13">
+      <created>1544682802640</created>
+      <option name="number" value="00070" />
+      <option name="presentableId" value="LOCAL-00070" />
+      <option name="project" value="LOCAL" />
+      <updated>1544682802641</updated>
+    </task>
+    <task id="LOCAL-00071" summary="2018-12-19">
+      <created>1545189851991</created>
+      <option name="number" value="00071" />
+      <option name="presentableId" value="LOCAL-00071" />
+      <option name="project" value="LOCAL" />
+      <updated>1545189851992</updated>
+    </task>
+    <task id="LOCAL-00072" summary="2018-12-24">
+      <created>1545638391969</created>
+      <option name="number" value="00072" />
+      <option name="presentableId" value="LOCAL-00072" />
+      <option name="project" value="LOCAL" />
+      <updated>1545638391970</updated>
+    </task>
+    <task id="LOCAL-00073" summary="2019-01-02">
+      <created>1546399086815</created>
+      <option name="number" value="00073" />
+      <option name="presentableId" value="LOCAL-00073" />
+      <option name="project" value="LOCAL" />
+      <updated>1546399086816</updated>
+    </task>
+    <task id="LOCAL-00074" summary="2019-01-17">
+      <created>1547710900953</created>
+      <option name="number" value="00074" />
+      <option name="presentableId" value="LOCAL-00074" />
+      <option name="project" value="LOCAL" />
+      <updated>1547710900954</updated>
+    </task>
+    <task id="LOCAL-00075" summary="2019-01-21">
+      <created>1548063290833</created>
+      <option name="number" value="00075" />
+      <option name="presentableId" value="LOCAL-00075" />
+      <option name="project" value="LOCAL" />
+      <updated>1548063290834</updated>
+    </task>
+    <option name="localTasksCounter" value="76" />
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="Unittests_in_answer_cancel_vote_test_py - 2019.01.17 at 16h 58m 17s.xml">
+      <configuration name="Unittests in answer_cancel_vote_test.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_answer_cancel_vote_test_py - 2019.01.17 at 16h 58m 23s.xml">
+      <configuration name="Unittests in answer_cancel_vote_test.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_answer_cancel_vote_test_py - 2019.01.17 at 16h 58m 27s.xml">
+      <configuration name="Unittests in answer_cancel_vote_test.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_answer_cancel_vote_test_py - 2019.01.17 at 16h 58m 31s.xml">
+      <configuration name="Unittests in answer_cancel_vote_test.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_answer_cancel_vote_test_py - 2019.01.17 at 16h 58m 35s.xml">
+      <configuration name="Unittests in answer_cancel_vote_test.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_answer_cancel_vote_test_py - 2019.01.17 at 16h 58m 42s.xml">
+      <configuration name="Unittests in answer_cancel_vote_test.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_answer_cancel_vote_test_py - 2019.01.17 at 16h 58m 46s.xml">
+      <configuration name="Unittests in answer_cancel_vote_test.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_answer_cancel_vote_test_py - 2019.01.17 at 17h 05m 42s.xml">
+      <configuration name="Unittests in answer_cancel_vote_test.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_answer_cancel_vote_test_py - 2019.01.17 at 17h 05m 49s.xml">
+      <configuration name="Unittests in answer_cancel_vote_test.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_user_my_question_test_py - 2019.01.21 at 17h 34m 04s.xml">
+      <configuration name="Unittests in user_my_question_test.py" configurationId="tests" />
+    </history-entry>
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="23" width="1440" height="824" extended-state="0" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24964234" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3269494" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4970545" visible="true" weight="0.30737704" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.397541" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.329235" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32650274" />
+      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5029455" side_tool="true" weight="0.32756132" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.329235" />
+      <window_info anchor="bottom" id="Python Console" order="12" weight="0.329235" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" id="Coverage" order="5" side_tool="true" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="修改个人中心" />
+    <MESSAGE value="美券列表页" />
+    <MESSAGE value="切换到pro环境" />
+    <MESSAGE value="2018_11_14" />
+    <MESSAGE value="2018_11_16" />
+    <MESSAGE value="2018_11_19" />
+    <MESSAGE value="2018_11_22" />
+    <MESSAGE value="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;testCase/service_comment_create_test.py" />
+    <MESSAGE value="2018-11-22" />
+    <MESSAGE value="2018-11-23" />
+    <MESSAGE value="2018-11-26" />
+    <MESSAGE value="2018-11-27" />
+    <MESSAGE value="2018-11-30" />
+    <MESSAGE value="2018-12-05" />
+    <MESSAGE value="2018-12-06" />
+    <MESSAGE value="2018-12-07" />
+    <MESSAGE value="2018-12-10" />
+    <MESSAGE value="2018-12-03" />
+    <MESSAGE value="2018-12-12" />
+    <MESSAGE value="2018-12-13" />
+    <MESSAGE value="2018-12-19" />
+    <MESSAGE value="2018-12-24" />
+    <MESSAGE value="2019-01-02" />
+    <MESSAGE value="2019-01-17" />
+    <MESSAGE value="2019-01-21" />
+    <option name="LAST_COMMIT_MESSAGE" value="2019-01-21" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/testCase/question_create_question_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-396" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testCase/question_index_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-728" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testCase/question_index_v2_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-618" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testCase/question_reply_answer_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-684" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testCase/report_info_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-706" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testCase/report_upload_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-553" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testCase/reservation_cancel_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-619" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testCase/sensitivity_check_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-272" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testCase/service_comment_create_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-621" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testCase/service_comment_detail_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-435" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testCase/service_comment_info_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-499" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testCase/service_detail_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-288" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testCase/service_detail_v1_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-695" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testCase/service_favor_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-970" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testCase/service_listing_notify_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-386" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testCase/service_reserve_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-335" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testCase/services_v1_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-948" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testCase/settlement_buy_again_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-441" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testCase/settlement_create_v1_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-491" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testCase/settlement_pay_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-727" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testCase/shopcart_add_v1_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-518" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testCase/settlement_preview_v1_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-706" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testCase/shopcart_delete_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-596" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testCase/shopcart_list_v2_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-523" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testCase/tag_list_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-244" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testCase/tool_qr_legal_url_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-596" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testCase/topic_reply_create_topic_id_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-547" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testCase/user_check_in_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-508" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testCase/user_favors_diaries_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-634" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testCase/user_favors_services_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-662" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testCase/user_favors_topics_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-662" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testCase/user_follow_add_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-589" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testCase/user_follow_del_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-398" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testCase/user_following_or_fans_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-322" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testCase/user_info_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-476" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testCase/user_my_answer_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-305" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testCase/user_my_diary_v2_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="365">
+          <caret line="35" selection-start-line="35" selection-end-line="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testCase/user_my_topic_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-244" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testCase/user_personal_center_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-222" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testCase/user_problem_favor_problem_id_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-453" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testCase/verification_code_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#30#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testCase/votes_received_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#30#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testCase/zone_detail_v2_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#30#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testCase/zone_detail_v3_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#30#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testCase/zone_follow_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testCase/zone_unfollow_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#30#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testCase/zone_my_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testCase/zone_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testCase/hybrid_activity_varietyvote_feed_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="682">
+          <caret line="34" selection-start-line="34" selection-end-line="34" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testCase/answer_cancel_vote_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="17" column="42" selection-start-line="17" selection-start-column="42" selection-end-line="17" selection-end-column="42" />
+          <folding>
+            <element signature="e#0#30#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testCase/user_my_question_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="218">
+          <caret line="23" column="34" selection-start-line="23" selection-start-column="34" selection-end-line="23" selection-end-column="34" />
+          <folding>
+            <element signature="e#0#30#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
