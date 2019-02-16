@@ -14,7 +14,7 @@ class Hospitals_Services(unittest.TestCase):
         cls.host = g.host
         cls.api_name = g.api_name(func)
         cls.url = cls.host + cls.api_name
-        _, cls.hospital_id, _ = service_id_get()
+        _, cls.hospital_id, *_ = service_id_get()
     @data(*(get_values(func, "test_hospitals_hospital_id_services")))
     def test_hospitals_hospital_id_services(self,value):
         '''

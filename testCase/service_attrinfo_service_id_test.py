@@ -14,7 +14,7 @@ class Service_Attrinfo_Service_Id(unittest.TestCase):
         cls.host = g.host
         cls.api_name = g.api_name(func)
         cls.url = cls.host + cls.api_name
-        cls.service_id,_,_ = service_id_get()
+        cls.service_id,*_ = service_id_get()
 
     @data(*(get_values(func, "test_service_attrinfo_service_id")))
     def test_service_attrinfo_service_id(self,value):

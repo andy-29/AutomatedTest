@@ -18,17 +18,10 @@ class Zone_Detail_V3(unittest.TestCase):
 
     @data(*(get_values(func, "test_zone_detail_v3")))
     def test_zone_detail_v3(self,value):
-        tag_id, tag_name = Zone_My().test_zone_my()
-        inner_data = deepcopy(data)
-        inner_data['offset'] = ''
-        inner_data['size'] = '10'
-        inner_data['sort_id'] = ''
-        inner_data['tag_id'] = tag_id
-        inner_data['zone_id'] = ''
-        r = gmhttp.get(url=back_end_domain + myurl['/api/zone/detail/v3'],
-                         params=inner_data, cookies=cookies)
-        dict_json = json.loads(r.content.decode())
-        self.assertEqual(0, dict_json['error'])
+
+        gmhttp.params.update({"zone_id":zone_my_get()[0]})
+        r = gmhttp.get(url=self.urls).json()
+        self.assertEqual(0, r['error'])
 
     def tearDown(self):
         pass

@@ -21,8 +21,10 @@ class Settlement_Pay(unittest.TestCase):
         '''
         
         '''
-        myid,*_ = shopcart_info_get()
-        r = gmhttp.get(self.url.format(myid)).json()
+        order_id,_ = order_settlement_id_get()
+        gmhttp.params.update({"id":order_id})
+        r = gmhttp.get(self.url).json()
+        gmhttp.reset()
         self.assertEqual(0, r['error'])
 
 

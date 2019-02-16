@@ -13,7 +13,7 @@ def question_id_get():
     r = gmhttp.get(url=g.host + g.get_info('api_info', 'question_index_v2')).json()
     question_id = r['data']['topics'][0]['question_id']
     zone_id = r['data']['recommend_zones'][0]['zone_id']
-    return question_id,zone_id
+    return question_id, zone_id
 
 
 @require_login
@@ -46,8 +46,9 @@ def service_id_get():
             gmhttp.reset()
             doctor_id = r.get('data').get('service_hospital').get('doctor_id')
             hospital_id = r.get('data').get('service_hospital').get('hospital_id')
-            if doctor_id and hospital_id:
-                return service_id, hospital_id, doctor_id
+            sku_id = r.get('data').get('normal_sku_list')[0].get('service_item_id')
+            if all((doctor_id, hospital_id, sku_id)):
+                return service_id, hospital_id, doctor_id, sku_id
 
 
 @require_login
@@ -59,6 +60,14 @@ def diary_id_get():
     # =============================================
     if not diary_id:
         diary_id = create_diary()
+    return diary_id
+
+
+
+def diary_id_others_get():
+    url = g.host + g.get_info('api_info', 'index_v6')
+    r = gmhttp.get(url).json()
+    diary_id = r.get('data').get('features')[0].get('id')
     return diary_id
 
 
@@ -170,7 +179,7 @@ def shopcart_info_get():
     r = gmhttp.get(url).json()
 
     if not r['data']['cart']:
-        service_item_id = shopcart_info_get()[1]
+        *_,service_item_id = service_id_get()
         post_data = {'number': '1', 'service_item_id': service_item_id}
         gmhttp.post(url=g.host + g.get_info('api_info', 'shopcart_add_v1'), data=post_data).json()
         r = gmhttp.get(url).json()
@@ -181,6 +190,7 @@ def shopcart_info_get():
     transparent_key = r['data']['interesting'][0]['gm_url'].split('=')[2]
     return myid, service_item_id, service_id, transparent_key
 
+
 @require_login
 def uid_get():
     url = g.host + g.get_info('api_info', 'user_info')
@@ -188,13 +198,14 @@ def uid_get():
     user_id = r.get('data').get('uid')
     return user_id
 
+
 @require_login
 def zone_my_get():
-    r = gmhttp.get(url=g.host+g.get_info('api_info','zone_my')).json()
+    r = gmhttp.get(url=g.host + g.get_info('api_info', 'zone_my')).json()
     if not r['data']['my_tags']:
         _, zone_id = question_id_get()
         post_data = {'tag_id': zone_id}
-        gmhttp.post(url=g.host + g.get_info('api_info', 'zone_follow'),data= post_data).json()
+        gmhttp.post(url=g.host + g.get_info('api_info', 'zone_follow'), data=post_data).json()
     tag_name = r['data']['my_tags'][0]['name']
     tag_id = r['data']['my_tags'][0]['tag_id']
-    return tag_id,tag_name
+    return tag_id, tag_name

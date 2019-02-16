@@ -29,7 +29,7 @@ class Report_Upload(unittest.TestCase):
         r = gmhttp.post(url=g.host + '/files/upload/', files=files).json()
         f.close()
         out_file = r['data']['file']
-        service_id, hospital_id, doctor_id = service_id_get()
+        service_id, hospital_id, doctor_id,_ = service_id_get()
         post_data = {'content': "不错哦",
                      'doctor_id': doctor_id,
                      'hospital_id': hospital_id,
@@ -37,9 +37,8 @@ class Report_Upload(unittest.TestCase):
                      'service_id' :service_id }
 
         r = gmhttp.post(self.url,
-                        data=post_data)
-        dict_json = json.loads(r.content.decode())
-        self.assertEqual(0, dict_json['error'])
+                        data=post_data).json()
+        self.assertEqual(0, r['error'])
 
     def tearDown(self):
         pass

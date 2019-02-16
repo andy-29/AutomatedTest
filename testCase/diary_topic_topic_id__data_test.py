@@ -25,6 +25,7 @@ class Diary_Topic_Topic_Id__Data(unittest.TestCase):
         '''
         获取日记本信息
         '''
+        self._testMethodDoc = '获取日记本信息'
         r = gmhttp.get(self.url.format(self.diary_id)).json()
         self.assertEqual(r.get("error"),0)
         if not r.get('data'):
@@ -35,7 +36,7 @@ class Diary_Topic_Topic_Id__Data(unittest.TestCase):
                 'zone_tags':'[]'
             }
             url = self.host + g.get_info('api_info','diary_update_v2_diary_id').format(self.diary_id)
-            r1 = gmhttp.post(url,verify=False,data=data).json()
+            r1 = gmhttp.post(url,data=data).json()
             self.assertEqual(r1.get("error"),0)
         #================================
         # 获取第一个日志

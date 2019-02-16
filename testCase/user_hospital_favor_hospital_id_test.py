@@ -18,7 +18,7 @@ class User_Hospital_Favor_Hospital_Id(unittest.TestCase):
         cls.api_name = g.api_name(func)
         cls.url = cls.host + cls.api_name
 
-        _, cls.hospital_id, _ = service_id_get()
+        _, cls.hospital_id, *_ = service_id_get()
 
     @data(*(get_values(func, "test_user_hospital_favor_hospital_id_post")))
     @require_login

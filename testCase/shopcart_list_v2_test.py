@@ -24,12 +24,6 @@ class Shopcart_List_V2(unittest.TestCase):
         r = gmhttp.get(self.url).json()
         gmhttp.reset()
         self.assertEqual(0, r['error'])
-        service_item_id = r['data']['cart'][0]['services'][0]['service_item_id']
-        myid = r['data']['cart'][0]['services'][0]['id']  #获取购物车物品id
-        service_id = r['data']['cart'][0]['services'][0]['service_id']
-        transparent_key = r['data']['interesting'][0]['gm_url'].split('=')[2]
-        # pprint(transparent_key)
-        return myid, service_item_id, service_id, transparent_key
 
     def tearDown(self):
         pass

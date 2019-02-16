@@ -22,7 +22,7 @@ class Report_Info(unittest.TestCase):
         '''
         
         '''
-        service_id, hospital_id, doctor_id = service_id_get()
+        service_id, hospital_id, doctor_id,_ = service_id_get()
         gmhttp.params.update({"doctor_id":doctor_id,"hospital_id":hospital_id,"service_id":service_id})
         r = gmhttp.get(url=self.url).json()
         gmhttp.reset()
