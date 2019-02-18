@@ -21,15 +21,11 @@ class Maidan_Pay(unittest.TestCase):
         '''
         
         '''
-        myid = Maidan_Create().test_maidan_create()
-        inner_data = deepcopy(data)
-        inner_data['id'] = myid
-        r = gmhttp.get(url=back_end_domain + myurl['/api/maidan/pay'],
-                         params=inner_data, cookies=cookies)
-        dict_json = json.loads(r.content.decode())
-        pprint(dict_json)
-        # print(myid)
-        self.assertEqual(0, dict_json['error'])
+        maidan_id = maidan_id_get()
+        gmhttp.params.update({"id":maidan_id})
+        r = gmhttp.get(url=self.url).json()
+        gmhttp.reset()
+        self.assertEqual(0, r['error'])
 
     def tearDown(self):
         pass

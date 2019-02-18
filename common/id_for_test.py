@@ -220,6 +220,7 @@ def zone_my_get():
         _, zone_id = question_id_get()
         post_data = {'tag_id': zone_id}
         gmhttp.post(url=g.host + g.get_info('api_info', 'zone_follow'), data=post_data).json()
+    r = gmhttp.get(url=g.host + g.get_info('api_info', 'zone_my')).json()
     tag_name = r['data']['my_tags'][0]['name']
     tag_id = r['data']['my_tags'][0]['tag_id']
     return tag_id, tag_name

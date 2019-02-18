@@ -15,7 +15,7 @@ class Face_Latest_Analyze_Result(unittest.TestCase):
         cls.api_name = g.api_name(func)
         cls.url = cls.host + cls.api_name
 
-        cls.token = face_token_get()
+        cls.token = face_token_get(file=None)
     @data(*(get_values(func, "test_face_latest_analyze_result")))
     @require_login
     def test_face_latest_analyze_result(self,value):

@@ -9,6 +9,8 @@ import json
 import sqlite3
 import sys
 
+import urllib3
+urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
 def all_func(flag=None):
     if sys.platform == "win32":

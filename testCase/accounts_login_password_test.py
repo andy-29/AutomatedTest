@@ -21,7 +21,7 @@ class Accounts_Login_Password(unittest.TestCase):
     def test_accounts_login_password(self, value):
         self._testMethodDoc = '登入接口'
         r = gmhttp.login()
-        self.assertEqual(r, value.get('assertdata'))
+        self.assertEqual(0,r.get('error'))
 
     @data(*(get_values(func, "test_accounts_login_password_errorPwd")))
     def test_accounts_login_password_errorPwd(self, value):
