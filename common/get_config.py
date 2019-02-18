@@ -23,7 +23,7 @@ def func_dict_get(flag=None):
             'SELECT func,uri FROM testapi_apistatus WHERE status_id=1 AND usestatus_id=1 AND env like "%https://backend.igengmei.com%"').fetchall()
     else:
         rep = sc.execute('SELECT func,uri FROM testapi_apistatus WHERE status_id=1 AND usestatus_id=1').fetchall()
-    _a = {item[0]:item[1] for item in rep}
+    _a = {item[0]: item[1] for item in rep}
     s.close()
     return _a
 
@@ -47,16 +47,17 @@ class Gmei_config:
         return c.get('env_info', 'hosts').split(',')
 
     def api_name(self, o):
-        return c.get('api_info', o)
+        try:
+            return c.get('api_info', o)
+        except:
+            return func_dict.get(o)
 
     def body_params(self, o):
         return c.get('body_params', o)
 
     def get_info(self, s, o):
-        try:
-            return c.get(s, o)
-        except:
-            return func_dict.get(o)
+        return c.get(s, o)
+
     @property
     def android_params(self):
         # return dict(c.items('android_params'))
