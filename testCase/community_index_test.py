@@ -20,6 +20,7 @@ class Community_Index(unittest.TestCase):
         '''
         社区首页
         '''
+        self._testMethodDoc = '社区首页'
         for num in [0,1,2]:
             gmhttp.params.update({"tabtype":num})
             r = gmhttp.get(self.url).json()

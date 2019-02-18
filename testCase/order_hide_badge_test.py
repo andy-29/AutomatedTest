@@ -1,15 +1,3 @@
-import gmhttp
-import unittest
-import os
-BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-import sys
-sys.path.append(BASE_DIR)
-from common.get_config import g
-
-
-
-
-
 import os,sys
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 sys.path.append(BASE_DIR)
@@ -26,18 +14,9 @@ class Order_Hide_Badge(unittest.TestCase):
         cls.host = g.host
         cls.api_name = g.api_name(func)
         cls.url = cls.host + cls.api_name
-        print('获取环境信息和接口信息')
-        self.host = g.host
-        self.api_name = g.api_name(os.path.basename(__file__).split('_test.py')[0])
-        self.android_params = g.android_params
 
-        self.user_telephone = g.get_info('user_info', 'telephone')
-        self.password = g.get_info('user_info', 'password')
-        # 直接使用getcookie的create_header函数，返回内容不为空则此脚本成功
-        from common.getcookie import create_header
-        self.header = create_header(self.user_telephone, self.password, 'android_params').get('header')
-        self.assertTrue(self.header, msg='登录未成功！')
     @data(*(get_values(func, "test_order_hide_badge")))
+    @require_login
     def test_order_hide_badge(self,value):
         '''
         消除个人主页已付款和已使用的红点
@@ -45,10 +24,7 @@ class Order_Hide_Badge(unittest.TestCase):
         data= {
             "status":1
         }
-        url = self.host + self.api_name+ "?" + self.android_params
-        r = gmhttp.post(url,verify=False,data=data,headers=self.header)
-        self.assertEqual(r.status_code,200,'返回码不为200！')
-        r = r.json()
+        r = gmhttp.post(self.url,data=data).json()
         self.assertEqual(r.get("error"),0)
         self.assertIn('data', r.keys())
         self.assertIn('updated', r.get('data').keys())

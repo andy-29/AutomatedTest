@@ -17,6 +17,7 @@ class Consult_Free_Custom_Select_Tags(unittest.TestCase):
 
     @data(*(get_values(func, "test_consult_free_custom_select_tags")))
     def test_consult_free_custom_select_tags(self,value):
+        self._testMethodDoc = '选择项目'
         r = gmhttp.get(url=g.host + '/api/consult/free_custom_select_tags').json()
         self.assertEqual(0, r['error'])
 

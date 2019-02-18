@@ -21,6 +21,7 @@ class App_Config_V2(unittest.TestCase):
         '''
         app打开拉取信息
         '''
+        self._testMethodDoc = '配置信息'
         r = gmhttp.get(self.url).json()
         self.assertEqual(r.get("error"), 0)
         self.assertIn('data', r.keys())

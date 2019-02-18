@@ -20,6 +20,7 @@ class Answer_Vote(unittest.TestCase):
     @data(*(get_values(func, "test_answer_vote")))
     @require_login
     def test_answer_vote(self, value):
+        self._testMethodDoc = '个人中心，发布，回复，赞'
         try:
             gmhttp.post(url=g.host + '/api/answer/cancel_vote', data=value.get('requestdata')).json()
         except:

@@ -20,6 +20,7 @@ class Community_Suozhang_Column(unittest.TestCase):
         '''
         所长说列表页
         '''
+        self._testMethodDoc = '所长说列表页'
         r = gmhttp.get(self.url)
         self.assertEqual(r.status_code,200,'返回码不为200！')
         r = r.json()

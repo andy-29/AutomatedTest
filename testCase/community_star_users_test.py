@@ -20,6 +20,7 @@ class Community_Star_Users(unittest.TestCase):
         '''
         达人列表页
         '''
+        self._testMethodDoc = '达人列表页'
         r = gmhttp.get(self.url).json()
         self.assertEqual(r.get("error"),0)
         self.assertIn('data',r.keys())

@@ -20,6 +20,7 @@ class Consult_Index(unittest.TestCase):
         '''
         咨询首页
         '''
+        self._testMethodDoc = '咨询首页'
         r = gmhttp.get(self.url).json()
         self.assertEqual(r.get("error"),0)
         self.assertIn('data',r.keys())

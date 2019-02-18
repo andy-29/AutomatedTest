@@ -20,6 +20,7 @@ class Community_Dig_Privacy(unittest.TestCase):
         '''
         扒扒扒页面
         '''
+        self._testMethodDoc = '扒扒扒页面'
         r = gmhttp.get(self.url).json()
         self.assertEqual(r.get("error"),0)
         self.assertIn('data',r.keys())

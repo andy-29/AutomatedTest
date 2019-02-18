@@ -20,7 +20,7 @@ class Community_Index_Static_Templates(unittest.TestCase):
         '''
         首页固定模板区刷新
         '''
-
+        self._testMethodDoc = '首页固定模板区刷新'
         r = gmhttp.get(self.url)
         self.assertEqual(r.status_code,200,'返回码不为200！')
         r = r.json()
