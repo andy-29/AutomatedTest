@@ -24,7 +24,7 @@ class Conversation_Delta_Message_Detail_User_Key(unittest.TestCase):
         '''
         
         '''
-        r = gmhttp.get(self.url.format('{}_{}'.format(self.d_id,self.user_id))).json()
+        r = gmhttp.get(self.url.format('{}_{}'.format(602329,self.user_id))).json()
         self.assertEqual(r.get("error"),0)
         self.assertIn('data', r.keys())
         self.assertIn('conversation_id', r.get('data').keys())
