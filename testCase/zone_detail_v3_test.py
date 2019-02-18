@@ -20,7 +20,7 @@ class Zone_Detail_V3(unittest.TestCase):
     def test_zone_detail_v3(self,value):
 
         gmhttp.params.update({"zone_id":zone_my_get()[0]})
-        r = gmhttp.get(url=self.urls).json()
+        r = gmhttp.get(url=self.url).json()
         self.assertEqual(0, r['error'])
 
     def tearDown(self):

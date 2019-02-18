@@ -15,25 +15,21 @@ class Maidan_Create(unittest.TestCase):
         cls.api_name = g.api_name(func)
         cls.url = cls.host + cls.api_name
 
-
     @data(*(get_values(func, "test_maidan_create")))
+    @require_login
     def test_maidan_create(self,value):
         '''
         买单提交
         '''
-    @classmethod
-    def setUpClass(cls):
-        cls.host = g.host
-        cls.api_name = g.api_name(func)
-        cls.url = cls.host + cls.api_name
-        inner_data = deepcopy(data)
-        post_data = {'doctor_id': doctor_id, 'payment': thirddata['/api/maidan/create']['payment'],
-                     'tag_ids': thirddata['/api/maidan/create']['tag_ids']}
-        r = gmhttp.post(url=back_end_domain + myurl['/api/maidan/create'],
-                          params=inner_data, cookies=cookies, data=post_data)
-        dict_json = json.loads(r.content.decode())
-        self.assertEqual(0, dict_json['error'])
-        return dict_json['data']['id']
+        *_,doctor_id,_ = service_id_get()
+        data = {
+            'tag_ids':"[0]",
+            "payment":0,
+            "doctor_id":doctor_id
+        }
+        r = gmhttp.post(url=self.url,data=data).json()
+        self.assertEqual(0, r['error'])
+
 
     def tearDown(self):
         pass

@@ -21,8 +21,8 @@ class Settlement_Pay(unittest.TestCase):
         '''
         
         '''
-        order_id,_ = order_settlement_id_get()
-        gmhttp.params.update({"id":order_id})
+        self.st_id = settlement_id_get()
+        gmhttp.params.update({"id":self.st_id})
         r = gmhttp.get(self.url).json()
         gmhttp.reset()
         self.assertEqual(0, r['error'])
@@ -30,7 +30,13 @@ class Settlement_Pay(unittest.TestCase):
 
 
     def tearDown(self):
-        pass
+        #取消订单，防止占用sku数量
+        url = self.host + g.get_info('api_info','settlement_delete')
+        data = {
+            "id":self.st_id,
+            "cancel_reason_value":2
+        }
+        gmhttp.post(url=url, data=data).json()
 
 
 if __name__ == "__main__":

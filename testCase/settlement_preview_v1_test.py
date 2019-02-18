@@ -23,9 +23,11 @@ class Settlement_Preview_V1(unittest.TestCase):
         提交订单页面
         '''
         mytuple = shopcart_info_get()
-        post_data = '{cart_item_info:' '[ { "id" :' + mytuple[0] + ',"service_item_id" :' + mytuple[1] + ', "number" : 1 } ]}'
+        #订单相关不在使用动态真是美购和sku，一律使用测试美购
+
+        post_data = {'cart_item_info':'[ { "id" :' + mytuple[0] + ',"service_item_id" :' + mytuple[1] + ', "number" : 1 } ]'}
         r = gmhttp.post(url=self.url, data=post_data).json()
-        self.assertEqual(40001, r['error'])
+        self.assertEqual(0, r['error'])
 
     def tearDown(self):
         pass

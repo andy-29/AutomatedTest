@@ -16,19 +16,16 @@ class Maidan_Detail(unittest.TestCase):
         cls.url = cls.host + cls.api_name
 
     @data(*(get_values(func, "test_maidan_detail")))
+    @require_login
     def test_maidan_detail(self,value):
         '''
         买单订单详情
         '''
-        myid = Maidan_Create().test_maidan_create()
-        # print(myid)
-        inner_data = deepcopy(data)
-        inner_data['id'] = myid
-        r = gmhttp.get(url=back_end_domain + myurl['/api/maidan/detail'],
-                         params=inner_data, cookies=cookies)
-        dict_json = json.loads(r.content.decode())
-        self.assertEqual(0, dict_json['error'])
-        return dict_json['data']['order_id']  # 获取订单ID
+        maidan_id = maidan_id_get()
+        gmhttp.params.update({"id":maidan_id})
+        r = gmhttp.get(url=self.url).json()
+        gmhttp.reset()
+        self.assertEqual(0, r['error'])
 
     def tearDown(self):
         pass

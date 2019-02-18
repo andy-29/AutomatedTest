@@ -32,23 +32,37 @@ def customer_srv_id_get():
     return entry_id, user_key
 
 
-# 获取美购（含机构和医生）
+# 获取美购（含机构和医生）   ---使用固定的测试美购等
+# def service_id_get():
+#     url = g.host + g.get_info('api_info', 'service_home_v3')
+#     r = gmhttp.get(url).json()
+#     for item in r.get('data').get('services'):
+#         service_id = item.get('service_id')
+#         if service_id:
+#             # 获取医生id和医院id
+#             gmhttp.params.update({"service_id": service_id})
+#             url = g.host + g.get_info('api_info', 'service_detail_v1')
+#             r = gmhttp.get(url).json()
+#             gmhttp.reset()
+#             doctor_id = r.get('data').get('service_hospital').get('doctor_id')
+#             hospital_id = r.get('data').get('service_hospital').get('hospital_id')
+#             sku_id = r.get('data').get('normal_sku_list')[0].get('service_item_id')
+#             if all((doctor_id, hospital_id, sku_id)):
+#                 return service_id, hospital_id, doctor_id, sku_id
+
+
 def service_id_get():
-    url = g.host + g.get_info('api_info', 'service_home_v3')
-    r = gmhttp.get(url).json()
-    for item in r.get('data').get('services'):
-        service_id = item.get('service_id')
-        if service_id:
-            # 获取医生id和医院id
-            gmhttp.params.update({"service_id": service_id})
-            url = g.host + g.get_info('api_info', 'service_detail_v1')
-            r = gmhttp.get(url).json()
-            gmhttp.reset()
-            doctor_id = r.get('data').get('service_hospital').get('doctor_id')
-            hospital_id = r.get('data').get('service_hospital').get('hospital_id')
-            sku_id = r.get('data').get('normal_sku_list')[0].get('service_item_id')
-            if all((doctor_id, hospital_id, sku_id)):
-                return service_id, hospital_id, doctor_id, sku_id
+        service_id = 5450353
+        # 获取医生id和医院id
+        gmhttp.params.update({"service_id": service_id})
+        url = g.host + g.get_info('api_info', 'service_detail_v1')
+        r = gmhttp.get(url).json()
+        gmhttp.reset()
+        doctor_id = r.get('data').get('service_hospital').get('doctor_id')
+        hospital_id = r.get('data').get('service_hospital').get('hospital_id')
+        sku_id = r.get('data').get('normal_sku_list')[0].get('service_item_id')
+
+        return service_id, hospital_id, doctor_id, sku_id
 
 
 @require_login
@@ -209,3 +223,24 @@ def zone_my_get():
     tag_name = r['data']['my_tags'][0]['name']
     tag_id = r['data']['my_tags'][0]['tag_id']
     return tag_id, tag_name
+
+
+def settlement_id_get():
+    data = {"service_item_id": "78123", "number": "1", "phone": "77777777777", "platform_coupon_id": "",
+            "doctor_coupon_id": "", "use_point": "0", "is_doctor_see": "1", "insurance_info": "[]"}
+    r = gmhttp.post(url=g.host + g.get_info('api_info', 'settlement_create_v1'), data=data).json()
+    st_id = r.get('data').get('id')
+    return st_id
+
+@require_login
+def maidan_id_get():
+    *_, doctor_id, _ = service_id_get()
+    data = {
+        'tag_ids': "[0]",
+        "payment": 0,
+        "doctor_id": doctor_id
+    }
+    url = g.host + g.get_info('api_info','maidan_create')
+    r = gmhttp.post(url=url, data=data).json()
+    maidan_id = r.get('data').get('id')
+    return maidan_id

@@ -259,6 +259,7 @@ settlement_buy_again = /api/settlement/buy_again
 settlement_create_v1 = /api/settlement/create/v1
 settlement_pay = /api/settlement/pay
 settlement_preview_v1 = /api/settlement/preview/v1
+settlement_delete = /api/settlement/delete
 shopcart_add = /api/shopcart/add
 shopcart_add_v1 = /api/shopcart/add/v1
 shopcart_delete = /api/shopcart/delete
