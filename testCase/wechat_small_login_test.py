@@ -32,6 +32,7 @@ class Wechat_Small_Login(unittest.TestCase):
         self.android_params = g.android_params
     @data(*(get_values(func, "test_wechat_small_login")))
     def test_wechat_small_login(self,value):
+        self._testMethodDoc = "--"
         '''
         
         '''

@@ -32,6 +32,7 @@ class Topic_Create_Discuss(unittest.TestCase):
         self.android_params = g.android_params
     @data(*(get_values(func, "test_topic_create_discuss")))
     def test_topic_create_discuss(self,value):
+        self._testMethodDoc = "--"
         '''
         创建讨论帖
         '''

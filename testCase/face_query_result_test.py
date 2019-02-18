@@ -20,6 +20,7 @@ class Face_Query_Result(unittest.TestCase):
     @data(*(get_values(func, "test_face_query_result")))
     @require_login
     def test_face_query_result(self,value):
+        self._testMethodDoc = "--"
         '''
         人脸轮询接口
         '''

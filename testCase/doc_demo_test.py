@@ -32,6 +32,7 @@ class Doc_Demo(unittest.TestCase):
         self.android_params = g.android_params
     @data(*(get_values(func, "test_doc_demo")))
     def test_doc_demo(self,value):
+        self._testMethodDoc = "--"
         '''
         用户版后端接口文档模板
         '''

@@ -18,6 +18,7 @@ class Services_V1(unittest.TestCase):
 
     @data(*(get_values(func, "test_services_v1")))
     def test_services_v1(self,value):
+        self._testMethodDoc = "--"
         '''
         740美购列表筛选
         '''

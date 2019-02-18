@@ -21,6 +21,7 @@ class Report_Upload(unittest.TestCase):
     @data(*(get_values(func, "test_report_upload")))
     @require_login
     def test_report_upload(self, value):
+        self._testMethodDoc = "--"
         '''
         
         '''

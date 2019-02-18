@@ -32,6 +32,7 @@ class Hybrid_Point_Mall_Lottery_Show__Data(unittest.TestCase):
         self.android_params = g.android_params
     @data(*(get_values(func, "test_hybrid_point_mall_lottery_show__data")))
     def test_hybrid_point_mall_lottery_show__data(self,value):
+        self._testMethodDoc = "--"
         '''
         
         '''

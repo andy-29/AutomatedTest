@@ -18,6 +18,7 @@ class Live_Replay_Msg(unittest.TestCase):
 
     @data(*(get_values(func, "test_live_replay_msg")))
     def test_live_replay_msg(self,value):
+        self._testMethodDoc = "--"
         '''
         弹幕回放
         '''

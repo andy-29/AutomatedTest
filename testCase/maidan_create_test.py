@@ -18,6 +18,7 @@ class Maidan_Create(unittest.TestCase):
     @data(*(get_values(func, "test_maidan_create")))
     @require_login
     def test_maidan_create(self,value):
+        self._testMethodDoc = "--"
         '''
         买单提交
         '''

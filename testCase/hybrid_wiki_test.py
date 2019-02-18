@@ -40,6 +40,7 @@ class Hybrid_Wiki(unittest.TestCase):
 
     @data(*(get_values(func, "test_hybrid_wiki")))
     def test_hybrid_wiki(self,value):
+        self._testMethodDoc = "--"
         '''
         
         '''

@@ -32,6 +32,7 @@ class Tongdun_Welfare_Msg_Click(unittest.TestCase):
         self.android_params = g.android_params
     @data(*(get_values(func, "test_tongdun_welfare_msg_click")))
     def test_tongdun_welfare_msg_click(self,value):
+        self._testMethodDoc = "--"
         '''
         同盾美购咨询事件
         '''

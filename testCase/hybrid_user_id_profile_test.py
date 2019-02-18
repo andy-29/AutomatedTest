@@ -32,6 +32,7 @@ class Hybrid_User_Id_Profile(unittest.TestCase):
         self.android_params = g.android_params
     @data(*(get_values(func, "test_hybrid_user_id_profile")))
     def test_hybrid_user_id_profile(self,value):
+        self._testMethodDoc = "--"
         '''
         
         '''

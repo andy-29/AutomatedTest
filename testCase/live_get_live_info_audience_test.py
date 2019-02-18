@@ -62,6 +62,7 @@ class Live_Get_Live_Info_Audience(unittest.TestCase):
         self.channel = r.get('data').get('channel')
     @data(*(get_values(func, "test_live_get_live_info_audience")))
     def test_live_get_live_info_audience(self,value):
+        self._testMethodDoc = "--"
         '''
         观众获取房间信息
         '''

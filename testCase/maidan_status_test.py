@@ -18,6 +18,7 @@ class Maidan_Status(unittest.TestCase):
     @data(*(get_values(func, "test_maidan_status")))
     @require_login
     def test_maidan_status(self,value):
+        self._testMethodDoc = "--"
         '''
         获取我的买单数量
         '''

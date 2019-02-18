@@ -39,6 +39,7 @@ class Sign_Detail(unittest.TestCase):
         self.assertTrue(self.header, msg='登录未成功！')
     @data(*(get_values(func, "test_sign_detail")))
     def test_sign_detail(self,value):
+        self._testMethodDoc = "--"
         '''
         签到详情
         '''

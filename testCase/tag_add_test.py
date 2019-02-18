@@ -39,6 +39,7 @@ class Tag_Add(unittest.TestCase):
         self.assertTrue(self.header, msg='登录未成功！')
     @data(*(get_values(func, "test_tag_add")))
     def test_tag_add(self,value):
+        self._testMethodDoc = "--"
         '''
         创建新的圈子
         '''

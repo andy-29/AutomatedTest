@@ -19,6 +19,7 @@ class Settlement_Buy_Again(unittest.TestCase):
     @data(*(get_values(func, "test_settlement_buy_again")))
     @require_login
     def test_settlement_buy_again(self,value):
+        self._testMethodDoc = "--"
         '''
         
         '''

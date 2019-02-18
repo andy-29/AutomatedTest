@@ -32,6 +32,7 @@ class Feedback_History(unittest.TestCase):
         self.android_params = g.android_params
     @data(*(get_values(func, "test_feedback_history")))
     def test_feedback_history(self,value):
+        self._testMethodDoc = "--"
         '''
         获取反馈历史
         '''

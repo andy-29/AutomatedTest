@@ -18,6 +18,7 @@ class Diary_Additional_Info_V2(unittest.TestCase):
 
     @data(*(get_values(func, "test_diary_additional_info_v2")))
     def test_diary_additional_info_v2(self,value):
+        self._testMethodDoc = "--"
         '''
         日记撰写重构，新版日记本补充信息页
         '''

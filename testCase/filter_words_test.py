@@ -17,6 +17,7 @@ class Filter_Words(unittest.TestCase):
 
     @data(*(get_values(func, "test_filter_words")))
     def test_filter_words(self,value):
+        self._testMethodDoc = "--"
         '''
         
         '''

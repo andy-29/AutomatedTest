@@ -19,6 +19,7 @@ class Topic_Addview(unittest.TestCase):
 
     @data(*(get_values(func, "test_topic_addview")))
     def test_topic_addview(self,value):
+        self._testMethodDoc = "--"
         '''
         
         '''

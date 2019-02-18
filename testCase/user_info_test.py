@@ -18,6 +18,7 @@ class User_Info(unittest.TestCase):
 
     @data(*(get_values(func, "test_user_info")))
     def test_user_info(self,value):
+        self._testMethodDoc = "--"
         uid = uid_get()
         self.assertTrue(uid)
 

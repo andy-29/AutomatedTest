@@ -32,6 +32,7 @@ class User_Check_In_Switch(unittest.TestCase):
         self.android_params = g.android_params
     @data(*(get_values(func, "test_user_check_in_switch")))
     def test_user_check_in_switch(self,value):
+        self._testMethodDoc = "--"
         '''
         签到开关
         '''

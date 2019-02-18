@@ -18,6 +18,7 @@ class User_Address(unittest.TestCase):
     @data(*(get_values(func, "test_user_address_get")))
     @require_login
     def test_user_address_get(self,value):
+        self._testMethodDoc = "--"
         '''
         获取用户地址接口
         '''
@@ -33,6 +34,7 @@ class User_Address(unittest.TestCase):
     @data(*(get_values(func, "test_user_address_post")))
     @require_login
     def test_user_address_post(self,value):
+        self._testMethodDoc = "--"
         '''
         修改用户地址接口
         '''

@@ -18,6 +18,7 @@ class Shopcart_Add_V1(unittest.TestCase):
     @data(*(get_values(func, "test_shopcart_add_v1")))
     @require_login
     def test_shopcart_add_v1(self,value):
+        self._testMethodDoc = "--"
         service_item_id = shopcart_info_get()[1]
         post_data = {'number': '1', 'service_item_id': service_item_id}
         r = gmhttp.post(url=self.url, data=post_data).json()

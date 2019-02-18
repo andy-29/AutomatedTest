@@ -32,6 +32,7 @@ class Feedback_Create(unittest.TestCase):
         self.android_params = g.android_params
     @data(*(get_values(func, "test_feedback_create")))
     def test_feedback_create(self,value):
+        self._testMethodDoc = "--"
         '''
         提交反馈信息
         '''

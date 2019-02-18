@@ -66,6 +66,7 @@ class Live_Like(unittest.TestCase):
 
     @data(*(get_values(func, "test_live_like")))
     def test_live_like(self,value):
+        self._testMethodDoc = "--"
         '''
         
         '''

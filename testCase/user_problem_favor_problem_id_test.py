@@ -42,6 +42,7 @@ class User_Problem_Favor_Problem_Id(unittest.TestCase):
 
     @data(*(get_values(func, "test_user_problem_favor_problem_id")))
     def test_user_problem_favor_problem_id(self,value):
+        self._testMethodDoc = "--"
         '''
         
         '''

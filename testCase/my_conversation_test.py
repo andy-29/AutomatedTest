@@ -19,6 +19,7 @@ class My_Conversation(unittest.TestCase):
     @data(*(get_values(func, "test_my_conversation")))
     @require_login
     def test_my_conversation(self,value):
+        self._testMethodDoc = "--"
         '''
         我的私信列表
         '''

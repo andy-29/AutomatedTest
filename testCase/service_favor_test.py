@@ -40,6 +40,7 @@ class Service_Favor(unittest.TestCase):
 
     @data(*(get_values(func, "test_service_favor")))
     def test_service_favor(self,value):
+        self._testMethodDoc = "--"
         '''
         收藏
         '''

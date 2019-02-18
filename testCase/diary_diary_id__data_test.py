@@ -19,6 +19,7 @@ class Diary_Diary_Id__Data(unittest.TestCase):
 
     @data(*(get_values(func, "test_diary_diary_id__data")))
     def test_diary_diary_id__data(self,value):
+        self._testMethodDoc = "--"
         '''
         
         '''

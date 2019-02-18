@@ -41,6 +41,7 @@ class Diary_Recent(unittest.TestCase):
 
     @data(*(get_values(func, "test_diary_recent")))
     def test_diary_recent(self,value):
+        self._testMethodDoc = "--"
         '''
         发日记贴页面，选择日记本
         '''

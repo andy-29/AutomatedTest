@@ -17,6 +17,7 @@ class Service_Home_V3_List(unittest.TestCase):
 
     @data(*(get_values(func, "test_service_home_v3_list")))
     def test_service_home_v3_list(self,value):
+        self._testMethodDoc = "--"
         '''
         
         '''

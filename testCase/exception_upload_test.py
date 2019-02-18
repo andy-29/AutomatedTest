@@ -32,6 +32,7 @@ class Exception_Upload(unittest.TestCase):
         self.android_params = g.android_params
     @data(*(get_values(func, "test_exception_upload")))
     def test_exception_upload(self,value):
+        self._testMethodDoc = "--"
         '''
         
         '''

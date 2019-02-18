@@ -19,6 +19,7 @@ class Report_Info(unittest.TestCase):
     @data(*(get_values(func, "test_report_info")))
     @require_login
     def test_report_info(self,value):
+        self._testMethodDoc = "--"
         '''
         
         '''

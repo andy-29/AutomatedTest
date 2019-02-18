@@ -33,7 +33,7 @@ def get_values(func, casname):
         rep = sc.execute(
             'SELECT td.uridata,td.paramsdata,td.requestdata,td.assertdata FROM testapi_testdata td,testapi_apistatus ta WHERE td.`case` = "%s" AND td.uri_id = ta.id AND ta.func = "%s"' % (
             casname, func)).fetchall()
-        values = [{"uridata": item[0], "paramsdata": item[1],
+        values = [{"uridata": item[0], "paramsdata": eval(item[1]) if item[1] else {},
                    "requestdata": eval(item[2]) if item[2] else {},
                    "assertdata": eval(item[3]) if item[3] else {}} for item in rep]
         s.close()

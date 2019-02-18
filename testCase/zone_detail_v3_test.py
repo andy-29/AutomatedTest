@@ -18,6 +18,7 @@ class Zone_Detail_V3(unittest.TestCase):
 
     @data(*(get_values(func, "test_zone_detail_v3")))
     def test_zone_detail_v3(self,value):
+        self._testMethodDoc = "--"
 
         gmhttp.params.update({"zone_id":zone_my_get()[0]})
         r = gmhttp.get(url=self.url).json()

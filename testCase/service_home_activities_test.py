@@ -37,6 +37,7 @@ class Service_Home_Activities(unittest.TestCase):
 
     @data(*(get_values(func, "test_service_home_activities")))
     def test_service_home_activities(self,value):
+        self._testMethodDoc = "--"
         '''
         
         '''

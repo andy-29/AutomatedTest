@@ -16,6 +16,7 @@ class Tag_List(unittest.TestCase):
 
     @data(*(get_values(func, "test_tag_list")))
     def test_tag_list(self,value):
+        self._testMethodDoc = "--"
         gmhttp.params.update({"level":3,"tag_from":0})
         r = gmhttp.get(self.url).json()
         self.assertEqual(r.get("error"), 0)

@@ -32,6 +32,7 @@ class Hybrid_Purchase(unittest.TestCase):
         self.android_params = g.android_params
     @data(*(get_values(func, "test_hybrid_purchase")))
     def test_hybrid_purchase(self,value):
+        self._testMethodDoc = "--"
         '''
         
         '''

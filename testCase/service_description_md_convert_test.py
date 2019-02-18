@@ -32,6 +32,7 @@ class Service_Description_Md_Convert(unittest.TestCase):
         self.android_params = g.android_params
     @data(*(get_values(func, "test_service_description_md_convert")))
     def test_service_description_md_convert(self,value):
+        self._testMethodDoc = "--"
         '''
         
         '''

@@ -21,6 +21,7 @@ class Msg_Reply_Msg(unittest.TestCase):
     @data(*(get_values(func, "test_msg_reply_msg")))
     @require_login
     def test_msg_reply_msg_sent(self, value):
+        self._testMethodDoc = "--"
         '''
         发出得回复
         '''
@@ -32,6 +33,7 @@ class Msg_Reply_Msg(unittest.TestCase):
     @data(*(get_values(func, "test_msg_reply_msg")))
     @require_login
     def test_msg_reply_msg_receive(self, value):
+        self._testMethodDoc = "--"
         '''
         收到得回复
         '''

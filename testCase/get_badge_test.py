@@ -17,6 +17,7 @@ class Get_Badge(unittest.TestCase):
 
     @data(*(get_values(func, "test_get_badge")))
     def test_get_badge(self,value):
+        self._testMethodDoc = "--"
         '''
         消息首获取小红点数据
         '''

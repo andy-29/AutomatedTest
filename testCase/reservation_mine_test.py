@@ -42,6 +42,7 @@ class Reservation_Mine(unittest.TestCase):
 
     @data(*(get_values(func, "test_reservation_mine")))
     def test_reservation_mine(self,value):
+        self._testMethodDoc = "--"
         '''
         我的预约
         '''

@@ -22,6 +22,7 @@ class Diary_Cancel_Vote(unittest.TestCase):
     @data(*(get_values(func, "test_diary_cancel_vote")))
     @require_login
     def test_diary_cancel_vote(self, value):
+        self._testMethodDoc = "--"
         '''
         日记本详情页取消点赞
         '''

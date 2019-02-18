@@ -32,6 +32,7 @@ class Search_Result_Wiki(unittest.TestCase):
         self.android_params = g.android_params
     @data(*(get_values(func, "test_search_result_wiki")))
     def test_search_result_wiki(self,value):
+        self._testMethodDoc = "--"
         '''
         搜索查看更多百科
         '''

@@ -18,6 +18,7 @@ class Take_Sofa(unittest.TestCase):
     @data(*(get_values(func, "test_take_sofa")))
     @require_login
     def test_take_sofa(self,value):
+        self._testMethodDoc = "--"
         '''
         抢沙发页面
         '''

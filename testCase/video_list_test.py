@@ -17,6 +17,7 @@ class Video_List(unittest.TestCase):
 
     @data(*(get_values(func, "test_video_list")))
     def test_video_list(self,value):
+        self._testMethodDoc = "--"
         '''
         小视频列表
         '''

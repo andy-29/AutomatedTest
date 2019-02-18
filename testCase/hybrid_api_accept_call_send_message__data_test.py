@@ -32,6 +32,7 @@ class Hybrid_Api_Accept_Call_Send_Message__Data(unittest.TestCase):
         self.android_params = g.android_params
     @data(*(get_values(func, "test_hybrid_api_accept_call_send_message__data")))
     def test_hybrid_api_accept_call_send_message__data(self,value):
+        self._testMethodDoc = "--"
         '''
         
         '''

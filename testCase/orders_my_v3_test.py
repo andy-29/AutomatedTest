@@ -32,6 +32,7 @@ class Orders_My_V3(unittest.TestCase):
         self.android_params = g.android_params
     @data(*(get_values(func, "test_orders_my_v3")))
     def test_orders_my_v3(self,value):
+        self._testMethodDoc = "--"
         '''
         
         '''

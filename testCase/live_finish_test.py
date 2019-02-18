@@ -62,6 +62,7 @@ class Live_Finish(unittest.TestCase):
         self.channel = r.get('data').get('channel')
     @data(*(get_values(func, "test_live_finish")))
     def test_live_finish(self,value):
+        self._testMethodDoc = "--"
         '''
         关掉直播
         '''

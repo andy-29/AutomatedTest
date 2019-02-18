@@ -32,6 +32,7 @@ class Search_Result_Pgc(unittest.TestCase):
         self.android_params = g.android_params
     @data(*(get_values(func, "test_search_result_pgc")))
     def test_search_result_pgc(self,value):
+        self._testMethodDoc = "--"
         '''
         搜索查看更多PGC内容
         '''

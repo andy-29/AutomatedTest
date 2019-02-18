@@ -21,6 +21,7 @@ class Diary_Image_Getall_V2(unittest.TestCase):
 
     @data(*(get_values(func, "test_diary_image_getall_v2")))
     def test_diary_image_getall_v2(self, value):
+        self._testMethodDoc = "--"
         """
 
         """

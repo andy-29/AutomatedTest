@@ -17,6 +17,7 @@ class Index_V5_Tab(unittest.TestCase):
 
     @data(*(get_values(func, "test_index_v5_tab")))
     def test_index_v5_tab(self,value):
+        self._testMethodDoc = "--"
         '''
         index接口v5tab
         '''

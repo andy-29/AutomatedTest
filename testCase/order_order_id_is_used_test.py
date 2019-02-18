@@ -19,6 +19,7 @@ class Order_Order_Id_Is_Used(unittest.TestCase):
     @data(*(get_values(func, "test_order_order_id_is_used")))
     @require_login
     def test_order_order_id_is_used(self,value):
+        self._testMethodDoc = "--"
         '''
         
         '''

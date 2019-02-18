@@ -77,6 +77,7 @@ class Draft_List_V2(unittest.TestCase):
         self.assertTrue(r.get('data').get('create_status'))
     @data(*(get_values(func, "test_draft_list_v2")))
     def test_draft_list_v2(self,value):
+        self._testMethodDoc = "--"
         '''
         草稿箱列表
         '''

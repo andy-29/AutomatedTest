@@ -17,6 +17,7 @@ class Report_Reason(unittest.TestCase):
 
     @data(*(get_values(func, "test_report_reason")))
     def test_report_reason(self,value):
+        self._testMethodDoc = "--"
         '''
         举报
         '''

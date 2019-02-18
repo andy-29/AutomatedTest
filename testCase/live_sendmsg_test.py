@@ -62,6 +62,7 @@ class Live_Sendmsg(unittest.TestCase):
         self.channel = r.get('data').get('channel')
     @data(*(get_values(func, "test_live_sendmsg")))
     def test_live_sendmsg(self,value):
+        self._testMethodDoc = "--"
         '''
         发送弹幕
         '''

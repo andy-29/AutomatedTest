@@ -44,6 +44,7 @@ class Reservation_Create(unittest.TestCase):
 
     @data(*(get_values(func, "test_reservtypeation_create")))
     def test_reservtypeation_create(self,value):
+        self._testMethodDoc = "--"
         """
         新建预约,订单号硬编码
         """

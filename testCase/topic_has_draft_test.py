@@ -19,6 +19,7 @@ class Topic_Has_Draft(unittest.TestCase):
 
     @data(*(get_values(func, "test_topic_has_draft")))
     def test_topic_has_draft(self,value):
+        self._testMethodDoc = "--"
         '''
         日志下是否有草稿
         '''

@@ -32,6 +32,7 @@ class Hybrid_Csc_Group(unittest.TestCase):
         self.android_params = g.android_params
     @data(*(get_values(func, "test_hybrid_csc_group")))
     def test_hybrid_csc_group(self,value):
+        self._testMethodDoc = "--"
         '''
         
         '''

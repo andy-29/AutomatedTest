@@ -17,6 +17,7 @@ class Tag_Recommend_To_Follow(unittest.TestCase):
 
     @data(*(get_values(func, "test_tag_recommend_to_follow")))
     def test_tag_recommend_to_follow(self,value):
+        self._testMethodDoc = "--"
         '''
         推荐关注的圈子
         '''

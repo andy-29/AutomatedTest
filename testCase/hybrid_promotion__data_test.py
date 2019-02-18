@@ -39,6 +39,7 @@ class Hybrid_Promotion__Data(unittest.TestCase):
 
     @data(*(get_values(func, "test_hybrid_promotion__data")))
     def test_hybrid_promotion__data(self,value):
+        self._testMethodDoc = "--"
         '''
         
         '''

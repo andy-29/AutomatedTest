@@ -20,6 +20,7 @@ class Conversation_Delta_Message_Detail(unittest.TestCase):
     @data(*(get_values(func, "test_conversation_delta_message_detail")))
     @require_login
     def test_conversation_delta_message_detail(self,value):
+        self._testMethodDoc = "--"
         '''
         增量获取私信/客服接口
         '''

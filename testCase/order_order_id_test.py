@@ -14,29 +14,18 @@ class Order_Order_Id(unittest.TestCase):
         cls.host = g.host
         cls.api_name = g.api_name(func)
         cls.url = cls.host + cls.api_name
-        print('获取环境信息和接口信息')
-        self.host = g.host
-        self.api_name = g.api_name(os.path.basename(__file__).split('_test.py')[0])
-        self.android_params = g.android_params
+        cls.order_id,_ = order_settlement_id_get()
 
     @data(*(get_values(func, "test_order_order_id")))
+    @require_login
     def test_order_order_id(self,value):
+        self._testMethodDoc = "--"
         '''
         
         '''
-        inner_data_pre = deepcopy(data)
-        inner_data_pre['start_num'] = '0'
-        inner_data_pre['status'] = '1'
-        r = gmhttp.get(url=back_end_domain + myurl['/api/orders/my/v2'],
-                         params=inner_data_pre, cookies=cookies)
-        dict_json_pre = json.loads(r.content.decode())
-        order_id = dict_json_pre['data']['orders'][0]['order']['order_id']
-        inner_data = deepcopy(data)
-        r = gmhttp.get(url=back_end_domain + myurl['/api/order/{}'].format(order_id),
-                         params=inner_data, cookies=cookies)
-        dict_json = json.loads(r.content.decode())
+        r = gmhttp.get(url=self.url.format(self.order_id)).json()
         # pprint(dict_json)
-        self.assertEqual(0, dict_json['error'])
+        self.assertEqual(0, r['error'])
 
 
     def tearDown(self):

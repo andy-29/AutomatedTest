@@ -40,6 +40,7 @@ class Shopcart_List_V1(unittest.TestCase):
 
     @data(*(get_values(func, "test_shopcart_list_v1")))
     def test_shopcart_list_v1(self,value):
+        self._testMethodDoc = "--"
         '''
         购物车列表
         '''

@@ -62,6 +62,7 @@ class Live_Get_Live_Info_Anchor(unittest.TestCase):
         self.channel = r.get('data').get('channel')
     @data(*(get_values(func, "test_live_get_live_info_anchor")))
     def test_live_get_live_info_anchor(self,value):
+        self._testMethodDoc = "--"
         '''
         主播端获取房间信息
         '''

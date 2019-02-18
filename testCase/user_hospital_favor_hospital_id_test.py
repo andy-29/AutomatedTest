@@ -23,6 +23,7 @@ class User_Hospital_Favor_Hospital_Id(unittest.TestCase):
     @data(*(get_values(func, "test_user_hospital_favor_hospital_id_post")))
     @require_login
     def test_user_hospital_favor_hospital_id_post(self, value):
+        self._testMethodDoc = "--"
         '''
         设置好感
         '''
@@ -32,6 +33,7 @@ class User_Hospital_Favor_Hospital_Id(unittest.TestCase):
     @data(*(get_values(func, "test_user_hospital_favor_hospital_id_zdelete")))
     @require_login
     def test_user_hospital_favor_hospital_id_zdelete(self, value):
+        self._testMethodDoc = "--"
         '''
         删除好感
         '''

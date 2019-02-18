@@ -17,6 +17,7 @@ class Search_V2_User(unittest.TestCase):
 
     @data(*(get_values(func, "test_search_v2_user")))
     def test_search_v2_user(self,value):
+        self._testMethodDoc = "--"
         '''
         用户搜索
         '''

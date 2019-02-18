@@ -20,6 +20,7 @@ class Conversation_Delta_Message_Detail_User_Key(unittest.TestCase):
     @data(*(get_values(func, "test_conversation_delta_message_detail_user_key")))
     @require_login
     def test_conversation_delta_message_detail_user_key(self,value):
+        self._testMethodDoc = "--"
         '''
         
         '''

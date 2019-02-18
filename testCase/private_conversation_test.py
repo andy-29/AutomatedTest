@@ -45,6 +45,7 @@ class Private_Conversation(unittest.TestCase):
 
     @data(*(get_values(func, "test_private_conversation")))
     def test_private_conversation(self,value):
+        self._testMethodDoc = "--"
         '''
         私信
         '''

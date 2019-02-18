@@ -17,6 +17,7 @@ class Face_Questions(unittest.TestCase):
 
     @data(*(get_values(func, "test_face_questions")))
     def test_face_questions(self,value):
+        self._testMethodDoc = "--"
         '''
         用户信息采集问题
         '''

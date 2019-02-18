@@ -33,6 +33,7 @@ class Polymer_Group_Info_Delivery(unittest.TestCase):
 
     @data(*(get_values(func, "test_polymer_group_info_delivery")))
     def test_polymer_group_info_delivery(self,value):
+        self._testMethodDoc = "--"
         '''
         日记本投稿到小组，数据列表
         '''

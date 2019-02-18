@@ -32,6 +32,7 @@ class Draft_Detail_V2(unittest.TestCase):
         self.android_params = g.android_params
     @data(*(get_values(func, "test_draft_detail_v2")))
     def test_draft_detail_v2(self,value):
+        self._testMethodDoc = "--"
         '''
         点击草稿箱草稿卡片，获取信息
         '''

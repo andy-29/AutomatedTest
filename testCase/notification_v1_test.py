@@ -19,6 +19,7 @@ class Notification_V1(unittest.TestCase):
     @data(*(get_values(func, "test_notification_v1")))
     @require_login
     def test_notification_v1(self,value):
+        self._testMethodDoc = "--"
         '''
         
         '''

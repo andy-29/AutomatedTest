@@ -22,6 +22,7 @@ class Draft_Delete(unittest.TestCase):
 
     @data(*(get_values(func, "test_draft_delete")))
     def test_draft_delete(self,value):
+        self._testMethodDoc = "--"
         '''
         删除草稿
         '''

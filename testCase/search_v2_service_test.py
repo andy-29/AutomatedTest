@@ -17,6 +17,7 @@ class Search_V2_Service(unittest.TestCase):
 
     @data(*(get_values(func, "test_search_v2_service")))
     def test_search_v2_service(self,value):
+        self._testMethodDoc = "--"
         '''
         美购搜索
         '''

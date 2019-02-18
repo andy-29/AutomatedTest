@@ -18,6 +18,7 @@ class Personal_Center(unittest.TestCase):
 
     @data(*(get_values(func, "test_peruser_my_topic_testsonal_center")))
     def test_peruser_my_topic_testsonal_center(self, value):
+        self._testMethodDoc = "--"
         inner_data = {}
         inner_data.update({'choose_id': '0'})
         inner_data.update({'community_id': '0'})

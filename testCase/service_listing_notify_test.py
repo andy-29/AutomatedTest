@@ -18,6 +18,7 @@ class Service_Listing_Notify(unittest.TestCase):
 
     @data(*(get_values(func, "test_service_listing_notify")))
     def test_service_listing_notify(self,value):
+        self._testMethodDoc = "--"
         '''
         设置提醒
         '''

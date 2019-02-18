@@ -17,6 +17,7 @@ class Question_Index(unittest.TestCase):
 
     @data(*(get_values(func, "test_question_index")))
     def test_question_index(self,value):
+        self._testMethodDoc = "--"
         '''
         问题列表页
         '''

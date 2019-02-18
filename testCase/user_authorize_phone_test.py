@@ -38,6 +38,7 @@ class User_Authorize_Phone(unittest.TestCase):
         self.assertTrue(self.header, msg='登录未成功！')
     @data(*(get_values(func, "test_user_authorize_phone")))
     def test_user_authorize_phone(self,value):
+        self._testMethodDoc = "--"
         '''
         添加备案手机号
         '''

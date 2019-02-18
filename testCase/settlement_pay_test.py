@@ -18,6 +18,7 @@ class Settlement_Pay(unittest.TestCase):
     @data(*(get_values(func, "test_settlement_pay")))
     @require_login
     def test_settlement_pay(self,value):
+        self._testMethodDoc = "--"
         '''
         
         '''

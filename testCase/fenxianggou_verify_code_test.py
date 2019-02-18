@@ -43,6 +43,7 @@ class Fenxianggou_Verify_Code(unittest.TestCase):
 
     @data(*(get_values(func, "test_fenxianggou_verify_code")))
     def test_fenxianggou_verify_code(self,value):
+        self._testMethodDoc = "--"
         '''
         验证分享够口令
         '''

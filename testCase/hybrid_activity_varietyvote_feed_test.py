@@ -34,6 +34,7 @@ class Hybrid_Activity_Varietyvote_Feed(unittest.TestCase):
 
     @data(*(get_values(func, "test_hybrid_activity_varietyvote_feed")))
     def test_hybrid_activity_varietyvote_feed(self,value):
+        self._testMethodDoc = "--"
         '''
         
         '''

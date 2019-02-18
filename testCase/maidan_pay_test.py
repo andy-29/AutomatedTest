@@ -18,6 +18,7 @@ class Maidan_Pay(unittest.TestCase):
 
     @data(*(get_values(func, "test_maidan_pay")))
     def test_maidan_pay(self,value):
+        self._testMethodDoc = "--"
         '''
         
         '''

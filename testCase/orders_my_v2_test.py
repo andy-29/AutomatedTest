@@ -19,6 +19,7 @@ class Orders_My_V2(unittest.TestCase):
     @data(*(get_values(func, "test_orders_my_v2")))
     @require_login
     def test_orders_my_v2(self,value):
+        self._testMethodDoc = "--"
         """个人中心我的订单接口，未付款已付款是status参数值"""
         status = ['', '0', '1', '2', '3']
         for s in status:

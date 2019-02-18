@@ -66,6 +66,7 @@ class Live_Get_Channel_Status(unittest.TestCase):
 
     @data(*(get_values(func, "test_live_get_channel_status")))
     def test_live_get_channel_status(self,value):
+        self._testMethodDoc = "--"
         '''
         获取直播间状态
         '''

@@ -40,6 +40,7 @@ class Hybrid_Doctors_Organization_Id__Data(unittest.TestCase):
 
     @data(*(get_values(func, "test_hybrid_doctors_organization_id__data")))
     def test_hybrid_doctors_organization_id__data(self,value):
+        self._testMethodDoc = "--"
         '''
         
         '''

@@ -16,6 +16,7 @@ class Follow_Fans(unittest.TestCase):
     @data(*(get_values(func, "test_follow_fans")))
     @require_login
     def test_follow_fans(self,value):
+        self._testMethodDoc = "--"
         uid = uid_get()
         inner_data = {}
         inner_data['type'] = 'following'

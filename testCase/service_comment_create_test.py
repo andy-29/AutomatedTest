@@ -41,6 +41,7 @@ class Service_Comment_Create(unittest.TestCase):
 
     @data(*(get_values(func, "test_service_comment_create")))
     def test_service_comment_create(self,value):
+        self._testMethodDoc = "--"
         '''
         创建美购评价
         (订单号硬编码，因为需要订单消费)

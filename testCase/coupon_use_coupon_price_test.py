@@ -32,6 +32,7 @@ class Coupon_Use_Coupon_Price(unittest.TestCase):
         self.android_params = g.android_params
     @data(*(get_values(func, "test_coupon_use_coupon_price")))
     def test_coupon_use_coupon_price(self,value):
+        self._testMethodDoc = "--"
         '''
         SKU券后价接口
         '''

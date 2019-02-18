@@ -18,6 +18,7 @@ class Draft_Detail(unittest.TestCase):
 
     @data(*(get_values(func, "test_draft_detail")))
     def test_draft_detail(self,value):
+        self._testMethodDoc = "--"
         '''
         获取草稿详情
         '''

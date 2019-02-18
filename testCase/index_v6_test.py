@@ -17,6 +17,7 @@ class Index_V6(unittest.TestCase):
 
     @data(*(get_values(func, "test_index_v6")))
     def test_index_v6(self,value):
+        self._testMethodDoc = "--"
         '''
         
         '''

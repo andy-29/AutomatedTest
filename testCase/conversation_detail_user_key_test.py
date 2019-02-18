@@ -21,6 +21,7 @@ class Conversation_Detail_User_Key(unittest.TestCase):
 
     @data(*(get_values(func, "test_conversation_detail_user_key")))
     def test_conversation_detail_user_key(self, value):
+        self._testMethodDoc = "--"
         '''
         
         '''

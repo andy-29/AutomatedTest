@@ -20,6 +20,7 @@ class Diary_Vote(unittest.TestCase):
     @data(*(get_values(func, "test_diary_vote")))
     @require_login
     def test_diary_vote(self,value):
+        self._testMethodDoc = "--"
         """
         日记本详情页点赞
         """

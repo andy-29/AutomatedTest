@@ -19,6 +19,7 @@ class Face_Latest_Analyze_Result(unittest.TestCase):
     @data(*(get_values(func, "test_face_latest_analyze_result")))
     @require_login
     def test_face_latest_analyze_result(self,value):
+        self._testMethodDoc = "--"
         '''
         获取最新的人脸分析档案
         '''

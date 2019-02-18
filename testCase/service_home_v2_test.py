@@ -32,6 +32,7 @@ class Service_Home_V2(unittest.TestCase):
         self.android_params = g.android_params
     @data(*(get_values(func, "test_service_home_v2")))
     def test_service_home_v2(self,value):
+        self._testMethodDoc = "--"
         '''
         美购首页
         '''

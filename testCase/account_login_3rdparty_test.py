@@ -32,6 +32,7 @@ class Account_Login_3Rdparty(unittest.TestCase):
         self.android_params = g.android_params
     @data(*(get_values(func, "test_account_login_3rdparty")))
     def test_account_login_3rdparty(self,value):
+        self._testMethodDoc = "--"
         '''
         三方登入接口
         '''

@@ -32,6 +32,7 @@ class Tongdun_Active_App(unittest.TestCase):
         self.android_params = g.android_params
     @data(*(get_values(func, "test_tongdun_active_app")))
     def test_tongdun_active_app(self,value):
+        self._testMethodDoc = "--"
         '''
         同盾激活事件
         '''

@@ -32,6 +32,7 @@ class Topic_New(unittest.TestCase):
         self.android_params = g.android_params
     @data(*(get_values(func, "test_topic_new")))
     def test_topic_new(self,value):
+        self._testMethodDoc = "--"
         '''
         首页发帖发帖子/圈子内发帖
         '''

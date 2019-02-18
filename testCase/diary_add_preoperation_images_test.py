@@ -21,6 +21,7 @@ class Diary_Add_Preoperation_Images(unittest.TestCase):
     @data(*(get_values(func, "test_diary_add_preoperation_images")))
     @require_login
     def test_diary_add_preoperation_images(self,value):
+        self._testMethodDoc = "--"
         '''
         增加术前照片
         '''

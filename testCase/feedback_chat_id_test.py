@@ -32,6 +32,7 @@ class Feedback_Chat_Id(unittest.TestCase):
         self.android_params = g.android_params
     @data(*(get_values(func, "test_feedback_chat_id")))
     def test_feedback_chat_id(self,value):
+        self._testMethodDoc = "--"
         '''
         
         '''

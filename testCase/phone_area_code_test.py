@@ -17,6 +17,7 @@ class Phone_Area_Code(unittest.TestCase):
 
     @data(*(get_values(func, "test_phone_area_code")))
     def test_phone_area_code(self,value):
+        self._testMethodDoc = "--"
         '''
         手机获取验证码获取国家手机号区号
         '''

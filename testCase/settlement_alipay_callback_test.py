@@ -32,6 +32,7 @@ class Settlement_Alipay_Callback(unittest.TestCase):
         self.android_params = g.android_params
     @data(*(get_values(func, "test_settlement_alipay_callback")))
     def test_settlement_alipay_callback(self,value):
+        self._testMethodDoc = "--"
         '''
         支付宝回调接口
         '''

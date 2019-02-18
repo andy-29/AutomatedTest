@@ -32,6 +32,7 @@ class Hybrid_User_Add_Follow__Data(unittest.TestCase):
         self.android_params = g.android_params
     @data(*(get_values(func, "test_hybrid_user_add_follow__data")))
     def test_hybrid_user_add_follow__data(self,value):
+        self._testMethodDoc = "--"
         '''
         
         '''

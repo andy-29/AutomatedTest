@@ -19,6 +19,7 @@ class My_Diary(unittest.TestCase):
     @data(*(get_values(func, "test_my_diary")))
     @require_login
     def test_my_diary(self,value):
+        self._testMethodDoc = "--"
         '查看我得日记本'
         r = gmhttp.get(url=self.url).json()
         self.assertEqual(0, r['error'])

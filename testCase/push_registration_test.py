@@ -17,6 +17,7 @@ class Push_Registration(unittest.TestCase):
 
     @data(*(get_values(func, "test_push_registration")))
     def test_push_registration(self,value):
+        self._testMethodDoc = "--"
         '''
         极光推送设备注册
         '''

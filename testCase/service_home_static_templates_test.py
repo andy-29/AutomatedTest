@@ -17,6 +17,7 @@ class Service_Home_Static_Templates(unittest.TestCase):
 
     @data(*(get_values(func, "test_service_home_static_templates")))
     def test_service_home_static_templates(self,value):
+        self._testMethodDoc = "--"
         '''
         
         '''

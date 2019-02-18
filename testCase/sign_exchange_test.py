@@ -49,6 +49,7 @@ class Sign_Exchange(unittest.TestCase):
 
     @data(*(get_values(func, "test_sign_exchange")))
     def test_sign_exchange(self,value):
+        self._testMethodDoc = "--"
         '''
         签到兑换礼品
         '''

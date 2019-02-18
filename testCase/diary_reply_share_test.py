@@ -32,6 +32,7 @@ class Diary_Reply_Share(unittest.TestCase):
         self.android_params = g.android_params
     @data(*(get_values(func, "test_diary_reply_share")))
     def test_diary_reply_share(self,value):
+        self._testMethodDoc = "--"
         '''
         分享评论相关文案
         '''

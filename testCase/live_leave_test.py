@@ -62,6 +62,7 @@ class Live_Leave(unittest.TestCase):
         self.channel = r.get('data').get('channel')
     @data(*(get_values(func, "test_live_leave")))
     def test_live_leave(self,value):
+        self._testMethodDoc = "--"
         '''
         离开直播室
         '''

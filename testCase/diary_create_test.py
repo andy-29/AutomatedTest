@@ -32,6 +32,7 @@ class Diary_Create(unittest.TestCase):
         self.android_params = g.android_params
     @data(*(get_values(func, "test_diary_create")))
     def test_diary_create(self,value):
+        self._testMethodDoc = "--"
         '''
         创建日记本
         '''

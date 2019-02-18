@@ -21,6 +21,7 @@ class Settlement_Create_V1(unittest.TestCase):
     @data(*(get_values(func, "test_settlement_create_v1")))
     @require_login
     def test_settlement_create_v1(self, value):
+        self._testMethodDoc = "--"
         '''
         创建结算单
         '''

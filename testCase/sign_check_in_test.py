@@ -38,6 +38,7 @@ class Sign_Check_In(unittest.TestCase):
         self.assertTrue(self.header, msg='登录未成功！')
     @data(*(get_values(func, "test_sign_check_in")))
     def test_sign_check_in(self,value):
+        self._testMethodDoc = "--"
         '''
         
         '''

@@ -19,6 +19,7 @@ class Zone_Follow(unittest.TestCase):
     @data(*(get_values(func, "test_zone_follow")))
     @require_login
     def test_zone_follow(self,value):
+        self._testMethodDoc = "--"
         "关注圈子"
         _, zone_id = question_id_get()
         post_data = {'tag_id': zone_id}

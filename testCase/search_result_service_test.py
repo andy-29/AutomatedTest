@@ -32,6 +32,7 @@ class Search_Result_Service(unittest.TestCase):
         self.android_params = g.android_params
     @data(*(get_values(func, "test_search_result_service")))
     def test_search_result_service(self,value):
+        self._testMethodDoc = "--"
         '''
         搜索查看更多美购
         '''

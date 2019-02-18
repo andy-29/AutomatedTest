@@ -39,6 +39,7 @@ class Hybrid_Diary_Book_Diary_Id__Data(unittest.TestCase):
 
     @data(*(get_values(func, "test_hybrid_diary_book_diary_id__data")))
     def test_hybrid_diary_book_diary_id__data(self,value):
+        self._testMethodDoc = "--"
         '''
         
         '''

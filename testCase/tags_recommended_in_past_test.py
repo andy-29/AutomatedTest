@@ -17,6 +17,7 @@ class Tags_Recommended_In_Past(unittest.TestCase):
 
     @data(*(get_values(func, "test_tags_recommended_in_past")))
     def test_tags_recommended_in_past(self,value):
+        self._testMethodDoc = "--"
         '''
         推荐圈子
         '''

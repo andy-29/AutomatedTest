@@ -32,6 +32,7 @@ class Hybrid_Promotion_Evaluate_List__Data(unittest.TestCase):
         self.android_params = g.android_params
     @data(*(get_values(func, "test_hybrid_promotion_evaluate_list__data")))
     def test_hybrid_promotion_evaluate_list__data(self,value):
+        self._testMethodDoc = "--"
         '''
         
         '''

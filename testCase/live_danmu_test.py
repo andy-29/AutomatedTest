@@ -63,6 +63,7 @@ class Live_Danmu(unittest.TestCase):
 
     @data(*(get_values(func, "test_live_danmu")))
     def test_live_danmu(self,value):
+        self._testMethodDoc = "--"
         '''
         获取弹幕
         '''

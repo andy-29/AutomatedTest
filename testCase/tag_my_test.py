@@ -18,6 +18,7 @@ class Tag_My(unittest.TestCase):
     @data(*(get_values(func, "test_tag_my")))
     @require_login
     def test_tag_my(self,value):
+        self._testMethodDoc = "--"
         '''
         返回热门圈子与我的圈子
         '''

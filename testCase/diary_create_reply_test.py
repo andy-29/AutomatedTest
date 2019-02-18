@@ -41,6 +41,7 @@ class Diary_Create_Reply(unittest.TestCase):
 
     @data(*(get_values(func, "test_diary_create_reply")))
     def test_diary_create_reply(self,value):
+        self._testMethodDoc = "--"
         """
         评论日记本
         """

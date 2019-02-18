@@ -20,6 +20,7 @@ class Shopcart_List_V2(unittest.TestCase):
     @data(*(get_values(func, "test_shopcart_list_v2")))
     @require_login
     def test_shopcart_list_v2(self,value):
+        self._testMethodDoc = "--"
         gmhttp.params.update({'count_only':0})
         r = gmhttp.get(self.url).json()
         gmhttp.reset()

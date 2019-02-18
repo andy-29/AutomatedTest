@@ -19,6 +19,7 @@ class Expert_Accept_Call(unittest.TestCase):
     @data(*(get_values(func, "test_expert_accept_call")))
     @require_login
     def test_expert_accept_call(self,value):
+        self._testMethodDoc = "--"
         '''
         当前时间医生或机构是否接电话
         '''

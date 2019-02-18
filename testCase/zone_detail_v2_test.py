@@ -18,6 +18,7 @@ class Zone_Detail_V2(unittest.TestCase):
 
     @data(*(get_values(func, "test_zone_detail_v2")))
     def test_zone_detail_v2(self,value):
+        self._testMethodDoc = "--"
         '''
         圈子详情页
         '''

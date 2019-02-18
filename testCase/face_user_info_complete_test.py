@@ -20,6 +20,7 @@ class Face_User_Info_Complete(unittest.TestCase):
     @data(*(get_values(func, "test_face_user_info_complete")))
     @require_login
     def test_face_user_info_complete(self,value):
+        self._testMethodDoc = "--"
         '''
         用户信息采集
         '''

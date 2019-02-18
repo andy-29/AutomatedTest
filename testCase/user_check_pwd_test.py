@@ -18,6 +18,7 @@ class User_Check_Pwd(unittest.TestCase):
     @data(*(get_values(func, "test_user_check_pwd")))
     @require_login
     def test_user_check_pwd(self,value):
+        self._testMethodDoc = "--"
         r = gmhttp.get(self.url).json()
         self.assertEqual(r.get("error"),0)
         self.assertTrue(r.get('data').get('is_reset'))

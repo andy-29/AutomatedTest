@@ -20,6 +20,7 @@ class Diary(unittest.TestCase):
 
     @data(*(get_values(func, "test_diary")))
     def test_diary(self, value):
+        self._testMethodDoc = "--"
         '''
         日记本列表
         '''

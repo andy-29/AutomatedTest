@@ -32,6 +32,7 @@ class Diary_Additional_Info_V1(unittest.TestCase):
         self.android_params = g.android_params
     @data(*(get_values(func, "test_diary_additional_info_v1")))
     def test_diary_additional_info_v1(self,value):
+        self._testMethodDoc = "--"
         '''
         日记本补充信息页|创建日记本
         '''

@@ -32,6 +32,7 @@ class Hybrid_Diary_Isfavor__Data(unittest.TestCase):
         self.android_params = g.android_params
     @data(*(get_values(func, "test_hybrid_diary_isfavor__data")))
     def test_hybrid_diary_isfavor__data(self,value):
+        self._testMethodDoc = "--"
         '''
         
         '''

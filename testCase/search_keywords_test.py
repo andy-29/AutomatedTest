@@ -17,6 +17,7 @@ class Search_Keywords(unittest.TestCase):
 
     @data(*(get_values(func, "test_search_keywords")))
     def test_search_keywords(self,value):
+        self._testMethodDoc = "--"
         '''
         搜索词推荐
         '''

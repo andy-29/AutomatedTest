@@ -21,6 +21,7 @@ class Hospital_Publish(unittest.TestCase):
 
     @data(*(get_values(func, "test_hospital_publish")))
     def test_hospital_publish(self, value):
+        self._testMethodDoc = "--"
         '''
         获取机构的发布内容
         '''

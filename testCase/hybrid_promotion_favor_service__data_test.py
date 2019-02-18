@@ -32,6 +32,7 @@ class Hybrid_Promotion_Favor_Service__Data(unittest.TestCase):
         self.android_params = g.android_params
     @data(*(get_values(func, "test_hybrid_promotion_favor_service__data")))
     def test_hybrid_promotion_favor_service__data(self,value):
+        self._testMethodDoc = "--"
         '''
         
         '''

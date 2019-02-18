@@ -19,6 +19,7 @@ class Settlement_Preview_V1(unittest.TestCase):
     @data(*(get_values(func, "test_settlement_preview_v1")))
     @require_login
     def test_settlement_preview_v1(self,value):
+        self._testMethodDoc = "--"
         '''
         提交订单页面
         '''

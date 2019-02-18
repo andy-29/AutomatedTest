@@ -22,6 +22,7 @@ class Service_Detail_V1(unittest.TestCase):
     @data(*(get_values(func, "test_service_detail_v1")))
     @require_login
     def test_service_detail_v1(self,value):
+        self._testMethodDoc = "--"
         mytuple = shopcart_info_get()
 
         inner_data = {}

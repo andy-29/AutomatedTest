@@ -17,6 +17,7 @@ class Hospitals_Detail(unittest.TestCase):
         _, cls.hospital_id, *_ = service_id_get()
     @data(*(get_values(func, "test_hospitals_hospital_id_detail")))
     def test_hospitals_hospital_id_detail(self,value):
+        self._testMethodDoc = "--"
         '''
         查看机构详情
         '''

@@ -20,6 +20,7 @@ class Auto_Complete_Bodypart(unittest.TestCase):
 
     @data(*(get_values(func, "test_auto_complete_bodypart")))
     def test_auto_complete_bodypart(self, value):
+        print(value)
         self._testMethodDoc = '美容项目搜索'
         gmhttp.params.update(value.get('paramsdata'))
         r = gmhttp.get(self.url).json()

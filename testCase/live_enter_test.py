@@ -62,6 +62,7 @@ class Live_Enter(unittest.TestCase):
         self.channel = r.get('data').get('channel')
     @data(*(get_values(func, "test_live_enter")))
     def test_live_enter(self,value):
+        self._testMethodDoc = "--"
         '''
         进入直播间
         '''

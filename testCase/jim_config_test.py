@@ -17,6 +17,7 @@ class Jim_Config(unittest.TestCase):
 
     @data(*(get_values(func, "test_jim_config")))
     def test_jim_config(self,value):
+        self._testMethodDoc = "--"
         '''
         
         '''

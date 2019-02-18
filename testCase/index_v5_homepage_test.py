@@ -32,6 +32,7 @@ class Index_V5_Homepage(unittest.TestCase):
         self.android_params = g.android_params
     @data(*(get_values(func, "test_index_v5_homepage")))
     def test_index_v5_homepage(self,value):
+        self._testMethodDoc = "--"
         '''
         index接口v5：homepage
         '''

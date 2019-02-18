@@ -32,6 +32,7 @@ class Topic_Topic_Id_Check(unittest.TestCase):
         self.android_params = g.android_params
     @data(*(get_values(func, "test_topic_topic_id_check")))
     def test_topic_topic_id_check(self,value):
+        self._testMethodDoc = "--"
         '''
         
         '''

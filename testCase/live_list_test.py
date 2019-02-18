@@ -34,6 +34,7 @@ class Live_List(unittest.TestCase):
 
     @data(*(get_values(func, "test_live_list")))
     def test_live_list(self,value):
+        self._testMethodDoc = "--"
         '''
         
         '''

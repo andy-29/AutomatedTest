@@ -55,6 +55,7 @@ class Topic_Topic_Id(unittest.TestCase):
         self.diary_id = r.get('data').get('id')
     @data(*(get_values(func, "test_topic_topic_id")))
     def test_topic_topic_id(self,value):
+        self._testMethodDoc = "--"
         '''
         
         '''

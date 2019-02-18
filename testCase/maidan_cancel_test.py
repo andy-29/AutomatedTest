@@ -19,6 +19,7 @@ class Maidan_Cancel(unittest.TestCase):
     @data(*(get_values(func, "test_maidan_cancel")))
     @require_login
     def test_maidan_cancel(self,value):
+        self._testMethodDoc = "--"
         '''
         买单订单取消
         '''

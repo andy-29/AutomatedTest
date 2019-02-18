@@ -32,6 +32,7 @@ class Hybrid_Wiki_Compare(unittest.TestCase):
         self.android_params = g.android_params
     @data(*(get_values(func, "test_hybrid_wiki_compare")))
     def test_hybrid_wiki_compare(self,value):
+        self._testMethodDoc = "--"
         '''
         
         '''

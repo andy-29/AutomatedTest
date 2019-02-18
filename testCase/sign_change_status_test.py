@@ -43,6 +43,7 @@ class Sign_Change_Status(unittest.TestCase):
 
     @data(*(get_values(func, "test_sign_change_status")))
     def test_sign_change_status(self,value):
+        self._testMethodDoc = "--"
         '''
         签到详情
         '''

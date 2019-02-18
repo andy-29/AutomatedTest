@@ -21,6 +21,7 @@ class Shopcart_Delete(unittest.TestCase):
     @data(*(get_values(func, "test_shopcart_delete")))
     @require_login
     def test_shopcart_delete(self, value):
+        self._testMethodDoc = "--"
         myid = shopcart_info_get()[0]
         if myid:
             post_data = {'id': myid}  # 5312

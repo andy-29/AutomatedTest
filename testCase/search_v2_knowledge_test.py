@@ -17,6 +17,7 @@ class Search_V2_Knowledge(unittest.TestCase):
 
     @data(*(get_values(func, "test_search_v2_knowledge")))
     def test_search_v2_knowledge(self,value):
+        self._testMethodDoc = "--"
         '''
         
         '''

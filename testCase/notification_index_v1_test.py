@@ -18,6 +18,7 @@ class Notification_Index_V1(unittest.TestCase):
 
     @data(*(get_values(func, "test_notification_index_v1")))
     def test_notification_index_v1(self,value):
+        self._testMethodDoc = "--"
         '''
         
         '''

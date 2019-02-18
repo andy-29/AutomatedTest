@@ -19,6 +19,7 @@ class Service_Reserve(unittest.TestCase):
     @data(*(get_values(func, "test_service_reserve")))
     @require_login
     def test_service_reserve(self,value):
+        self._testMethodDoc = "--"
         '''
         美购预定
         '''

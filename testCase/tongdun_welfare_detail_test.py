@@ -32,6 +32,7 @@ class Tongdun_Welfare_Detail(unittest.TestCase):
         self.android_params = g.android_params
     @data(*(get_values(func, "test_tongdun_welfare_detail")))
     def test_tongdun_welfare_detail(self,value):
+        self._testMethodDoc = "--"
         '''
         同盾点击美购卡片，进入美购详情
         '''

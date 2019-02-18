@@ -52,6 +52,7 @@ class Live_Push_Live_Info(unittest.TestCase):
 
     @data(*(get_values(func, "test_live_push_live_info")))
     def test_live_push_live_info(self,value):
+        self._testMethodDoc = "--"
         '''
         获取推流信息
         '''

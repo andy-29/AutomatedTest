@@ -17,6 +17,7 @@ class Services_Willbuy(unittest.TestCase):
 
     @data(*(get_values(func, "test_services_willbuy")))
     def test_services_willbuy(self,value):
+        self._testMethodDoc = "--"
         '''
         
         '''

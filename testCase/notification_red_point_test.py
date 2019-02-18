@@ -32,6 +32,7 @@ class Notification_Red_Point(unittest.TestCase):
         self.android_params = g.android_params
     @data(*(get_values(func, "test_notification_red_point")))
     def test_notification_red_point(self,value):
+        self._testMethodDoc = "--"
         '''
         
         '''

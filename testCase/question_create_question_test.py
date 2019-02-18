@@ -19,6 +19,7 @@ class Post_Question(unittest.TestCase):
     @data(*(get_values(func, "test_post_question")))
     @require_login
     def test_post_question(self, value):
+        self._testMethodDoc = "--"
         post_data = {
             'content': '[{"type":0,"content":"有减肥项目吗"}]',
             'tags': '[' + g.get_info('env_info', 'tag_id1') + ']',

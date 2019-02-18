@@ -17,6 +17,7 @@ class Search_V2_Diary(unittest.TestCase):
 
     @data(*(get_values(func, "test_search_v2_diary")))
     def test_search_v2_diary(self,value):
+        self._testMethodDoc = "--"
         '''
         日记本搜索
         '''

@@ -18,6 +18,7 @@ class Points_My(unittest.TestCase):
     @data(*(get_values(func, "test_points_my")))
     @require_login
     def test_points_my(self,value):
+        self._testMethodDoc = "--"
         '''
         个人积分列表
         '''

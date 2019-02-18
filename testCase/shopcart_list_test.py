@@ -32,6 +32,7 @@ class Shopcart_List(unittest.TestCase):
         self.android_params = g.android_params
     @data(*(get_values(func, "test_shopcart_list")))
     def test_shopcart_list(self,value):
+        self._testMethodDoc = "--"
         '''
         购物车列表
         '''

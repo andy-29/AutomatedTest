@@ -41,6 +41,7 @@ class Question_Reply_Answer(unittest.TestCase):
 
     @data(*(get_values(func, "test_question_reply_answer")))
     def test_question_reply_answer(self,value):
+        self._testMethodDoc = "--"
         '''
         创建回答评论
         '''

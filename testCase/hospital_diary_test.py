@@ -32,6 +32,7 @@ class Hospital_Diary(unittest.TestCase):
         self.android_params = g.android_params
     @data(*(get_values(func, "test_hospital_diary")))
     def test_hospital_diary(self,value):
+        self._testMethodDoc = "--"
         '''
         
         '''

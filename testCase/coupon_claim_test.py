@@ -18,6 +18,7 @@ class Coupon_Claim(unittest.TestCase):
     @data(*(get_values(func, "test_coupon_claim")))
     @require_login
     def test_coupon_claim(self,value):
+        self._testMethodDoc = "--"
         '''
         领取美券
         '''

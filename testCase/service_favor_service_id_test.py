@@ -19,6 +19,7 @@ class Service_Favor_Service_Id(unittest.TestCase):
     @data(*(get_values(func, "test_service_favor_service_id")))
     @require_login
     def test_service_favor_service_id(self,value):
+        self._testMethodDoc = "--"
         '''
         收藏
         '''

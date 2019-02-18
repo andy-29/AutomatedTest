@@ -32,6 +32,7 @@ class Account_Register(unittest.TestCase):
         self.android_params = g.android_params
     @data(*(get_values(func, "test_account_register")))
     def test_account_register(self,value):
+        self._testMethodDoc = "--"
         '''
         注册接口
         '''

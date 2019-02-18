@@ -17,6 +17,7 @@ class Zone_Unfollow(unittest.TestCase):
 
     @data(*(get_values(func, "test_zone_unfollow")))
     def test_zone_unfollow(self,value):
+        self._testMethodDoc = "--"
         '''
         圈子取消关注
         '''

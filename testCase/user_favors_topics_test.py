@@ -19,6 +19,7 @@ class User_Favors_Topics(unittest.TestCase):
     @data(*(get_values(func, "test_user_favors_topics")))
     @require_login
     def test_user_favors_topics(self,value):
+        self._testMethodDoc = "--"
         '''
         帖子收藏列表
         '''

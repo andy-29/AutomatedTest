@@ -18,6 +18,7 @@ class Experts(unittest.TestCase):
     @data(*(get_values(func, "test_experts")))
     @require_login
     def test_experts(self,value):
+        self._testMethodDoc = "--"
         '''
         获取专家列表
         '''

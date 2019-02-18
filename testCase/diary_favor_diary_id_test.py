@@ -40,6 +40,7 @@ class Diary_Favor_Diary_Id(unittest.TestCase):
 
     @data(*(get_values(func, "test_diary_favor_diary_id")))
     def test_diary_favor_diary_id(self,value):
+        self._testMethodDoc = "--"
         '''
         （取消）收藏日记本
         '''

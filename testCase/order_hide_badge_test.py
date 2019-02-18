@@ -18,6 +18,7 @@ class Order_Hide_Badge(unittest.TestCase):
     @data(*(get_values(func, "test_order_hide_badge")))
     @require_login
     def test_order_hide_badge(self,value):
+        self._testMethodDoc = "--"
         '''
         消除个人主页已付款和已使用的红点
         '''

@@ -18,6 +18,7 @@ class Packet_Callback(unittest.TestCase):
     @data(*(get_values(func, "test_packet_callback")))
     @require_login
     def test_packet_callback(self,value):
+        self._testMethodDoc = "--"
         '''
         红包领取回调
         '''

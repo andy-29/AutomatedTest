@@ -56,6 +56,7 @@ class Draft_Create_V2(unittest.TestCase):
 
     @data(*(get_values(func, "test_draft_create_v2")))
     def test_draft_create_v2(self,value):
+        self._testMethodDoc = "--"
         '''
         批量存草稿
         '''

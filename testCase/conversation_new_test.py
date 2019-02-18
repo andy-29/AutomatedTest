@@ -32,6 +32,7 @@ class Conversation_New(unittest.TestCase):
         self.android_params = g.android_params
     @data(*(get_values(func, "test_conversation_new")))
     def test_conversation_new(self,value):
+        self._testMethodDoc = "--"
         '''
         创建新私信[deprecatedat7.4.5]
         '''

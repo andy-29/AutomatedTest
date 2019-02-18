@@ -32,6 +32,7 @@ class Topic_Postby_Doctor(unittest.TestCase):
         self.android_params = g.android_params
     @data(*(get_values(func, "test_topic_postby_doctor")))
     def test_topic_postby_doctor(self,value):
+        self._testMethodDoc = "--"
         '''
         专家，机构发布的帖子
         '''

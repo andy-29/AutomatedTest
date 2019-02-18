@@ -42,6 +42,7 @@ class Reservation_List(unittest.TestCase):
 
     @data(*(get_values(func, "test_reservation_list")))
     def test_reservation_list(self,value):
+        self._testMethodDoc = "--"
         """
         可用的预约时间列表
         （订单号硬编码，因为需要下单）

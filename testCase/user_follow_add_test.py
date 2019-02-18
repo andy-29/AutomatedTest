@@ -19,6 +19,7 @@ class User_Follow_Add(unittest.TestCase):
     @data(*(get_values(func, "test_user_follow_add")))
     @require_login
     def test_user_follow_add(self,value):
+        self._testMethodDoc = "--"
         post_data = {'uid': '22'}
         r = gmhttp.post(url=self.url,data=post_data).json()
         self.assertEqual(0, r['error'])

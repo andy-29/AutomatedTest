@@ -18,6 +18,7 @@ class User_City(unittest.TestCase):
     @data(*(get_values(func, "test_user_city")))
     @require_login
     def test_user_city(self,value):
+        self._testMethodDoc = "--"
         '''
         设置用户城市接口
         '''

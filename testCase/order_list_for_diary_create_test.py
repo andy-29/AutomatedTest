@@ -15,6 +15,7 @@ class List_Diary(unittest.TestCase):
     @data(*(get_values(func, "test_list_diary")))
     @require_login
     def test_list_diary(self,value):
+        self._testMethodDoc = "--"
         gmhttp.params.update({"order_id":''})
         r = gmhttp.get(url=self.url).json()
         gmhttp.reset()

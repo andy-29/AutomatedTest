@@ -18,6 +18,7 @@ class Service_Attrinfo_Service_Id(unittest.TestCase):
 
     @data(*(get_values(func, "test_service_attrinfo_service_id")))
     def test_service_attrinfo_service_id(self,value):
+        self._testMethodDoc = "--"
         '''
         美购多属性信息
         '''

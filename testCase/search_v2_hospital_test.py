@@ -17,6 +17,7 @@ class Search_V2_Hospital(unittest.TestCase):
 
     @data(*(get_values(func, "test_search_v2_hospital")))
     def test_search_v2_hospital(self,value):
+        self._testMethodDoc = "--"
         '''
         医院搜索
         '''

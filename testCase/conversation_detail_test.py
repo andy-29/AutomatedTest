@@ -22,6 +22,7 @@ class Conversation_Detail(unittest.TestCase):
 
     @data(*(get_values(func, "test_conversation_detail")))
     def test_conversation_detail(self,value):
+        self._testMethodDoc = "--"
         '''
         私信详情
         '''

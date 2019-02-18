@@ -23,6 +23,7 @@ class Diary_Operation_Diary_Id(unittest.TestCase):
 
     @data(*(get_values(func, "test_diary_operation_diary_id")))
     def test_diary_operation_diary_id(self, value):
+        self._testMethodDoc = "--"
         '''
         获取日记本补充信息
         '''

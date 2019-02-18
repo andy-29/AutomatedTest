@@ -17,6 +17,7 @@ class Service_Album(unittest.TestCase):
 
     @data(*(get_values(func, "test_service_album")))
     def test_service_album(self,value):
+        self._testMethodDoc = "--"
         '''
         美购相册
         '''

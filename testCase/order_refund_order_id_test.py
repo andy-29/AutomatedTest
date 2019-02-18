@@ -19,6 +19,7 @@ class Order_Refund_Order_Id(unittest.TestCase):
     @data(*(get_values(func, "test_order_refund_order_id")))
     @require_login
     def test_order_refund_order_id(self,value):
+        self._testMethodDoc = "--"
         '''
         
         '''

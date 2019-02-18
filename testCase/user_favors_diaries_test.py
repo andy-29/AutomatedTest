@@ -19,6 +19,7 @@ class User_Favors_Diaries(unittest.TestCase):
     @data(*(get_values(func, "test_user_favors_diaries")))
     @require_login
     def test_user_favors_diaries(self,value):
+        self._testMethodDoc = "--"
         '''
         日记本收藏列表
         '''

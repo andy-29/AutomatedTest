@@ -19,6 +19,7 @@ class Votes_Received(unittest.TestCase):
     @data(*(get_values(func, "test_votes_received")))
     @require_login
     def test_votes_received(self,value):
+        self._testMethodDoc = "--"
         '''
         我收到得赞
         '''

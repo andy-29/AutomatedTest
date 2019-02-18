@@ -20,6 +20,7 @@ class Maidan_Tags(unittest.TestCase):
     @data(*(get_values(func, "test_maidan_tags")))
     @require_login
     def test_maidan_tags(self,value):
+        self._testMethodDoc = "--"
         '''
         买单选择标签页
         '''

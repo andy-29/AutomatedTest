@@ -19,6 +19,7 @@ class Live_Replay_Info(unittest.TestCase):
     @data(*(get_values(func, "test_live_replay_info")))
     @require_login
     def test_live_replay_info(self,value):
+        self._testMethodDoc = "--"
         '''
         回放信息
         '''

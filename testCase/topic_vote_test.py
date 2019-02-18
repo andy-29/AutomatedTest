@@ -32,6 +32,7 @@ class Topic_Vote(unittest.TestCase):
         self.android_params = g.android_params
     @data(*(get_values(func, "test_topic_vote")))
     def test_topic_vote(self,value):
+        self._testMethodDoc = "--"
         '''
         帖子详情页点赞
         '''

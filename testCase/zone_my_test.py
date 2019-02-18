@@ -18,6 +18,7 @@ class Zone_My(unittest.TestCase):
     @data(*(get_values(func, "test_zone_my")))
     @require_login
     def test_zone_my(self,value):
+        self._testMethodDoc = "--"
         '我的圈子列表'
         zone_my_get()
 

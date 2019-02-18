@@ -32,6 +32,7 @@ class Hospital_Pay_Cancel(unittest.TestCase):
         self.android_params = g.android_params
     @data(*(get_values(func, "test_hospital_pay_cancel")))
     def test_hospital_pay_cancel(self,value):
+        self._testMethodDoc = "--"
         '''
         
         '''

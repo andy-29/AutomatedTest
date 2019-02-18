@@ -18,6 +18,7 @@ class Maidan_Preview(unittest.TestCase):
     @data(*(get_values(func, "test_maidan_preview")))
     @require_login
     def test_maidan_preview(self,value):
+        self._testMethodDoc = "--"
         '''
         买单页面
         '''

@@ -19,6 +19,7 @@ class Maidan_List(unittest.TestCase):
     @data(*(get_values(func, "test_maidan_list")))
     @require_login
     def test_maidan_list(self,value):
+        self._testMethodDoc = "--"
         '''
         我的买单列表
         '''

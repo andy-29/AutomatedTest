@@ -48,6 +48,7 @@ class Slide_Cancel_Vote(unittest.TestCase):
         self.assertEqual(r.get("error"),0)
     @data(*(get_values(func, "test_slide_cancel_vote")))
     def test_slide_cancel_vote(self,value):
+        self._testMethodDoc = "--"
         '''
         首页精选banner取消点赞
         '''

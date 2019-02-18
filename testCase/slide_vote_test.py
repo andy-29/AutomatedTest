@@ -42,6 +42,7 @@ class Slide_Vote(unittest.TestCase):
         # self.bannerid = random.choice(r.get('data').get('slides')).get('id')
     @data(*(get_values(func, "test_slide_vote")))
     def test_slide_vote(self,value):
+        self._testMethodDoc = "--"
         '''
         首页精选中banner点赞
         '''

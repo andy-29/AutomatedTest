@@ -19,6 +19,7 @@ class Pro_Create(unittest.TestCase):
 
     @data(*(get_values(func, "test_pro_create")))
     def test_pro_create(self, value):
+        self._testMethodDoc = "--"
         gmhttp.params.update({"diary_id": self.diary_id, "type": 1})
         r = gmhttp.get(url=self.url).json()
         gmhttp.reset()

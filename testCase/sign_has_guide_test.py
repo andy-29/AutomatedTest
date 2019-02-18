@@ -39,6 +39,7 @@ class Sign_Has_Guide(unittest.TestCase):
         self.assertTrue(self.header, msg='登录未成功！')
     @data(*(get_values(func, "test_sign_has_guide")))
     def test_sign_has_guide(self,value):
+        self._testMethodDoc = "--"
         '''
         签到详情
         '''

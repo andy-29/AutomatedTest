@@ -18,6 +18,7 @@ class Hospital_Album(unittest.TestCase):
         _,cls.hospital_id,*_ = service_id_get()
     @data(*(get_values(func, "test_hospital_album")))
     def test_hospital_album(self,value):
+        self._testMethodDoc = "--"
         '''
         
         '''

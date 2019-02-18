@@ -43,6 +43,7 @@ class User_Change_Pwd(unittest.TestCase):
 
     @data(*(get_values(func, "test_user_change_pwd")))
     def test_user_change_pwd(self,value):
+        self._testMethodDoc = "--"
         '''
         修改密码
         '''

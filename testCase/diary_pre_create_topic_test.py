@@ -19,6 +19,7 @@ class Diary_Pre_Create_Topic(unittest.TestCase):
     @data(*(get_values(func, "test_diary_pre_create_topic")))
     @require_login
     def test_diary_pre_create_topic(self,value):
+        self._testMethodDoc = "--"
         '''
         发日记贴前获取预置信息
         '''

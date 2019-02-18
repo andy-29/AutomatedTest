@@ -17,6 +17,7 @@ class Index_Float_Activity(unittest.TestCase):
 
     @data(*(get_values(func, "test_index_float_activity")))
     def test_index_float_activity(self,value):
+        self._testMethodDoc = "--"
         '''
         首页悬浮活动接口
         '''

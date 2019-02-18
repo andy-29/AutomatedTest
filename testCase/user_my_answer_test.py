@@ -15,6 +15,7 @@ class My_Answer(unittest.TestCase):
     @data(*(get_values(func, "test_my_answer")))
     @require_login
     def test_my_answer(self,value):
+        self._testMethodDoc = "--"
 
         r = gmhttp.get(self.url).json()
         self.assertEqual(r.get("error"),0)

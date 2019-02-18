@@ -32,6 +32,7 @@ class Feedback_Category_Info(unittest.TestCase):
         self.android_params = g.android_params
     @data(*(get_values(func, "test_feedback_category_info")))
     def test_feedback_category_info(self,value):
+        self._testMethodDoc = "--"
         '''
         
         '''

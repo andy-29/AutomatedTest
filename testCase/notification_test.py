@@ -41,6 +41,7 @@ class Notification(unittest.TestCase):
 
     @data(*(get_values(func, "test_notification")))
     def test_notification(self,value):
+        self._testMethodDoc = "--"
         '''
         我-通知
         '''

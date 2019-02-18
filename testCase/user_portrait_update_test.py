@@ -18,6 +18,7 @@ class User_Portrait_Update(unittest.TestCase):
     @data(*(get_values(func, "test_user_portrait_update")))
     @require_login
     def test_user_portrait_update(self,value):
+        self._testMethodDoc = "--"
         '''
         修改头像接口
         '''

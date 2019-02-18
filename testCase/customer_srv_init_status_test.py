@@ -19,6 +19,7 @@ class Customer_Srv_Init_Status(unittest.TestCase):
     @data(*(get_values(func, "test_customer_srv_init_status")))
     @require_login
     def test_customer_srv_init_status(self,value):
+        self._testMethodDoc = "--"
         r = gmhttp.get(self.url).json()
         self.assertEqual(r.get("error"),0)
         print('用例执行完毕!')

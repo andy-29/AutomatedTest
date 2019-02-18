@@ -18,6 +18,7 @@ class Verification_Code(unittest.TestCase):
 
     @data(*(get_values(func, "test_verification_code")))
     def test_verification_code(self,value):
+        self._testMethodDoc = "--"
         '''
         验证码接口
         '''

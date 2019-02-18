@@ -34,6 +34,7 @@ class Multi_Topic_Index(unittest.TestCase):
 
     @data(*(get_values(func, "test_multi_topic_index")))
     def test_multi_topic_index(self,value):
+        self._testMethodDoc = "--"
         """
         大杂烩
         """

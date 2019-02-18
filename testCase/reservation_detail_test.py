@@ -41,6 +41,7 @@ class Reservation_Detail(unittest.TestCase):
 
     @data(*(get_values(func, "test_reservation_detail")))
     def test_reservation_detail(self,value):
+        self._testMethodDoc = "--"
         """
         预约详情
         """

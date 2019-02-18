@@ -62,6 +62,7 @@ class Live_Change_Title(unittest.TestCase):
         self.channel = r.get('data').get('channel')
     @data(*(get_values(func, "test_live_change_title")))
     def test_live_change_title(self,value):
+        self._testMethodDoc = "--"
         '''
         更换直播标题
         '''

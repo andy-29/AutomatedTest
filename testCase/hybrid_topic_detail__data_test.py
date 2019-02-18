@@ -32,6 +32,7 @@ class Hybrid_Topic_Detail__Data(unittest.TestCase):
         self.android_params = g.android_params
     @data(*(get_values(func, "test_hybrid_topic_detail__data")))
     def test_hybrid_topic_detail__data(self,value):
+        self._testMethodDoc = "--"
         '''
         
         '''

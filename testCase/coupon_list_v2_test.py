@@ -32,6 +32,7 @@ class Coupon_List_V2(unittest.TestCase):
         self.android_params = g.android_params
     @data(*(get_values(func, "test_coupon_list_v2")))
     def test_coupon_list_v2(self,value):
+        self._testMethodDoc = "--"
         '''
         美券列表页
         '''

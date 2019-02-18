@@ -23,6 +23,7 @@ class Personal_Recommends(unittest.TestCase):
     @data(*(get_values(func, "test_personal_recommends")))
     @require_login
     def test_personal_recommends(self, value):
+        self._testMethodDoc = "--"
         """
 
         """

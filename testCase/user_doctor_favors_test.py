@@ -17,6 +17,7 @@ class User_Doctor_Favors(unittest.TestCase):
 
     @data(*(get_values(func, "test_user_doctor_favors")))
     def test_user_doctor_favors(self,value):
+        self._testMethodDoc = "--"
         '''
         用户医生列表
         '''

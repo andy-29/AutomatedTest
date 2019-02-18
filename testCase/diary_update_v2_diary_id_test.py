@@ -22,6 +22,7 @@ class Diary_Update_V2_Diary_Id(unittest.TestCase):
 
     @data(*(get_values(func, "test_diary_update_v2_diary_id")))
     def test_diary_update_v2_diary_id(self, value):
+        self._testMethodDoc = "--"
         '''
         更新日志
         '''

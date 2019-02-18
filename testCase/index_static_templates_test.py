@@ -17,6 +17,7 @@ class Index_Static_Templates(unittest.TestCase):
 
     @data(*(get_values(func, "test_index_static_templates")))
     def test_index_static_templates(self,value):
+        self._testMethodDoc = "--"
         '''
         首页固定模板区刷新
         '''

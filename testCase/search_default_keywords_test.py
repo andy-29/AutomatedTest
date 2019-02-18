@@ -17,6 +17,7 @@ class Search_Default_Keywords(unittest.TestCase):
 
     @data(*(get_values(func, "test_search_default_keywords")))
     def test_search_default_keywords(self,value):
+        self._testMethodDoc = "--"
         '''
         默认搜索词
         '''

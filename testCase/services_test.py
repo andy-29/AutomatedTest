@@ -32,6 +32,7 @@ class Services(unittest.TestCase):
         self.android_params = g.android_params
     @data(*(get_values(func, "test_services")))
     def test_services(self,value):
+        self._testMethodDoc = "--"
         '''
         美购列表
         '''

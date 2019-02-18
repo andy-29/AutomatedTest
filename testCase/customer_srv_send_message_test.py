@@ -21,6 +21,7 @@ class Customer_Srv_Send_Message(unittest.TestCase):
     @data(*(get_values(func, "test_customer_srv_send_message")))
     @require_login
     def test_customer_srv_send_message(self, value):
+        self._testMethodDoc = "--"
         post_data = {'content': '中国'}
         r = gmhttp.post(self.url, data=post_data).json()
         self.assertEqual(0, r['error'])

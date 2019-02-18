@@ -21,6 +21,7 @@ class Topic_Reply_Create_Topic_Id(unittest.TestCase):
     @data(*(get_values(func, "test_topic_reply_create_topic_id")))
     @require_login
     def test_topic_reply_create_topic_id(self, value):
+        self._testMethodDoc = "--"
         '''
         
         '''

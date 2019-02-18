@@ -19,6 +19,7 @@ class Draft_List(unittest.TestCase):
     @data(*(get_values(func, "test_draft_list")))
     @require_login
     def test_draft_list(self,value):
+        self._testMethodDoc = "--"
         '''
         获取草稿列表
         '''

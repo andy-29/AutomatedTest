@@ -17,6 +17,7 @@ class Push_History(unittest.TestCase):
 
     @data(*(get_values(func, "test_push_history")))
     def test_push_history(self,value):
+        self._testMethodDoc = "--"
         '''
         用户接受的活动推送
         '''

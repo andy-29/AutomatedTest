@@ -19,6 +19,7 @@ class Shopcart_Set_Number(unittest.TestCase):
     @data(*(get_values(func, "test_shopcart_set_number")))
     @require_login
     def test_shopcart_set_number(self,value):
+        self._testMethodDoc = "--"
         '设置购物车项目数量'
         myId = shopcart_info_get()
         post_data = {'id': myId[0], 'number': '3'}

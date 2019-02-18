@@ -32,6 +32,7 @@ class User_Phone(unittest.TestCase):
         self.android_params = g.android_params
     @data(*(get_values(func, "test_user_phone")))
     def test_user_phone(self,value):
+        self._testMethodDoc = "--"
         '''
         手机号接口
         '''

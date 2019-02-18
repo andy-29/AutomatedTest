@@ -20,6 +20,7 @@ class Report(unittest.TestCase):
 
     @data(*(get_values(func, "test_report")))
     def test_report(self,value):
+        self._testMethodDoc = "--"
         '''
         举报帖子/回复/日记本
         '''

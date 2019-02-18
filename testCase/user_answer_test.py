@@ -40,6 +40,7 @@ class User_Answer(unittest.TestCase):
 
     @data(*(get_values(func, "test_user_answer")))
     def test_user_answer(self,value):
+        self._testMethodDoc = "--"
         '''
         
         '''

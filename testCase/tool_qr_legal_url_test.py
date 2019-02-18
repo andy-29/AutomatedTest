@@ -18,6 +18,7 @@ class Tool_Qr_Legal_Url(unittest.TestCase):
 
     @data(*(get_values(func, "test_tool_qr_legal_url")))
     def test_tool_qr_legal_url(self,value):
+        self._testMethodDoc = "--"
         '''
         二维码扫描，合法域名
         '''

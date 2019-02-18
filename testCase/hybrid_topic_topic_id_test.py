@@ -41,6 +41,7 @@ class Hybrid_Topic_Topic_Id(unittest.TestCase):
 
     @data(*(get_values(func, "test_hybrid_topic_topic_id")))
     def test_hybrid_topic_topic_id(self,value):
+        self._testMethodDoc = "--"
         '''
 
         '''

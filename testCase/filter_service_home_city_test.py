@@ -17,6 +17,7 @@ class Filter_Service_Home_City(unittest.TestCase):
 
     @data(*(get_values(func, "test_filter_service_home_city")))
     def test_filter_service_home_city(self,value):
+        self._testMethodDoc = "--"
         '''
         首页选择城市
         '''

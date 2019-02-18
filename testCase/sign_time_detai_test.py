@@ -39,6 +39,7 @@ class Sign_Time_Detai(unittest.TestCase):
         self.assertTrue(self.header, msg='登录未成功！')
     @data(*(get_values(func, "test_sign_time_detai")))
     def test_sign_time_detai(self,value):
+        self._testMethodDoc = "--"
         '''
         
         '''

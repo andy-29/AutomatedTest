@@ -17,6 +17,7 @@ class Td_Collect_Channel(unittest.TestCase):
 
     @data(*(get_values(func, "test_td_collect_channel")))
     def test_td_collect_channel(self,value):
+        self._testMethodDoc = "--"
         '''
         
         '''

@@ -40,6 +40,7 @@ class Service_Comment_Detail(unittest.TestCase):
 
     @data(*(get_values(func, "test_service_comment_detail")))
     def test_service_comment_detail(self,value):
+        self._testMethodDoc = "--"
         '''
         评论详情页
         (订单号硬编码，因为需要订单消费)

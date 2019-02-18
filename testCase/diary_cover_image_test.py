@@ -32,6 +32,7 @@ class Diary_Cover_Image(unittest.TestCase):
         self.android_params = g.android_params
     @data(*(get_values(func, "test_diary_cover_image")))
     def test_diary_cover_image(self,value):
+        self._testMethodDoc = "--"
         '''
         
         '''

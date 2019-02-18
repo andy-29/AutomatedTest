@@ -17,6 +17,7 @@ class Coupon_List(unittest.TestCase):
 
     @data(*(get_values(func, "test_coupon_list")))
     def test_coupon_list(self,value):
+        self._testMethodDoc = "--"
         '''
         美券列表页
         '''

@@ -32,6 +32,7 @@ class Services_Offline_List(unittest.TestCase):
         self.android_params = g.android_params
     @data(*(get_values(func, "test_services_offline_list")))
     def test_services_offline_list(self,value):
+        self._testMethodDoc = "--"
         '''
         高佣金项目美购列表
         '''

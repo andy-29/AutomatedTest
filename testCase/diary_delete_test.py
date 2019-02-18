@@ -55,6 +55,7 @@ class Diary_Delete(unittest.TestCase):
         self.diary_id = r.get('data').get('id')
     @data(*(get_values(func, "test_diary_delete")))
     def test_diary_delete(self,value):
+        self._testMethodDoc = "--"
         '''
         删除日记本
         '''

@@ -20,6 +20,7 @@ class Customer_Srv_Is_Direct_Talk(unittest.TestCase):
     @data(*(get_values(func, "test_customer_srv_is_direct_talk")))
     @require_login
     def test_customer_srv_is_direct_talk(self,value):
+        self._testMethodDoc = "--"
         r = gmhttp.get(url=g.host + '/api/customer_srv/is_direct_talk').json()
         self.assertEqual(0, r['error'])
         entry_id = r['data']['entry_id']

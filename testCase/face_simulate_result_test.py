@@ -26,6 +26,7 @@ class Face_Simulate_Result(unittest.TestCase):
     @data(*(get_values(func, "test_face_simulate_result")))
     @require_login
     def test_face_simulate_result(self,value):
+        self._testMethodDoc = "--"
         '''
         上传分析结果
         '''

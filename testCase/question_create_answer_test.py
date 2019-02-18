@@ -20,6 +20,7 @@ class Question_Create_Answer(unittest.TestCase):
     @data(*(get_values(func, "test_question_create_answer")))
     @require_login
     def test_question_create_answer(self,value):
+        self._testMethodDoc = "--"
 
         gmhttp.params.update({"release":1})
         post_data = {'content': '[{"type":0,"content":"恢复好又美美哒了吧？"}]',

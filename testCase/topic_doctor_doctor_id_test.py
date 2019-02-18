@@ -33,6 +33,7 @@ class Topic_Doctor_Doctor_Id(unittest.TestCase):
 
     @data(*(get_values(func, "test_topic_doctor_doctor_id")))
     def test_topic_doctor_doctor_id(self,value):
+        self._testMethodDoc = "--"
         '''
         
         '''

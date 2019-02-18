@@ -22,6 +22,7 @@ class Face_Analyze(unittest.TestCase):
     @data(*(get_values(func, "test_face_analyze")))
     @require_login
     def test_face_analyze(self, value):
+        self._testMethodDoc = "--"
         '''
         人脸分析接口
         '''

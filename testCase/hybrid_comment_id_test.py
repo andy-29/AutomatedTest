@@ -32,6 +32,7 @@ class Hybrid_Comment_Id(unittest.TestCase):
         self.android_params = g.android_params
     @data(*(get_values(func, "test_hybrid_comment_id")))
     def test_hybrid_comment_id(self,value):
+        self._testMethodDoc = "--"
         '''
         
         '''

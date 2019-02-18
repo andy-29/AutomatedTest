@@ -40,6 +40,7 @@ class Hybrid_Question_Answer_List__Data(unittest.TestCase):
 
     @data(*(get_values(func, "test_hybrid_question_answer_list__data")))
     def test_hybrid_question_answer_list__data(self,value):
+        self._testMethodDoc = "--"
         '''
         
         '''

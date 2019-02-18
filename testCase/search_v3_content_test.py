@@ -17,6 +17,7 @@ class Search_V3_Content(unittest.TestCase):
 
     @data(*(get_values(func, "test_search_v3_content")))
     def test_search_v3_content(self,value):
+        self._testMethodDoc = "--"
         '''
         v3综合搜索
         '''

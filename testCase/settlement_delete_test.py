@@ -30,6 +30,7 @@ class Settlement_Delete(unittest.TestCase):
     @data(*(get_values(func, "test_settlement_delete")))
     @require_login
     def test_settlement_delete(self, value):
+        self._testMethodDoc = "--"
         '取消订单'
         data = {
             "id": self.st_id,

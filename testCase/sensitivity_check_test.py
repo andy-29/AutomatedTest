@@ -25,6 +25,7 @@ class Check_Centent(unittest.TestCase):
     @data(*(get_values(func, "test_check_centent")))
     @require_login
     def test_check_centent(self,value):
+        self._testMethodDoc = "--"
         post_data = {'content': thirddata['/api/sensitivity/check']['content'],
                      'filter_type': thirddata['/api/sensitivity/check']['filter_type'],
                      'isfilternum': thirddata['/api/sensitivity/check']['isfilternum']}

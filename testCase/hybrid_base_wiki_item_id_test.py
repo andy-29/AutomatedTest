@@ -32,6 +32,7 @@ class Hybrid_Base_Wiki_Item_Id(unittest.TestCase):
         self.android_params = g.android_params
     @data(*(get_values(func, "test_hybrid_base_wiki_item_id")))
     def test_hybrid_base_wiki_item_id(self,value):
+        self._testMethodDoc = "--"
         '''
         
         '''

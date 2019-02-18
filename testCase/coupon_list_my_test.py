@@ -21,6 +21,7 @@ class Coupon_List_My(unittest.TestCase):
     @data(*(get_values(func, "test_coupon_list_my")))
     @require_login
     def test_coupon_list_my(self, value):
+        self._testMethodDoc = "--"
         r = gmhttp.get(self.url).json()
         self.assertEqual(0, r['error'])
 

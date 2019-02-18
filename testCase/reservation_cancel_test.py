@@ -39,6 +39,7 @@ class Reservation_Cancel(unittest.TestCase):
 
     @data(*(get_values(func, "test_reservation_cancel")))
     def test_reservation_cancel(self,value):
+        self._testMethodDoc = "--"
         """
         取消预约
         """

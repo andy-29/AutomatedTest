@@ -68,6 +68,7 @@ class Live_Get_Services(unittest.TestCase):
 
     @data(*(get_values(func, "test_live_get_services")))
     def test_live_get_services(self,value):
+        self._testMethodDoc = "--"
         '''
         直播中获取美购相关信息
         '''

@@ -19,6 +19,7 @@ class Diary_Create(unittest.TestCase):
     @data(*(get_values(func, "test_diary_create")))
     @require_login
     def test_diary_create(self, value):
+        self._testMethodDoc = "--"
         post_data = {'diary_title': '唯美而战',
                      'operation_timestamp': str(round(time.time()))}
         r = gmhttp.post(url=self.url, data=post_data).json()

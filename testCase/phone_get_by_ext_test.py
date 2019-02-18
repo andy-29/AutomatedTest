@@ -32,6 +32,7 @@ class Phone_Get_By_Ext(unittest.TestCase):
         self.android_params = g.android_params
     @data(*(get_values(func, "test_phone_get_by_ext")))
     def test_phone_get_by_ext(self,value):
+        self._testMethodDoc = "--"
         '''
         
         '''

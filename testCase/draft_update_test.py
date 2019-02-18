@@ -21,6 +21,7 @@ class Draft_Update(unittest.TestCase):
 
     @data(*(get_values(func, "test_draft_update")))
     def test_draft_update(self, value):
+        self._testMethodDoc = "--"
         '''
         更新草稿
         '''
