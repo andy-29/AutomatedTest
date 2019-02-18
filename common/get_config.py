@@ -3,10 +3,29 @@ import os
 
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 import sys
+import sqlite3
 
 sys.path.append(BASE_DIR)
 c = ConfigParser()
 c.read(os.path.join(BASE_DIR, "data"), encoding='utf-8')
+
+
+# 维护一份SQL的数据，方面data信息不全时使用
+def func_dict_get(flag=None):
+    if sys.platform == "win32":
+        _path = g.get_info('env_info', 'database_path_windows')
+    else:
+        _path = g.get_info('env_info', 'database_path_linux')
+    s = sqlite3.connect(_path)
+    sc = s.cursor()
+    if flag:
+        rep = sc.execute(
+            'SELECT func,uri FROM testapi_apistatus WHERE status_id=1 AND usestatus_id=1 AND env like "%https://backend.igengmei.com%"').fetchall()
+    else:
+        rep = sc.execute('SELECT func,uri FROM testapi_apistatus WHERE status_id=1 AND usestatus_id=1').fetchall()
+    _a = {item[0]:item[1] for item in rep}
+    s.close()
+    return _a
 
 
 class Gmei_config:
@@ -34,8 +53,10 @@ class Gmei_config:
         return c.get('body_params', o)
 
     def get_info(self, s, o):
-        return c.get(s, o)
-
+        try:
+            return c.get(s, o)
+        except:
+            return func_dict.get(o)
     @property
     def android_params(self):
         # return dict(c.items('android_params'))
@@ -71,3 +92,4 @@ class Gmei_config:
 
 
 g = Gmei_config()
+func_dict = func_dict_get()
