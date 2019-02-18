@@ -227,6 +227,7 @@ search_v2_pgc = /api/search/v2/pgc
 search_v2_service = /api/search/v2/service
 search_v2_user = /api/search/v2/user
 search_v3_content = /api/search/v3/content
+search_v4_content = /api/search/v4/content
 search_result_diary = /api/search_result/diary
 search_result_pgc = /api/search_result/pgc
 search_result_question = /api/search_result/question

@@ -29,7 +29,9 @@ class Report(unittest.TestCase):
             'diarybook_id':self.diary_id
         }
         r = gmhttp.post(self.url,data=data).json()
-        self.assertEqual(r.get("error"),0)
+        self.assertIn(r.get("error"),[0,1])
+        if r.get('error') == 1:
+            self.assertEqual(r.get('error_code'),13001)
         print('用例执行完毕!')
 
 

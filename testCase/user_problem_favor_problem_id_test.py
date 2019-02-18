@@ -1,24 +1,3 @@
-from common.common import data
-from common.common import cookies
-from common.common import back_domain
-from common.common import back_end_domain
-from common.common import myurl
-from copy import deepcopy
-from common.common import back_end_domain
-import unittest
-import gmhttp
-import json
-import os
-from pprint import pprint
-BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-import sys
-sys.path.append(BASE_DIR)
-from common.get_config import g
-
-
-
-
-
 import os,sys
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 sys.path.append(BASE_DIR)
@@ -35,10 +14,7 @@ class User_Problem_Favor_Problem_Id(unittest.TestCase):
         cls.host = g.host
         cls.api_name = g.api_name(func)
         cls.url = cls.host + cls.api_name
-        print('获取环境信息和接口信息')
-        self.host = g.host
-        self.api_name = g.api_name(os.path.basename(__file__).split('_test.py')[0])
-        self.android_params = g.android_params
+
 
     @data(*(get_values(func, "test_user_problem_favor_problem_id")))
     def test_user_problem_favor_problem_id(self,value):
@@ -46,12 +22,8 @@ class User_Problem_Favor_Problem_Id(unittest.TestCase):
         '''
         
         '''
-        inner_data = deepcopy(data)
-        r = gmhttp.post(url=back_end_domain + myurl['/api/user/problem_favor/{}/'].format('3990'),
-                          params=inner_data, data={}, cookies=cookies)
-        # pprint(r.content.decode())
-        dict_json = json.loads(r.content.decode())
-        self.assertEqual(0, dict_json['error'])
+        r = gmhttp.post(url=self.url.format('3990'), data={}).json()
+        self.assertEqual(0, r['error'])
 
     def tearDown(self):
         pass
