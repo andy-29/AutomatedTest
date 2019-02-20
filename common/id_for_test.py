@@ -245,3 +245,16 @@ def maidan_id_get():
     r = gmhttp.post(url=url, data=data).json()
     maidan_id = r.get('data').get('id')
     return maidan_id
+
+@require_login
+def sign_activity_id_get():
+    url = g.host + g.get_info('api_info','sign_detail')
+    r = gmhttp.get(url).json()
+    activity_id = r.get('data').get('id')
+    status = r.get('data').get('is_remind')
+    sign_status = r.get('data').get('sign_status')
+    total_days = r.get('data').get('total_days')
+
+    return activity_id,status,sign_status,total_days
+
+
