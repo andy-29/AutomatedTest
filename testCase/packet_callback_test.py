@@ -26,7 +26,7 @@ class Packet_Callback(unittest.TestCase):
         gmhttp.params.update({"opened":random.randint(0,1),"type":random.randint(0,1)})
         r = gmhttp.get(self.url).json()
         gmhttp.reset()
-        self.assertEqual(r.get("error"),0)
+        self.assertEqual(r.get("error"),0,msg=r)
         print('用例执行完毕!')
 
 
