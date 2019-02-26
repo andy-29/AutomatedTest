@@ -25,7 +25,7 @@ class Question_Reply_Answer(unittest.TestCase):
         '''
         #,这个answer_id是从/hybrid/question/answer_list/_data?question_id=
 
-        post_data = {'answer_id': self.answer_id, 'answer_reply_id': '', 'content': '開心'}
+        post_data = {'answer_id': self.answer_id, 'content': '開心'}
         r = gmhttp.post(url=self.url, data=post_data).json()
         self.assertEqual(0, r['error'])
 
