@@ -12,7 +12,7 @@ from common.get_config import g
 def get_values(func, casname):
     r = None
     try:
-        r = requests.get('http://127.0.0.1:8090/testapi/searchcasedata', params={"func": func, 'case': casname}).json()
+        r = requests.get('http://127.0.0.1:8090/searchcasedata/', params={"func": func, 'case': casname}).json()
     except Exception:
         '''
         异常不处理
@@ -31,7 +31,7 @@ def get_values(func, casname):
         s = sqlite3.connect(_path)
         sc = s.cursor()
         rep = sc.execute(
-            'SELECT td.uridata,td.paramsdata,td.requestdata,td.assertdata FROM testapi_testdata td,testapi_apistatus ta WHERE td.`case` = "%s" AND td.uri_id = ta.id AND ta.func = "%s"' % (
+            'SELECT td.uridata,td.paramsdata,td.requestdata,td.assertdata FROM gmapi_testdata td,gmapi_apistatus ta WHERE td.`case` = "%s" AND td.uri_id = ta.id AND ta.func = "%s"' % (
             casname, func)).fetchall()
         values = [{"uridata": item[0], "paramsdata": eval(item[1]) if item[1] else {},
                    "requestdata": eval(item[2]) if item[2] else {},

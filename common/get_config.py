@@ -20,9 +20,9 @@ def func_dict_get(flag=None):
     sc = s.cursor()
     if flag:
         rep = sc.execute(
-            'SELECT func,uri FROM testapi_apistatus WHERE status_id=1 AND usestatus_id=1 AND env like "%https://backend.igengmei.com%"').fetchall()
+             'SELECT ga.func FROM gmapi_apistatus ga  left join gmapi_apistatus_env gae on ga.id = gae.apistatus_id WHERE envhost_id =2').fetchall()
     else:
-        rep = sc.execute('SELECT func,uri FROM testapi_apistatus WHERE status_id=1 AND usestatus_id=1').fetchall()
+        rep = sc.execute('SELECT func,uri FROM gmapi_apistatus WHERE status_id=1 AND usestatus_id=1').fetchall()
     _a = {item[0]: item[1] for item in rep}
     s.close()
     return _a

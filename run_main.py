@@ -21,9 +21,9 @@ def all_func(flag=None):
     sc = s.cursor()
     if flag:
         rep = sc.execute(
-            'SELECT func FROM testapi_apistatus WHERE status_id=1 AND usestatus_id=1 AND env like "%https://backend.igengmei.com%"').fetchall()
+            'SELECT ga.func FROM gmapi_apistatus ga  left join gmapi_apistatus_env gae on ga.id = gae.apistatus_id WHERE envhost_id =2').fetchall()
     else:
-        rep = sc.execute('SELECT func FROM testapi_apistatus WHERE status_id=1 AND usestatus_id=1').fetchall()
+        rep = sc.execute('SELECT func FROM gmapi_apistatus WHERE status_id=1 AND usestatus_id=1').fetchall()
     _a = [item[0] for item in rep]
     s.close()
     return _a
@@ -64,7 +64,7 @@ def run_test(path: str = 'testCase'):
     if host == "https://backend.igengmei.com":
         copyname = 'testReport/igengmei_test_api_ressult.html'
         try:
-            a = requests.get('http://127.0.0.1:8090/oms/checkedapi', params={'env': host}).json()
+            a = requests.get('http://127.0.0.1:8090/checkedapi/', params={'env': host}).json()
         except Exception:
             '''
             异常时直接操作库
@@ -74,7 +74,7 @@ def run_test(path: str = 'testCase'):
     else:
         copyname = 'testReport/paas_test_api_ressult.html'
         try:
-            a = requests.get('http://127.0.0.1:8090/oms/checkedapi', params={'env': ''}).json()
+            a = requests.get('http://127.0.0.1:8090/checkedapi/', params={'env': ''}).json()
         except:
             a = all_func()
     for case in a:
@@ -83,29 +83,29 @@ def run_test(path: str = 'testCase'):
     result = BeautifulReport(testsuits)
     result.report(filename=report_name, description="API接口", log_path='testReport')
     shutil.copy('testReport/%s.html' % report_name, copyname)
-    try:
-        # 对测试结果入库,本期对总执行数用例（非脚本数）和错误数量入库
-        failure_count, error_count, success_count = result.failure_count, result.error_count, result.success_count
-        # 调用接口入库
-
-        requests.post('http://127.0.0.1:8090/oms/autoresult',
-                      data={"failure_count": failure_count, "error_count": error_count, "success_count": success_count})
-
-        # 对错误脚本入库
-        error_list = [[item[0], item[1]] for item in result.result_list if item[4] == "失败"]
-        requests.post('http://127.0.0.1:8090/oms/apiresult', data=json.dumps({"error_list": error_list}))
-    except:
-        '''
-        暂不实现
-        '''
-
-    # 全部做容错处理，django服务可能不稳定，在无法进行访问时，直接操作数据库
-    '''
-    http://127.0.0.1:8090/oms/checkedapi
-    http://127.0.0.1:8090/oms/autoresult
-    http://127.0.0.1:8090/oms/apiresult
-    
-    '''
+    # try:
+    #     # 对测试结果入库,本期对总执行数用例（非脚本数）和错误数量入库
+    #     failure_count, error_count, success_count = result.failure_count, result.error_count, result.success_count
+    #     # 调用接口入库
+    #
+    #     requests.post('http://127.0.0.1:8090/oms/autoresult',
+    #                   data={"failure_count": failure_count, "error_count": error_count, "success_count": success_count})
+    #
+    #     # 对错误脚本入库
+    #     error_list = [[item[0], item[1]] for item in result.result_list if item[4] == "失败"]
+    #     requests.post('http://127.0.0.1:8090/oms/apiresult', data=json.dumps({"error_list": error_list}))
+    # except:
+    #     '''
+    #     暂不实现
+    #     '''
+    #
+    # # 全部做容错处理，django服务可能不稳定，在无法进行访问时，直接操作数据库
+    # '''
+    # http://127.0.0.1:8090/oms/checkedapi
+    # http://127.0.0.1:8090/oms/autoresult
+    # http://127.0.0.1:8090/oms/apiresult
+    #
+    # '''
 
 
 if __name__ == "__main__":
