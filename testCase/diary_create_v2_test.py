@@ -23,7 +23,7 @@ class Diary_Create(unittest.TestCase):
         post_data = {'diary_title': '唯美而战',
                      'operation_timestamp': str(round(time.time()))}
         r = gmhttp.post(url=self.url, data=post_data).json()
-        self.assertEqual(0, r['error'])
+        self.assertEqual(0, r['error'],msg=r)  #本地无措，抓取linux报错
 
 
 if __name__ == '__main__':
