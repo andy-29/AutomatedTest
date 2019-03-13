@@ -103,7 +103,7 @@ class Service_Home_V3(unittest.TestCase):
             self.assertIn('is_price_range', item.keys())
             self.assertIsInstance(item.get('is_price_range'), bool)
             self.assertIn('seckill_status', item.keys())
-            self.assertIsInstance(item.get('seckill_status'), str)
+            self.assertIsInstance(item.get('seckill_status'), (str,int))
             self.assertIn('hospital_name', item.keys())
             self.assertIsInstance(item.get('hospital_name'), str)
             self.assertIn('fenqi_new_desc', item.keys())
