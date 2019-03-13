@@ -60,7 +60,7 @@ class Service_Home_V3_List(unittest.TestCase):
             self.assertIn('image_header', item.keys())
             self.assertIsInstance(item.get('image_header'), str)
             self.assertIn('seckill_price', item.keys())
-            self.assertIsInstance(item.get('seckill_price'), str)
+            self.assertIsInstance(item.get('seckill_price'), (str,int))
             self.assertIn('hospital_scale', item.keys())
             self.assertIsInstance(item.get('hospital_scale'), str)
             self.assertIn('short_description', item.keys())
