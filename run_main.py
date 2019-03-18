@@ -77,7 +77,7 @@ def run_test(path: str = 'testCase'):
             a = requests.get('http://127.0.0.1:8090/checkedapi/', params={'env': ''}).json()
         except:
             a = all_func()
-    for case in a[0:4]:
+    for case in a:
         testsuits.addTest(
             unittest.defaultTestLoader.discover(path, pattern=case + '_test.py', top_level_dir='testCase'))
     result = BeautifulReport(testsuits)
