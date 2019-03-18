@@ -77,12 +77,43 @@ def run_test(path: str = 'testCase'):
             a = requests.get('http://127.0.0.1:8090/checkedapi/', params={'env': ''}).json()
         except:
             a = all_func()
-    for case in a:
+    for case in a[0:4]:
         testsuits.addTest(
             unittest.defaultTestLoader.discover(path, pattern=case + '_test.py', top_level_dir='testCase'))
     result = BeautifulReport(testsuits)
     result.report(filename=report_name, description="API接口", log_path='testReport')
     shutil.copy('testReport/%s.html' % report_name, copyname)
+
+    result_list = [item for item in result.result_list if item[4] != '成功']
+
+    from PIL import Image, ImageDraw, ImageFont
+    if result_list:
+
+        length, weight_unit = 1000, 20
+        back_img = Image.new(mode='RGB', size=(length, weight_unit * len(result_list)),
+                             color=(255, 255, 255))
+        draw_img = ImageDraw.ImageDraw(back_img)
+        font = ImageFont.truetype('simsun.ttc', size=weight_unit)
+
+        num = 0
+        for item in result_list:
+            draw_img.text((0, weight_unit * num), item[0]+':'+item[1], font=font, fill='red')
+            num += 1
+            # draw_img.text((0, weight_unit * num), item[5][-1], font=font, fill='black')
+            # num += 1
+            # draw_img.text((0, weight_unit * num), '-'*10+'分割线'+'-'*10, font=font, fill='black')
+            # num += 1
+        back_img.save('testReport/error.jpg')
+    else:
+        back_img = Image.new(mode='RGB', size=(200,50),
+                             color=(255, 255, 255))
+        draw_img = ImageDraw.ImageDraw(back_img)
+        font = ImageFont.truetype('simsun.ttc', size=50)
+        draw_img.text((0, 0), '全部通过', font=font, fill='green')
+        back_img.save('testReport/error.jpg')
+
+
+
     # try:
     #     # 对测试结果入库,本期对总执行数用例（非脚本数）和错误数量入库
     #     failure_count, error_count, success_count = result.failure_count, result.error_count, result.success_count
@@ -109,6 +140,9 @@ def run_test(path: str = 'testCase'):
 
 
 if __name__ == "__main__":
+    import os
+
+    os.remove('testReport/error.jpg') if os.path.exists('testReport/error.jpg') else None
+
     run_test()
-    # g.set('session','sessionid','')
-    # g.edit()
+
