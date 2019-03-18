@@ -93,7 +93,7 @@ def run_test(path: str = 'testCase'):
         back_img = Image.new(mode='RGB', size=(length, weight_unit * len(result_list)),
                              color=(255, 255, 255))
         draw_img = ImageDraw.ImageDraw(back_img)
-        font = ImageFont.truetype('simsun.ttc', size=weight_unit)
+        font = ImageFont.truetype('arial.ttf', size=weight_unit,encoding='gbk')
 
         num = 0
         for item in result_list:
@@ -108,7 +108,7 @@ def run_test(path: str = 'testCase'):
         back_img = Image.new(mode='RGB', size=(200,50),
                              color=(255, 255, 255))
         draw_img = ImageDraw.ImageDraw(back_img)
-        font = ImageFont.truetype('simsun.ttc', size=50)
+        font = ImageFont.truetype('simkai.ttf', size=50)
         draw_img.text((0, 0), '全部通过', font=font, fill='green')
         back_img.save('testReport/error.jpg')
 
