@@ -24,7 +24,7 @@ def get_values(func, casname):
                    "assertdata": eval(item.get('assertdata')) if item.get('assertdata') else {}} for item in r]
     else:
         # 直接在数据库获取--防止服务挂掉
-        if sys.platform == "win32":
+        if sys.platform == "darwin":
             _path = g.get_info('env_info', 'database_path_windows')
         else:
             _path = g.get_info('env_info', 'database_path_linux')
