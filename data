@@ -4,8 +4,8 @@ salt = DHZd38GsKezs$@V9LxQx$wHo8hvqCR=#
 sign_salt = checkin_gengmei_7730
 tag_id1 = 85
 tag_id2 = 86
-database_path_windows = C:\Users\Administrator\PycharmProjects\apiadmin\db.sqlite3
-database_path_linux = /home/apiadmin/db.sqlite3
+database_path_windows = /Users/gengmei/Documents/apiadmin/db.sqlite3
+database_path_linux = /home/test-user/apiadmin/db.sqlite3
 
 [user_info]
 telephone = +8613608913121
