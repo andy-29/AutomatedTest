@@ -21,7 +21,11 @@ class Index_V6(unittest.TestCase):
         '''
         
         '''
-        r = gmhttp.get(self.url,timeout= 10).json()
+        print(self.url)
+        r = gmhttp.get(self.url,timeout= 10)
+
+        print(r)
+        # r = gmhttp.get(self.url,timeout= 10).json()
         self.assertEqual(r.get("error"),0)
         self.assertIn('function_area_mutiple', r.get('data').keys())
         # for item in r.get('data').get('function_area_mutiple'):
