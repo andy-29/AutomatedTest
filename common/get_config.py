@@ -12,11 +12,16 @@ c.read(os.path.join(BASE_DIR, "data"), encoding='utf-8')
 
 # 维护一份SQL的数据，方面data信息不全时使用
 def func_dict_get(flag=None):
-    if sys.platform == "win32":
-        _path = g.get_info('env_info', 'database_path_windows')
+    if sys.platform == "darwin":
+        _path = g.get_info('env_info', 'database_path_mac')
     else:
         _path = g.get_info('env_info', 'database_path_linux')
-    s = sqlite3.connect(_path)
+    try:
+        s = sqlite3.connect(_path)
+    except sqlite3.OperationalError:
+        _path = g.get_info('env_info', 'database_path_aliyun')
+        s = sqlite3.connect(_path)
+
     sc = s.cursor()
     if flag:
         rep = sc.execute(

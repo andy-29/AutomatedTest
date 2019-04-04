@@ -25,10 +25,14 @@ def get_values(func, casname):
     else:
         # 直接在数据库获取--防止服务挂掉
         if sys.platform == "darwin":
-            _path = g.get_info('env_info', 'database_path_windows')
+            _path = g.get_info('env_info', 'database_path_mac')
         else:
             _path = g.get_info('env_info', 'database_path_linux')
-        s = sqlite3.connect(_path)
+        try:
+            s = sqlite3.connect(_path)
+        except sqlite3.OperationalError:
+            _path = g.get_info('env_info', 'database_path_aliyun')
+            s = sqlite3.connect(_path)
         sc = s.cursor()
         rep = sc.execute(
             'SELECT td.uridata,td.paramsdata,td.requestdata,td.assertdata FROM gmapi_testdata td,gmapi_apistatus ta WHERE td.`case` = "%s" AND td.uri_id = ta.id AND ta.func = "%s"' % (

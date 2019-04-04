@@ -13,11 +13,15 @@ import urllib3
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
 def all_func(flag=None):
-    if sys.platform == "win32":
-        _path = g.get_info('env_info', 'database_path_windows')
+    if sys.platform == "darwin":
+        _path = g.get_info('env_info', 'database_path_mac')
     else:
         _path = g.get_info('env_info', 'database_path_linux')
-    s = sqlite3.connect(_path)
+    try:
+        s = sqlite3.connect(_path)
+    except sqlite3.OperationalError:
+        _path = g.get_info('env_info', 'database_path_aliyun')
+        s = sqlite3.connect(_path)
     sc = s.cursor()
     if flag:
         rep = sc.execute(
