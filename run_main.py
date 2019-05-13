@@ -81,6 +81,7 @@ def run_test(path: str = 'testCase'):
             a = requests.get('http://127.0.0.1:8090/checkedapi/', params={'env': ''}).json()
         except:
             a = all_func()
+    print(a)
     for case in a:
         testsuits.addTest(
             unittest.defaultTestLoader.discover(path, pattern=case + '_test.py', top_level_dir='testCase'))
@@ -113,7 +114,7 @@ def run_test(path: str = 'testCase'):
                              color=(255, 255, 255))
         draw_img = ImageDraw.ImageDraw(back_img)
         font = ImageFont.truetype('arial.ttf', size=50)
-        draw_img.text((0, 0), '全部通过', font=font, fill='green')
+        draw_img.text((0, 0), 'ALL PASS!', font=font, fill='green')
         back_img.save('testReport/error.jpg')
 
 
