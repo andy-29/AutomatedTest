@@ -10,7 +10,9 @@ import sqlite3
 import sys
 
 import urllib3
+
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
+
 
 def all_func(flag=None):
     if sys.platform == "darwin":
@@ -65,7 +67,8 @@ def run_test(path: str = 'testCase'):
     testsuits = TestSuite()
 
     report_name = "{}_{}".format(path, str(datetime.now().strftime("%Y%m%d%H%M%S")))
-    if host == "https://backend.igengmei.com":
+    if host in ("https://backend.igengmei.com", 'http://backend.paas.env','http://backend.pre.igengmei.com'):
+        host = "https://backend.igengmei.com"
         copyname = 'testReport/igengmei_test_api_ressult.html'
         try:
             a = requests.get('http://127.0.0.1:8090/checkedapi/', params={'env': host}).json()
@@ -81,7 +84,6 @@ def run_test(path: str = 'testCase'):
             a = requests.get('http://127.0.0.1:8090/checkedapi/', params={'env': ''}).json()
         except:
             a = all_func()
-    print(a)
     for case in a:
         testsuits.addTest(
             unittest.defaultTestLoader.discover(path, pattern=case + '_test.py', top_level_dir='testCase'))
@@ -98,11 +100,11 @@ def run_test(path: str = 'testCase'):
         back_img = Image.new(mode='RGB', size=(length, weight_unit * len(result_list)),
                              color=(255, 255, 255))
         draw_img = ImageDraw.ImageDraw(back_img)
-        font = ImageFont.truetype('arial.ttf', size=weight_unit,encoding='gbk')
+        font = ImageFont.truetype('arial.ttf', size=weight_unit, encoding='gbk')
 
         num = 0
         for item in result_list:
-            draw_img.text((0, weight_unit * num), item[0]+':'+item[1], font=font, fill='red')
+            draw_img.text((0, weight_unit * num), item[0] + ':' + item[1], font=font, fill='red')
             num += 1
             # draw_img.text((0, weight_unit * num), item[5][-1], font=font, fill='black')
             # num += 1
@@ -110,14 +112,12 @@ def run_test(path: str = 'testCase'):
             # num += 1
         back_img.save('testReport/error.jpg')
     else:
-        back_img = Image.new(mode='RGB', size=(200,50),
+        back_img = Image.new(mode='RGB', size=(200, 50),
                              color=(255, 255, 255))
         draw_img = ImageDraw.ImageDraw(back_img)
-        font = ImageFont.truetype('arial.ttf', size=50)
-        draw_img.text((0, 0), 'ALL PASS!', font=font, fill='green')
+        font = ImageFont.truetype('arial.ttf', size=30)
+        draw_img.text((20, 8), 'ALL PASS!', font=font, fill='green')
         back_img.save('testReport/error.jpg')
-
-
 
     # try:
     #     # 对测试结果入库,本期对总执行数用例（非脚本数）和错误数量入库
@@ -150,4 +150,3 @@ if __name__ == "__main__":
     os.remove('testReport/error.jpg') if os.path.exists('testReport/error.jpg') else None
 
     run_test()
-

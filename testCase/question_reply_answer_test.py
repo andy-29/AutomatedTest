@@ -14,8 +14,8 @@ class Question_Reply_Answer(unittest.TestCase):
         cls.host = g.host
         cls.api_name = g.api_name(func)
         cls.url = cls.host + cls.api_name
-        cls.answer_id = 645785
-        # cls.answer_id = answer_id_get()
+        # cls.answer_id = 645785
+        cls.answer_id = answer_id_get()
 
     @data(*(get_values(func, "test_question_reply_answer")))
     @require_login

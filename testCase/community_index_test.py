@@ -166,7 +166,7 @@ class Community_Index(unittest.TestCase):
             if  r.get('data').get('topup'):
                 for item in r.get('data').get('topup'):
                     self.assertIn('url', item.keys())
-                    self.assertIsInstance(item.get('url'), int)
+                    self.assertIsInstance(item.get('url'), str)
                     self.assertIn('title', item.keys())
                     self.assertIsInstance(item.get('title'), str)
 
