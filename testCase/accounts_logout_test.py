@@ -21,8 +21,9 @@ class Accounts_Logout(unittest.TestCase):
     def test_accounts_logout(self,value):
         self._testMethodDoc = '成功退出'
         r = gmhttp.post(self.url).json()
+        if r.get('error') == 0:
+            gmhttp.headers.pop("Cookie")
         self.assertEqual(r, value.get('assertdata'))
-        gmhttp.headers.pop("Cookie")
 
 
     def tearDown(self):
