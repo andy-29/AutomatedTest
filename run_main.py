@@ -97,7 +97,9 @@ def run_test(path: str = 'testCase'):
             draw_img.text((0, weight_unit * num), item, font=font, fill='blue')
             num += 1
     back_img.save('testReport/error.jpg')
-
+    if len(result_list) > 0:
+        #主动跑错
+        raise Exception('有接口没有执行通过！')
 
 if __name__ == "__main__":
     import os
