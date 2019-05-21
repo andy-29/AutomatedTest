@@ -25,15 +25,17 @@ class Coupon_List_Available(unittest.TestCase):
         可用美券列表页
         '''
         self._testMethodDoc = '可用美券列表页'
-        myid, service_item_id, service_id, transparent_key = shopcart_info_get()
+        # *_, service_item_id = service_id_get()
+        # print(service_item_id)
         data = {
-            'valid_only':1,
+            'valid_only': 1,
             'start_num': 0,
-            'service_item_id': service_item_id,
+            'service_item_id': "367936",
             'number': 1,
             'coupon_type': 1
         }
         r = gmhttp.post(self.url, data=data).json()
+        print(r)
         self.assertEqual(0, r['error'])
 
     def tearDown(self):

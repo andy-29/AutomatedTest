@@ -99,7 +99,7 @@ class Diary_Diary_Id__Data(unittest.TestCase):
         self.assertIn('tag_id', r.get('data').get('tag_data').keys())
         self.assertIsInstance(r.get('data').get('tag_data').get('tag_id'), int)
         self.assertIn('order_id', r.get('data').keys())
-        self.assertIsInstance(r.get('data').get('order_id'), type(None))
+        self.assertIsInstance(r.get('data').get('order_id'), (int,str,type(None)))
         self.assertIn('baike_tags', r.get('data').keys())
         self.assertIsInstance(r.get('data').get('baike_tags'), list)
         for item in r.get('data').get('baike_tags'):
@@ -136,9 +136,9 @@ class Diary_Diary_Id__Data(unittest.TestCase):
         self.assertIn('service_data', r.get('data').keys())
         self.assertIsInstance(r.get('data').get('service_data'), dict)
         self.assertIn('id', r.get('data').get('service_data').keys())
-        self.assertIsInstance(r.get('data').get('service_data').get('id'), type(None))
+        self.assertIsInstance(r.get('data').get('service_data').get('id'), (int,str,type(None)))
         self.assertIn('service_id', r.get('data').keys())
-        self.assertIsInstance(r.get('data').get('service_id'), type(None))
+        self.assertIsInstance(r.get('data').get('service_id'), (int,str,type(None)))
         print('用例执行完毕!')
 
 
