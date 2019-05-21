@@ -31,7 +31,11 @@ def get_values(func, casname):
     try:
         values = requests.get('http://127.0.0.1:8090/testapi/searchcasedata',timeout=3,
                               params={"func": func, 'case': casname, 'env': host}).json()
-
+        #进行数据拜正
+        for item in values:
+            item['paramsdata'] = eval(item['paramsdata'] or '{}')
+            item['requestdata'] = eval(item['requestdata'] or '{}')
+            item['assertdata'] = eval(item['assertdata'] or '{}')
     except Exception:
         '''
         希望不要跑到这里
