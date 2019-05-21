@@ -56,7 +56,6 @@ def run_test(path: str = 'testCase'):
         a = requests.get('http://127.0.0.1:8090/testapi/checkedapi/', params={'env': host,"method":method}).json()
         with open(case_file, 'w', encoding='utf-8') as f:
             f.write(json.dumps(a))
-        print(a)
     except Exception:
         with open(case_file, 'r', encoding='utf-8') as f:
             _data = f.read()
@@ -64,10 +63,10 @@ def run_test(path: str = 'testCase'):
     _a = copy.deepcopy(a)
     for case in a:
         _unit = unittest.defaultTestLoader.discover(path, pattern=case + '_test.py', top_level_dir='testCase')
-        if _unit:
+        # print(_unit.__dict__) if case=='account_login_login_vfc' else None
+        if _unit.__dict__.get('_tests'):
             testsuits.addTest(_unit)
             _a.remove(case)
-
     result = BeautifulReport(testsuits)
     result.report(filename=report_name, description="API接口", log_path='testReport')
     shutil.copy('testReport/%s.html' % report_name, copyname)
