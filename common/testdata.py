@@ -24,8 +24,6 @@ except Exception:
     pass
 
 def get_values(func, casname):
-    r = None
-    er = {}
     values = []
     host = g.host
     if host == "http://backend.pre.igengmei.com":
