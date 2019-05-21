@@ -8,6 +8,12 @@ database_path_mac = /Users/gengmei/Documents/apiadmin/db.sqlite3
 database_path_linux = /home/apiadmin/db.sqlite3
 database_path_aliyun = /home/test-user/apiadmin/db.sqlite3
 
+
+
+[config_info]
+method = method_info_for_unittest
+
+
 [user_info]
 telephone = +8613608913121
 password = a123456
