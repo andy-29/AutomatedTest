@@ -84,13 +84,13 @@ def run_test(path: str = 'testCase'):
 
     num = 0
     if len(result_list) == 0:
-        draw_img.text((0, weight_unit * num), '全部通过', font=font, fill='green')
+        draw_img.text((0, weight_unit * num), 'ALL PASS!', font=font, fill='green')
         num += 1
     for item in result_list:
         draw_img.text((0, weight_unit * num), item[0] + ':' + item[1], font=font, fill='red')
         num += 1
     if _a:
-        draw_img.text((0, weight_unit * num), 'The following interface scripts are missing！！', font=font,
+        draw_img.text((0, weight_unit * num), 'The following interface scripts are missing!!', font=font,
                       fill='red')
         num += 1
         for item in _a:
