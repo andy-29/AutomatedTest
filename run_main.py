@@ -43,6 +43,7 @@ def run_test(path: str = 'testCase'):
     """
 
     host = g.host
+    method = g.get_info('config_info','method')
     testsuits = TestSuite()
 
     report_name = "{}_{}".format(path, str(datetime.now().strftime("%Y%m%d%H%M%S")))
@@ -51,10 +52,13 @@ def run_test(path: str = 'testCase'):
     else:
         copyname = 'testReport/test_api_ressult.html'
     # 保证连接正常，testdata做了断网简单兼容，此处也做兼容
+    if host == "http://backend.pre.igengmei.com":
+        host = "https://backend.igengmei.com"
     try:
-        a = requests.get('http://127.0.0.1:8090/testapi/checkedapi/', params={'env': host}).json()
+        a = requests.get('http://127.0.0.1:8090/testapi/checkedapi/', params={'env': host,"method":method}).json()
         with open(case_file, 'w', encoding='utf-8') as f:
             f.write(json.dumps(a))
+        print(a)
     except Exception:
         with open(case_file, 'r', encoding='utf-8') as f:
             _data = f.read()
