@@ -47,10 +47,8 @@ def run_test(path: str = 'testCase'):
     testsuits = TestSuite()
 
     report_name = "{}_{}".format(path, str(datetime.now().strftime("%Y%m%d%H%M%S")))
-    if host == "https://backend.igengmei.com":
-        copyname = 'testReport/igengmei_test_api_ressult.html'
-    else:
-        copyname = 'testReport/test_api_ressult.html'
+
+    copyname = 'testReport/test_api_ressult.html'
     # 保证连接正常，testdata做了断网简单兼容，此处也做兼容
     if host == "http://backend.pre.igengmei.com":
         host = "https://backend.igengmei.com"
@@ -109,5 +107,6 @@ if __name__ == "__main__":
     case_file = os.path.join(usr_dir, 'case.txt')
 
     os.remove('testReport/error.jpg') if os.path.exists('testReport/error.jpg') else None
+    os.remove('testReport/test_api_ressult.html') if os.path.exists('testReport/test_api_ressult.html') else None
 
     run_test()
