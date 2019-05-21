@@ -28,6 +28,8 @@ def get_values(func, casname):
     er = {}
     values = []
     host = g.host
+    if host == "http://backend.pre.igengmei.com":
+        host = "https://backend.igengmei.com"
     try:
         values = requests.get('http://127.0.0.1:8090/testapi/searchcasedata',timeout=3,
                               params={"func": func, 'case': casname, 'env': host}).json()
