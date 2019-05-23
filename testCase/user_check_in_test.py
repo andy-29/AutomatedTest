@@ -21,7 +21,7 @@ class User_Check_In(unittest.TestCase):
     def test_user_check_in(self,value):
         self._testMethodDoc = "--"
         r = gmhttp.get(url=self.url).json()
-        self.assertEqual(0, r['error'])
+        self.assertEqual(0, r['error'],msg=r)
 
     def tearDown(self):
         pass

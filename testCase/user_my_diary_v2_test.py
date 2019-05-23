@@ -22,7 +22,7 @@ class My_Diary(unittest.TestCase):
         self._testMethodDoc = "--"
         '查看我得日记本'
         r = gmhttp.get(url=self.url).json()
-        self.assertEqual(0, r['error'])
+        self.assertEqual(0, r['error'],msg=r)
 
 
 if __name__ == '__main__':
