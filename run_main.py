@@ -53,7 +53,7 @@ def run_test(path: str = 'testCase'):
     if host == "http://backend.pre.igengmei.com":
         host = "https://backend.igengmei.com"
     try:
-        a = requests.get('http://127.0.0.1:8090/testapi/checkedapi/', params={'env': host,"method":method}).json()
+        a = requests.get('http://62.234.155.77:8090/testapi/checkedapi/', params={'env': host,"method":method}).json()
         with open(case_file, 'w', encoding='utf-8') as f:
             f.write(json.dumps(a))
     except Exception:
@@ -61,6 +61,7 @@ def run_test(path: str = 'testCase'):
             _data = f.read()
         a = eval(_data)
     _a = copy.deepcopy(a)
+    print(a)
     for case in a:
         _unit = unittest.defaultTestLoader.discover(path, pattern=case + '_test.py', top_level_dir='testCase')
         # print(_unit.__dict__) if case=='account_login_login_vfc' else None
