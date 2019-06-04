@@ -1,6 +1,5 @@
 [env_info]
-#host = env_host_only_no_repeat
-host = http://backend.pre.igengmei.com
+host = env_host_only_no_repeat
 salt = DHZd38GsKezs$@V9LxQx$wHo8hvqCR=#
 sign_salt = checkin_gengmei_7730
 tag_id1 = 85
