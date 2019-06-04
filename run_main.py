@@ -61,7 +61,6 @@ def run_test(path: str = 'testCase'):
             _data = f.read()
         a = eval(_data)
     _a = copy.deepcopy(a)
-    print(a)
     for case in a:
         _unit = unittest.defaultTestLoader.discover(path, pattern=case + '_test.py', top_level_dir='testCase')
         # print(_unit.__dict__) if case=='account_login_login_vfc' else None
