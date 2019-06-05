@@ -36,6 +36,9 @@ def func_dict_get(flag=None):
 class Gmei_config:
     def __init__(self):
         self._host = c.get('env_info', 'host')
+        self.server_host = c.get('config_info','server_socket')
+        if self.server_host == 'server_socket_for_unittest':
+            self.server_host = "62.234.155.77:8090"
 
     @property
     def host(self):

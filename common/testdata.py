@@ -16,8 +16,8 @@ with open(st_file, mode, encoding='utf-8'):
     ''
 #先更新所有配置
 try:
-    er = requests.get('http://62.234.155.77:8090/testapi/envdata',timeout=3).json()
-    dr = requests.get('http://62.234.155.77:8090/testapi/allcasedata',timeout=3).json()
+    er = requests.get(f'http://{g.server_host}/testapi/envdata',timeout=3).json()
+    dr = requests.get(f'http://{g.server_host}/testapi/allcasedata',timeout=3).json()
     with open(st_file, 'w', encoding='utf-8') as f:
         f.write(json.dumps([er,dr]))
 except Exception:
@@ -29,7 +29,7 @@ def get_values(func, casname):
     if host == "http://backend.pre.igengmei.com":
         host = "https://backend.igengmei.com"
     try:
-        values = requests.get('http://62.234.155.77:8090/testapi/searchcasedata',timeout=3,
+        values = requests.get(f'http://{g.server_host}/testapi/searchcasedata',timeout=3,
                               params={"func": func, 'case': casname, 'env': host}).json()
         #进行数据拜正
         for item in values:

@@ -53,7 +53,7 @@ def run_test(path: str = 'testCase'):
     if host == "http://backend.pre.igengmei.com":
         host = "https://backend.igengmei.com"
     try:
-        a = requests.get('http://62.234.155.77:8090/testapi/checkedapi/', params={'env': host,"method":method}).json()
+        a = requests.get(f"http://{g.server_host}/testapi/checkedapi/", params={'env': host,"method":method}).json()
         with open(case_file, 'w', encoding='utf-8') as f:
             f.write(json.dumps(a))
     except Exception:

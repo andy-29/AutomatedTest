@@ -12,6 +12,7 @@ database_path_aliyun = /home/test-user/testsitenew/db.sqlite3
 
 [config_info]
 method = method_info_for_unittest
+server_socket = server_socket_for_unittest
 
 
 [user_info]
